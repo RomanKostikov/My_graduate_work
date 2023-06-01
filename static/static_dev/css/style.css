@@ -9,9 +9,34 @@ html, body{
     margin-bottom: 0;
 }
 
+.navbar-mini{
+    min-height: 30px;
+    height: 20px;
+    background-color: grey;
+
+}
+.navbar-main{
+
+}
+
+.basket-container{
+    position: relative;
+    width: 400px;
+    padding: 15px 10px;
+}
+
+.basket-items{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: #d7d4d4;
+    z-index: 10;
+    padding: 10px;
+}
+
 .wrapper{
     min-height: 100%;
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 .wrapper-content{
