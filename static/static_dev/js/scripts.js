@@ -30,7 +30,8 @@ $(document).ready(function(){
                      $('.basket-items ul').html("");
                      $.each(data.products, function(k, v){
                         $('.basket-items ul').append('<li>'+ v.name+', ' + v.nmb + 'шт. ' + 'по ' + v.price_per_item +
-                        ' руб  ' + '<a class="delete-item" href="" data-product_id="'+v.id+'">x</a>'+
+                        ' руб  ' +
+                        '<a class="delete-item" href="" data-product_id="'+v.id+'">x</a>'+
                             '</li>');
                      });
                  }
