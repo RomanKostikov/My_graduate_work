@@ -2,6 +2,7 @@ $(document).ready(function(){
     var form = $('#form_buying_product');
     console.log(form);
 
+
     function basketUpdating(product_id, nmb, is_delete){
         var data = {};
         data.product_id = product_id;
@@ -29,9 +30,8 @@ $(document).ready(function(){
                      console.log(data.products);
                      $('.basket-items ul').html("");
                      $.each(data.products, function(k, v){
-                        $('.basket-items ul').append('<li>'+ v.name+', ' + v.nmb + 'шт. ' + 'по ' + v.price_per_item +
-                        ' руб  ' +
-                        '<a class="delete-item" href="" data-product_id="'+v.id+'">x</a>'+
+                        $('.basket-items ul').append('<li>'+ v.name+', ' + v.nmb + ' шт. ' + 'по ' + v.price_per_item + ' руб  ' +
+                            '<a class="delete-item" href="" data-product_id="'+v.id+'">x</a>'+
                             '</li>');
                      });
                  }
@@ -43,16 +43,17 @@ $(document).ready(function(){
          })
 
     }
+
     form.on('submit', function(e){
         e.preventDefault();
         console.log('123');
         var nmb = $('#number').val();
         console.log(nmb);
         var submit_btn = $('#submit_btn');
-        var product_id = submit_btn.data("product_id");
+        var product_id =  submit_btn.data("product_id");
         var name = submit_btn.data("name");
         var price = submit_btn.data("price");
-        console.log(product_id);
+        console.log(product_id );
         console.log(name);
 
         basketUpdating(product_id, nmb, is_delete=false)
@@ -60,21 +61,21 @@ $(document).ready(function(){
     });
 
     function showingBasket(){
-        $('.basket-items'). removeClass('hidden');
-    }
+        $('.basket-items').removeClass('hidden');
+    };
 
-//    $(".basket-container").on('click', function(e) {
-//        e.preventDefault();
-//        showingBasket();
-//    });
+    //$('.basket-container').on('click', function(e){
+    //    e.preventDefault();
+    //    showingBasket();
+    //});
 
-    $(".basket-container").mouseover(function() {
-        showingBasket();
-    });
+     $('.basket-container').mouseover(function(){
+         showingBasket();
+     });
 
-//        $(".basket-container").mouseout(function() {
-//        showingBasket();
-//    });
+     //$('.basket-container').mouseout(function(){
+     //    showingBasket();
+     //});
 
      $(document).on('click', '.delete-item', function(e){
          e.preventDefault();
@@ -82,4 +83,5 @@ $(document).ready(function(){
          nmb = 0;
          basketUpdating(product_id, nmb, is_delete=true)
      })
+
 });
