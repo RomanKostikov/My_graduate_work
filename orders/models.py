@@ -1,6 +1,7 @@
 from django.db import models
 from products.models import Product
 from django.db.models.signals import post_save
+from django.contrib.auth.models import User
 
 
 # Create your models here.
@@ -21,6 +22,7 @@ class Status(models.Model):
 
 class Order(models.Model):
     """Класс-функция заказа."""
+    user = models.ForeignKey(User, blank=True, null=True, default=None, on_delete=models.DO_NOTHING)
     total_price = models.DecimalField(max_digits=10, decimal_places=2,
                                       default=0)  # total price for all products in order
     customer_name = models.CharField(max_length=64, blank=True, null=True, default=None)
@@ -65,8 +67,8 @@ class ProductInOrder(models.Model):
         """Функция подсчета общей стоимости товаров."""
         price_per_item = self.product.price
         self.price_per_item = price_per_item
-        self.total_price = self.nmb * price_per_item
 
+        self.total_price = int(self.nmb) * price_per_item
         super(ProductInOrder, self).save(*args, **kwargs)
 
 
