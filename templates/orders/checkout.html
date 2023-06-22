@@ -7,10 +7,10 @@
             {% if products_in_basket %}
                 <div class="col-lg-8 col-lg-offset-2">
                     <h3 class="text-center">Товары в корзине</h3>
-                    <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} руб </h5>
+                    <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} RUB </h5>
                             {{ request.session.basket.products }}
 
-                    <form id="form_buying_product" class="form-horizontal" action="{% url 'basket_adding' %}">{% csrf_token %}
+                    <form class="form-horizontal" method="post">{% csrf_token %}
 
                             <div class="form-group">
                                 <div class="col-lg-4">
@@ -47,7 +47,6 @@
                                     <tr>
                                         <td>
                                              {{ product_in_basket.product.name }}
-                                             <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>
                                         </td>
                                         <td>
                                              <input value="{{ product_in_basket.nmb }}" type="number"
@@ -82,7 +81,7 @@
 
                 </div>
              {% else %}
-                <h3 class="text-center">В Вашей корзине нет товаров</h3>
+                <h3 class="checkout-text-center">В Вашей корзине нет товаров</h3>
             {% endif %}
 
         </div>
