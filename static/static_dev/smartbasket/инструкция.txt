@@ -1,0 +1,90 @@
+1. Поместите папку smartbasket в корень вашего сайта.
+2. Так как скрипт использует jQuery, то убедитесь, что он у вас подключен. 
+Или же вставляем код <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> перед </body>
+3. Перед </body> вставляем код
+
+<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'клас обвертки карточки товара',
+				buttonAddToBasket: 'клас кнопки купить',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+				
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'класс корзины',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+
+	4. Настройки кнопки добавления товара в корзину
+	code — артикул
+	name — Название товара
+	price — цена
+	quantity — количество (оставьте 1)
+	img — фото товара
+
+
+	<a class="тут ваш класс" 
+
+
+                    data-sb-id-or-vendor-code="артикул"
+  data-sb-product-name="Название товара"
+  data-sb-product-price="Цена"
+  data-sb-product-quantity="1"
+  data-sb-product-img="ссылка на картинку которая соответствует товару"
+
+
+  href="#">Добавить в корзину (или что вы там написали)</a>
+
+!!! В цене пробелов быть не должно
+
+  Доп. настройки:
+  в параметер smartBasketCurrency: '₽', можно менять валюту ₽ ₴ $ € и т.д.
+
+
+Если нужен выбор количества товаров, то добавляем в место где он должен появится строчку 
+<div class="product__quantity"></div>
+
+Если же еще нужен и выбор других параметров (влияющих на цену) помимо количества (например, размер, цвет, комплектация и т.д.) то добавляем в место где должен быть этот выбор данный код
+
+<div class="product__size">
+            
+ <div class="product__size-element" data-sb-curent-price="95450" data-sb-curent-size="38" data-sb-curent-id-or-vendor-code="038">38 мм</div>
+ <div class="product__size-element" data-sb-curent-price="105450" data-sb-curent-size="42" data-sb-curent-id-or-vendor-code="042">42 мм</div>
+            
+</div>
+
+
+Далее цену нужно обернуть в код 	
+<div class="product__price"><span class="product__price-number">320</span> ₽</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,7 +17,6 @@
     <div class="wrapper">
         <div class="wrapper-content">
             {% include 'navbar.html' %}
-
             {% block content %}
             {% endblock content %}
         </div>
@@ -37,5 +36,34 @@
             crossorigin="anonymous"></script>
     <script src="{% static 'js/scripts.js' %}"></script>
 
+<!--<link rel="stylesheet" href="{% static 'css/smartbasket.min.css' %}">-->
+
+<!--<div class="smart-basket__wrapper"></div>-->
+
+<!--<script src="{% static 'js/smartbasket.min.js' %}"></script>-->
+
+<!--	<script>-->
+<!--		$(function () {-->
+<!--			$('.smart-basket__wrapper').smbasket({-->
+<!--				productElement: 'клас обвертки карточки товара',-->
+<!--				buttonAddToBasket: 'клас кнопки купить',-->
+<!--				productPrice: 'product__price-number',-->
+<!--				productSize: 'product__size-element',-->
+
+<!--				productQuantityWrapper: 'product__quantity',-->
+<!--				smartBasketMinArea: 'класс корзины',-->
+<!--				countryCode: '+7',-->
+<!--				smartBasketCurrency: '₽',-->
+<!--				smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',-->
+
+<!--				agreement: {-->
+<!--					isRequired: true,-->
+<!--					isChecked: true,-->
+<!--					isLink: 'https://artstranger.ru/privacy.html',-->
+<!--				},-->
+<!--				nameIsRequired: false,-->
+<!--			});-->
+<!--		});-->
+<!--	</script>-->
 </body>
 </html>

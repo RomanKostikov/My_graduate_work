@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
 
-
 {% block content %}
     <div class="container">
         <div class="row">
@@ -11,7 +10,7 @@
                     <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} руб </h5>
                             {{ request.session.basket.products }}
 
-                    <form class="form-horizontal" method="post">{% csrf_token %}
+                    <form id="form_buying_product" class="form-horizontal" action="{% url 'basket_adding' %}">{% csrf_token %}
 
                             <div class="form-group">
                                 <div class="col-lg-4">
@@ -48,6 +47,7 @@
                                     <tr>
                                         <td>
                                              {{ product_in_basket.product.name }}
+                                             <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>
                                         </td>
                                         <td>
                                              <input value="{{ product_in_basket.nmb }}" type="number"
@@ -69,7 +69,7 @@
                         </table>
 
                         <div class="text-right">
-                            <b>Сумма заказа: </b> <span id="total_order_amount">0</span>
+                            <b>Сумма заказа: </b> <span id="total_order_amount">54</span>
                         </div>
 
                         <hr>
