@@ -2,8 +2,13 @@
 {% load static %}
 
 {% block content %}
+    <div>
+        <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+
+        </form>
+    </div>
     <div class="section-top">
-        <img src="{% static 'img/slider0.jpg' %}" class="img-responsive">
+        <img src="{% static 'img/final.jpg' %}" class="img-responsive">
     </div>
     <div class="section section1">
         <div class="container">

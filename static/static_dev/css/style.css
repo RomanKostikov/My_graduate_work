@@ -15,8 +15,14 @@ html, body{
     background-color: grey;
 
 }
-.navbar-main{
 
+ul.nav li.dropdown:hover ul.dropdown-menu{
+display: block;
+margin: 0;
+}
+
+a.menu:after, .dropdown-toggle:after {
+content: none;
 }
 
 .basket-container{
@@ -78,6 +84,11 @@ html, body{
     margin-bottom: 10px;
 }
 
+.product-text-center{
+    margin-top: 64px;
+    text-align: center;
+}
+
 .description-top{
     margin: 10px;
 }
@@ -119,4 +130,9 @@ html, body{
 
 .form-error{
  color: red;
+}
+
+.text-center-checkout{
+    margin-top: 70px;
+    text-align: center;
 }

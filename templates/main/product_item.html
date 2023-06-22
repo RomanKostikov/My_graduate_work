@@ -20,9 +20,17 @@
             {{ product_image.product.price }} RUB
         </div>
         <div class="add-to-card-btn">
-            <button class="btn btn-success">
-                Добавить в корзину
-            </button>
+            <a href="{% url 'product' product_image.product.id %}">
+                <button class="btn btn-success">
+                Подробнее
+                </button>
+            </a>
         </div>
+<!--        <div class="add-to-card-btn">-->
+<!--            <button class="btn btn-success">-->
+<!--                Подробнее-->
+<!--            </button>-->
+<!--        </div>-->
+
     </div>
 </div>
