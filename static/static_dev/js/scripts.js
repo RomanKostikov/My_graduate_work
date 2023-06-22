@@ -29,8 +29,8 @@ $(document).ready(function(){
                     $('#basket_total_nmb').text("("+data.products_total_nmb+")");
                      console.log(data.products);
                      $('.basket-items ul').html("");
-                     $.each(data.products, function(k, v){
-                        $('.basket-items ul').append('<li>'+ v.name+', ' + v.nmb + ' шт. ' + 'по ' + v.price_per_item + ' руб  ' +
+                     $.each(data.products, function(v){
+                        $('.basket-items ul').append( +
                             '<a class="delete-item" href="" data-product_id="'+v.id+'">x</a>'+
                             '</li>');
                      });
@@ -59,23 +59,6 @@ $(document).ready(function(){
         basketUpdating(product_id, nmb, is_delete=false)
 
     });
-
-    function showingBasket(){
-        $('.basket-items').removeClass('hidden');
-    };
-
-    //$('.basket-container').on('click', function(e){
-    //    e.preventDefault();
-    //    showingBasket();
-    //});
-
-     $('.basket-container').mouseover(function(){
-         showingBasket();
-     });
-
-     //$('.basket-container').mouseout(function(){
-     //    showingBasket();
-     //});
 
      $(document).on('click', '.delete-item', function(e){
          e.preventDefault();

@@ -19,7 +19,7 @@ def basket_adding(request):
         ProductInBasket.objects.filter(id=product_id).update(is_active=False)
     else:
         new_product, created = ProductInBasket.objects.get_or_create(session_key=session_key, product_id=product_id,
-                                                                     is_active=True, defaults={"nmb": nmb})
+                                                                     is_active=True, order=None, defaults={"nmb": nmb})
         if not created:
             print("not created")
             new_product.nmb += int(nmb)
