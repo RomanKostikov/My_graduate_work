@@ -42,31 +42,38 @@
                                     <th>Общая цена</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                {% for product_in_basket in products_in_basket %}
-                                    <tr>
-                                        <td>
-                                             {{ product_in_basket.product.name }}
-                                        </td>
-                                        <td>
-                                             <input value="{{ product_in_basket.nmb }}" type="number"
-                                                    class="product-in-basket-nmb" name="product_in_basket_{{ product_in_basket.id }}">
-                                        </td>
-                                        <td>
-                                            <span class="product-price">
-                                                {{ product_in_basket.price_per_item}}
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <span class="total-product-in-basket-amount">
-                                                {{ product_in_basket.total_price }}
-                                            </span>
-                                        </td>
-                                    </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
+<!--                            <div class="close"><a id="close" data-product_id="{{ product_in_basket.id }}" href="#">X</a>-->
+                                <tbody>
+                                    {% for product_in_basket in products_in_basket %}
+                                        <tr>
 
+                                            <td>
+<!--                                                <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}-->
+<!--                                                    <form method="post" action="" class="remove">-->
+                                                        {{ product_in_basket.product.name }}
+                                                        <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>
+<!--                                                    </form>-->
+    <!--                                            </form>-->
+                                            </td>
+                                            <td>
+                                                 <input value="{{ product_in_basket.nmb }}" type="number"
+                                                        class="product-in-basket-nmb" name="product_in_basket_{{ product_in_basket.id }}">
+                                            </td>
+                                            <td>
+                                                <span class="product-price">
+                                                    {{ product_in_basket.price_per_item}}
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="total-product-in-basket-amount">
+                                                    {{ product_in_basket.total_price }}
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+<!--                            </div>-->
+                        </table>
                         <div class="text-right">
                             <b>Сумма заказа: </b> <span id="total_order_amount">54</span>
                         </div>
@@ -83,7 +90,6 @@
              {% else %}
                 <h3 class="checkout-text-center">В Вашей корзине нет товаров</h3>
             {% endif %}
-
         </div>
     </div>
 {% endblock %}
