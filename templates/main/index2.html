@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Webdevkin. Интернет-магазин. Главная</title>
+    <meta name="description" content="Тестовый интернет-магазин от webdevkin-a. Главная страница с каталогом" />
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body data-page="catalog">
+    <div class="container">
+        <h1>Каталог. Интернет-магазин shop.webdevkin.ru</h1>
+        <br />
+        Статьи на webdevkin-e. Читаем, разбираем, комментируем...
+        <br />
+        <br />
+        <a href="https://webdevkin.ru/posts/frontend/korzina-dlya-internet-magazina-na-fronte-ili-pishem-modulnyij-javascript" target="_blank">
+            "Корзина для интернет-магазина на фронте или Пишем модульный javascript".
+        </a>
+        <br />
+        <a href="https://webdevkin.ru/posts/backend/internet-magazin-realizuem-oformlenie-zakaza-na-kliente-i-servere" target="_blank">
+            "Реализуем отправку заказа в интернет-магазине на клиенте и сервере".
+        </a>
+        <br />
+        <a href="https://webdevkin.ru/posts/frontend/kak-dobavit-dostavku-v-internet-magazine" target="_blank">
+            "Как добавить доставку в интернет-магазине".
+        </a>
+        <br />
+        <a href="https://webdevkin.ru/posts/frontend/filtryi-i-sortirovka-v-internet-magazine-na-ajax-php-mysql" target="_blank">
+            "Фильтры и сортировка в интернет-магазине на ajax-php-mysql. Серия уроков".
+        </a>
+        <br />
+        <a href="https://webdevkin.ru/posts/frontend/sravnenie-tovarov-v-internet-magazine" target="_blank">
+            "Сравнение товаров в интернет-магазине".
+        </a>
+        <br />
+        <a href="https://webdevkin.ru/posts/frontend/postranichnaya-navigacziya" target="_blank">
+            "Постраничная навигация".
+        </a>
+        <br />
+        <br />
+        <br />
+        <ul class="nav nav-pills">
+            <li class="active"><a href="/">Каталог</a></li>
+            <li><a href="catalog.html">Каталог с фильтрами</a></li>
+            <li><a href="catalog-pag.html">Каталог с пагинацией</a></li>
+            <li id="compare-tab"><a href="compare.html">Сравнение товаров<span class="badge"></span></a></li>
+            <li><a href="cart.html">Корзина<span id="total-cart-count" class="badge"></span></a></li>
+            <li><a href="order.html">Оформление заказа</a></li>
+        </ul>
+        <br />
+        <ul id="goods" class="list-unstyled">
+            <img src="img/loading.gif" alt="" />
+        </ul>
+    </div>
+
+    <script id="catalog-template" type="text/template">
+        <% _.each(goods, function(good) { %>
+            <li class="good-item row">
+                <div class="col-md-4">
+                    <img class="good-item__img" src="<%- good.img %>" />
+                </div>
+                <div class="col-md-8">
+                    <a class="good-item__id" href="/product/<%= good.id %>">Артикул <%= good.id %></a>
+                    <div class="good-item__name"><%- good.name %></div>
+                    <div class="good-item__price"><%= good.price %> руб.</div>
+                    <button
+                        class="good-item__btn-add btn btn-info btn-sm js-add-to-cart"
+                        data-id="<%= good.id %>"
+                        data-name="<%- good.name %>"
+                        data-price="<%= good.price %>"
+                    >Добавить в корзину</button>
+                </div>
+            </li>
+        <% }); %>
+    </script>
+
+    <script src="js/vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="js/vendor/jquery.cookie.js" type="text/javascript"></script>
+    <script src="js/vendor/underscore.min.js" type="text/javascript"></script>
+    <script src="js/modules/catalog.js" type="text/javascript"></script>
+    <script src="js/modules/cart.js" type="text/javascript"></script>
+    <script src="js/modules/compare.js" type="text/javascript"></script>
+    <script src="js/modules/main.js" type="text/javascript"></script>
+</body>
+</html>

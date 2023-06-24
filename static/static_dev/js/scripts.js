@@ -84,3 +84,7 @@ $(document).ready(function(){
     calculationBasketAmount();
 
 });
+//function deleteRow(r) {
+//     var i = r.parentNode.parentNode.rowIndex;
+//     document.getElementByid("table").deleteRow;
+//    }

@@ -10,7 +10,7 @@
                     <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} RUB </h5>
                             {{ request.session.basket.products }}
 
-                    <form class="form-horizontal" method="post">{% csrf_token %}
+                    <form class="form-horizontal" method="post" action="{% url 'checkout' %}">{% csrf_token %}
 
                             <div class="form-group">
                                 <div class="col-lg-4">
@@ -32,7 +32,6 @@
                                 </div>
                             </div>
 
-
                         <table class="table text-center">
                             <thead>
                                 <tr>
@@ -49,14 +48,16 @@
 
                                             <td>
 <!--                                                <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}-->
-<!--                                                    <form method="post" action="" class="remove">-->
+<!--                                                    <form method="delete" action="{% url 'delete_cart' %}" >{% csrf_token %}-->
                                                         {{ product_in_basket.product.name }}
-                                                        <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>
+<!--                                                        <input type="button" value="delete" onclick="deleteRow(this)"/>-->
+<!--                                                        <button type="submit">Удалить</button>-->
+<!--                                                        <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>-->
 <!--                                                    </form>-->
     <!--                                            </form>-->
                                             </td>
                                             <td>
-                                                 <input value="{{ product_in_basket.nmb }}" type="number"
+                                                 <input value="{{ product_in_basket.nmb }}" type="number" min="0" step="1" max="100"
                                                         class="product-in-basket-nmb" name="product_in_basket_{{ product_in_basket.id }}">
                                             </td>
                                             <td>
