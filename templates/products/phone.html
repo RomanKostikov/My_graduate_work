@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div>
+        <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+
+        </form>
+    </div>
+    <div class="section section2 phones-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Смартфоны
+                    </h1>
+                </div>
+                {% for product_image in products_images_phones %}
+                    {% include 'main/product_item.html' %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

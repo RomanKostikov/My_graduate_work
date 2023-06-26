@@ -23,3 +23,11 @@ def home(request):
     products_images_phones = products_images.filter(product__category__id=1)
     products_images_laptops = products_images.filter(product__category__id=2)
     return render(request, 'main/home.html', locals())
+
+
+def deliveryandpayment(request):
+    return render(request, 'main/deliveryandpayment.html', locals())
+
+
+def contacts(request):
+    return render(request, 'main/contacts.html', locals())

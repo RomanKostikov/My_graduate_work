@@ -117,9 +117,8 @@ def checkout(request):
 # срабатывает первая функция checkout(вместо удаления товар заказывается)
 @require_http_methods(['POST', 'DELETE'])
 def delete_cart(request, product_id):
-    session_key = request.session.session_key
-    print(request.DELETE)
-    data = request.DELETE
+    print(request.POST)
+    data = request.POST
     product_id = data.get("product_id")
     ProductInOrder.objects.filter(id=product_id).delete()
     return render(request, 'orders/checkout.html', locals())

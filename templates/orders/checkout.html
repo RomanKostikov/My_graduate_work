@@ -4,6 +4,7 @@
 {% block content %}
     <div class="container">
         <div class="row">
+
             {% if products_in_basket %}
                 <div class="col-lg-8 col-lg-offset-2">
                     <h3 class="text-center">Товары в корзине</h3>
@@ -84,12 +85,10 @@
                         <div class="text-right">
                             <button type="submit" class="btn btn-primary btn-lg">Заказать</button>
                         </div>
-
                     </form>
-
                 </div>
              {% else %}
-                <h3 class="checkout-text-center">В Вашей корзине нет товаров</h3>
+                <h3 class="checkout-text-center">Товаров нет в корзине. Если Вы сделали заказ, мы Вам перезвоним!</h3>
             {% endif %}
         </div>
     </div>
