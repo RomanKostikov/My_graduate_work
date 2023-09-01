@@ -44,6 +44,16 @@ def basket_adding(request):
     return JsonResponse(return_dict)
 
 
+@require_http_methods(['POST', 'DELETE'])
+def delete_cart(request, product_id):
+    session_key = request.session.session_key
+    print(request.POST)
+    data = request.POST
+    product_id = data.get("product_id")
+    products_in_basket = ProductInBasket.objects.filter(session_key=session_key, product_id=id, is_active=True, order__isnull=True).delete()
+    return render(request, 'orders/checkout.html', locals())
+
+
 def checkout(request):
     session_key = request.session.session_key
     products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True, order__isnull=True)
@@ -112,13 +122,5 @@ def checkout(request):
     #     product_dict["nmb"] = item.nmb
     #     return_dict["products"].append(product_dict)
 
-
 #  второй вариант тоже не работает(отловить id товара и удалить строку, используя submit button и отдельный метод)
 # срабатывает первая функция checkout(вместо удаления товар заказывается)
-@require_http_methods(['POST', 'DELETE'])
-def delete_cart(request, product_id):
-    print(request.POST)
-    data = request.POST
-    product_id = data.get("product_id")
-    ProductInOrder.objects.filter(id=product_id).delete()
-    return render(request, 'orders/checkout.html', locals())

@@ -1,0 +1,4729 @@
+[
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2023-05-05T12:33:07.036Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "╧юы№чютрЄхы№ Roman romankos1993@gmail.com",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.689Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "╧юы№чютрЄхы№ ╨юьрэ happykostikov@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.692Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "╧юы№чютрЄхы№ Roman Fisa2312@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.695Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "╧юы№чютрЄхы№ ╨юьрэ romankos1993@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.697Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "╧юы№чютрЄхы№ ╨юьрэ romankos1993@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.699Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "╧юы№чютрЄхы№ ╨юьрэ romankos1993@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.701Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "╧юы№чютрЄхы№ Alesha romankos1993@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.703Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "╧юы№чютрЄхы№ Alesha romankos1993@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2023-05-05T19:59:26.705Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "╧юы№чютрЄхы№ ╨юьрэ happykostikov@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2023-05-06T15:00:56.164Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "╧юы№чютрЄхы№ Roman happykostikov@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2023-05-06T15:00:56.176Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "╧юы№чютрЄхы№ Roman Fisa2312@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2023-05-06T15:00:56.178Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "╧юы№чютрЄхы№ Roman romankos1993@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2023-05-10T15:59:24.622Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 14 Pro 128 ├┴",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"1\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2023-05-10T16:01:25.247Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2023-05-10T16:02:04.321Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2023-05-10T16:14:40.833Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "╤ЄрЄєё ═ют√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2023-05-10T16:14:57.212Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "╤ЄрЄєё ┬ ЁрсюЄх",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2023-05-10T16:15:06.107Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "╤ЄрЄєё ╬Єьхэхэ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2023-05-10T16:15:13.371Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "╤ЄрЄєё ╟ръЁ√Є",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2023-05-10T16:17:10.144Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "╤ЄрЄєё ┬√яюыэхэ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2023-05-11T15:23:03.238Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "0.00, Apple iPhone 14 Pro 128 ├┴",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2023-05-11T15:23:09.785Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "0.00, Apple iPhone 14 Pro 128 ├┴",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2023-05-11T15:23:15.633Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "0.00, Apple iPhone 14 Pro 128 ├┴",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2023-05-11T15:26:29.384Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "95000, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2023-05-11T15:26:41.708Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "0.00, Apple iPhone 14 Pro 128 ├┴",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2023-05-11T15:28:43.930Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u0421\\u043c\\u0430\\u0440\\u0442\\u0444\\u043e\\u043d Apple iPhone 14 Pro 128 \\u0413\\u0411, Dual \\u0435SIM, \\u043a\\u043e\\u0441\\u043c\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0439 \\u0447\\u0435\\u0440\\u043d\\u044b\\u0439\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2023-05-11T15:31:35.669Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2023-05-11T15:34:16.797Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990, Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2023-05-11T15:34:47.914Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Apple iPhone 14 Pro 256 \\u0413\\u0411\"}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u0421\\u043c\\u0430\\u0440\\u0442\\u0444\\u043e\\u043d Apple iPhone 14 Pro 128 \\u0413\\u0411, Dual \\u0435SIM, \\u043a\\u043e\\u0441\\u043c\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0439 \\u0447\\u0435\\u0440\\u043d\\u044b\\u0439\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2023-05-11T15:35:05.591Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2023-05-17T14:31:47.497Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2023-05-17T14:33:26.645Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "132789, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2023-05-17T14:39:30.436Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2023-05-17T14:44:44.200Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2023-05-17T14:45:02.677Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2023-05-17T14:45:23.182Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2023-05-17T14:47:39.415Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2023-05-17T14:49:24.446Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "109190, ╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2023-05-17T14:53:14.936Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499, Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2023-05-17T14:55:12.675Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041, Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"9\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2023-05-17T14:57:51.057Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"10\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2023-05-17T14:59:42.854Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "56349, ╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"11\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2023-05-17T15:02:06.353Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"10\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2023-05-17T15:02:45.660Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2023-05-17T15:03:30.637Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499.00, Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2023-05-17T15:03:48.207Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590.00, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2023-05-17T15:04:14.826Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890.00, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2023-05-17T15:04:44.889Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2023-05-17T15:04:56.438Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"2\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2023-05-17T15:05:31.999Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "95000.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2023-05-17T15:05:50.765Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"10\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2023-05-17T15:06:39.466Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499.00, Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 53,
+   "fields": {
+      "action_time": "2023-05-17T15:06:58.395Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590.00, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 54,
+   "fields": {
+      "action_time": "2023-05-17T15:07:12.065Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890.00, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 55,
+   "fields": {
+      "action_time": "2023-05-17T15:07:30.279Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 56,
+   "fields": {
+      "action_time": "2023-05-17T15:07:43.366Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"2\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 57,
+   "fields": {
+      "action_time": "2023-05-18T14:09:54.756Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041.00, ╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 58,
+   "fields": {
+      "action_time": "2023-05-18T14:10:20.032Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499.00, ╤ьрЁЄЇюэ Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 59,
+   "fields": {
+      "action_time": "2023-05-18T14:10:48.241Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 60,
+   "fields": {
+      "action_time": "2023-05-18T15:29:15.885Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 61,
+   "fields": {
+      "action_time": "2023-05-18T15:29:22.745Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 62,
+   "fields": {
+      "action_time": "2023-05-18T15:29:27.558Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 63,
+   "fields": {
+      "action_time": "2023-05-18T15:29:36.666Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "7",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 64,
+   "fields": {
+      "action_time": "2023-05-18T15:29:51.200Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "11",
+      "object_repr": "11",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 65,
+   "fields": {
+      "action_time": "2023-05-18T15:29:58.179Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "9",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2023-05-19T14:20:29.620Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2023-05-19T14:26:22.292Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, Apple graphics 8-core, macOS, MLXW3, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"12\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2023-05-20T10:46:02.285Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "═юєЄсєъш",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2023-05-20T10:46:34.525Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "╥хыхЇюэ√",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2023-05-20T10:46:40.074Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, Apple graphics 8-core, macOS, MLXW3, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2023-05-20T10:47:43.081Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "MacBook",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2023-05-20T10:48:09.708Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "╤ьрЁЄЇюэ√",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2023-05-20T10:48:36.327Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "═юєЄсєъш",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2023-05-20T10:48:41.823Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, Apple graphics 8-core, macOS, MLXW3, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2023-05-20T10:50:51.204Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "56349.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Short description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2023-05-20T10:52:13.888Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2023-05-20T10:52:24.698Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041.00, ╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2023-05-20T10:52:33.859Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499.00, ╤ьрЁЄЇюэ Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 79,
+   "fields": {
+      "action_time": "2023-05-20T10:52:44.244Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "109190.00, ╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 80,
+   "fields": {
+      "action_time": "2023-05-20T10:53:40.861Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890.00, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 81,
+   "fields": {
+      "action_time": "2023-05-20T10:53:49.896Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590.00, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 82,
+   "fields": {
+      "action_time": "2023-05-20T10:54:00.669Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "132789.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 83,
+   "fields": {
+      "action_time": "2023-05-20T10:54:11.360Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 84,
+   "fields": {
+      "action_time": "2023-05-20T10:54:21.505Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "95000.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 85,
+   "fields": {
+      "action_time": "2023-05-20T10:54:41.815Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 86,
+   "fields": {
+      "action_time": "2023-05-20T10:55:26.168Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041.00, ╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 87,
+   "fields": {
+      "action_time": "2023-05-20T11:00:34.640Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "═юєЄсєъш",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 88,
+   "fields": {
+      "action_time": "2023-05-20T11:00:48.115Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "╤ьрЁЄЇюэ√",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 89,
+   "fields": {
+      "action_time": "2023-05-20T11:01:34.745Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "╥хыхЇюэ√",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 90,
+   "fields": {
+      "action_time": "2023-05-20T11:02:25.014Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, Apple graphics 8-core, macOS, MLXW3, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 91,
+   "fields": {
+      "action_time": "2023-05-20T11:02:34.755Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "56349.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 92,
+   "fields": {
+      "action_time": "2023-05-20T11:02:42.196Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 93,
+   "fields": {
+      "action_time": "2023-05-20T11:02:51.986Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041.00, ╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 94,
+   "fields": {
+      "action_time": "2023-05-20T11:03:00.841Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499.00, ╤ьрЁЄЇюэ Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 95,
+   "fields": {
+      "action_time": "2023-05-20T11:03:08.833Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "109190.00, ╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 96,
+   "fields": {
+      "action_time": "2023-05-20T11:03:18.904Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590.00, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 97,
+   "fields": {
+      "action_time": "2023-05-20T11:03:28.571Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890.00, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 98,
+   "fields": {
+      "action_time": "2023-05-20T11:03:38.615Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "132789.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 99,
+   "fields": {
+      "action_time": "2023-05-20T11:03:52.739Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 100,
+   "fields": {
+      "action_time": "2023-05-20T11:04:06.395Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "95000.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 101,
+   "fields": {
+      "action_time": "2023-05-20T11:04:19.477Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 102,
+   "fields": {
+      "action_time": "2023-05-20T11:04:42.126Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "╤ьрЁЄЇюэ√",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 103,
+   "fields": {
+      "action_time": "2023-05-20T11:06:20.710Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, Apple graphics 8-core, macOS, MLXW3, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"12\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 104,
+   "fields": {
+      "action_time": "2023-05-20T11:34:59.376Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 105,
+   "fields": {
+      "action_time": "2023-05-20T11:35:16.659Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "56349.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 106,
+   "fields": {
+      "action_time": "2023-05-20T15:59:00.060Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 107,
+   "fields": {
+      "action_time": "2023-05-20T15:59:06.783Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "12",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 108,
+   "fields": {
+      "action_time": "2023-05-20T16:03:52.972Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 109,
+   "fields": {
+      "action_time": "2023-05-20T16:03:54.348Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "12",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 110,
+   "fields": {
+      "action_time": "2023-05-20T19:59:24.560Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "12",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 111,
+   "fields": {
+      "action_time": "2023-05-20T20:00:26.306Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "11",
+      "object_repr": "11",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 112,
+   "fields": {
+      "action_time": "2023-05-20T20:00:48.149Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "9",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 113,
+   "fields": {
+      "action_time": "2023-05-20T20:01:39.888Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "7",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 114,
+   "fields": {
+      "action_time": "2023-05-20T20:02:17.777Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 115,
+   "fields": {
+      "action_time": "2023-05-20T22:13:21.270Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 116,
+   "fields": {
+      "action_time": "2023-05-20T22:13:24.111Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "12",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 117,
+   "fields": {
+      "action_time": "2023-05-20T22:14:53.104Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "132789.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 118,
+   "fields": {
+      "action_time": "2023-05-20T22:14:54.789Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 119,
+   "fields": {
+      "action_time": "2023-05-31T13:11:41.438Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "132789.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"13\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"14\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 120,
+   "fields": {
+      "action_time": "2023-05-31T13:11:43.814Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 121,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.518Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 122,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.522Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 123,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.524Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 124,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.528Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 125,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.530Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 126,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.532Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 127,
+   "fields": {
+      "action_time": "2023-06-06T16:31:59.535Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 128,
+   "fields": {
+      "action_time": "2023-06-07T15:38:20.294Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 129,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.845Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 130,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.847Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 131,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.849Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 132,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.852Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 133,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.854Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 134,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.856Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 135,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.858Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 136,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.860Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 137,
+   "fields": {
+      "action_time": "2023-06-07T16:53:28.862Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 138,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.583Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "37",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 139,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.586Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "36",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 140,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.588Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "35",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 141,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.590Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "34",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 142,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.592Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "33",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 143,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.594Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "32",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 144,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.596Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "31",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 145,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.598Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "30",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 146,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.599Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "29",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 147,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.602Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "28",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 148,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.603Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "27",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 149,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.605Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "26",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 150,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.606Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "25",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 151,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.608Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "24",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 152,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.610Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "23",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 153,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.612Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 154,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.614Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 155,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.616Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 156,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.618Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 157,
+   "fields": {
+      "action_time": "2023-06-07T18:46:38.619Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 158,
+   "fields": {
+      "action_time": "2023-06-13T11:17:29.364Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"15\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"16\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"17\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 159,
+   "fields": {
+      "action_time": "2023-06-17T12:31:28.859Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 160,
+   "fields": {
+      "action_time": "2023-06-17T12:31:28.869Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 161,
+   "fields": {
+      "action_time": "2023-06-17T12:31:28.871Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 162,
+   "fields": {
+      "action_time": "2023-06-17T12:31:28.874Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 163,
+   "fields": {
+      "action_time": "2023-06-17T12:31:28.876Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 164,
+   "fields": {
+      "action_time": "2023-06-17T12:31:37.187Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 165,
+   "fields": {
+      "action_time": "2023-06-17T12:31:37.198Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 166,
+   "fields": {
+      "action_time": "2023-06-17T12:31:37.200Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 167,
+   "fields": {
+      "action_time": "2023-06-17T12:31:37.202Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 168,
+   "fields": {
+      "action_time": "2023-06-17T12:31:37.204Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 169,
+   "fields": {
+      "action_time": "2023-06-17T12:43:44.619Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 170,
+   "fields": {
+      "action_time": "2023-06-17T12:43:44.622Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 171,
+   "fields": {
+      "action_time": "2023-06-17T12:43:44.624Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 172,
+   "fields": {
+      "action_time": "2023-06-17T12:43:44.626Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 173,
+   "fields": {
+      "action_time": "2023-06-17T12:43:44.628Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 174,
+   "fields": {
+      "action_time": "2023-06-17T12:46:04.764Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "╟рърч 6 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 175,
+   "fields": {
+      "action_time": "2023-06-17T12:46:04.767Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 176,
+   "fields": {
+      "action_time": "2023-06-17T12:46:04.769Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 177,
+   "fields": {
+      "action_time": "2023-06-17T12:46:04.772Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 178,
+   "fields": {
+      "action_time": "2023-06-17T12:46:04.773Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 179,
+   "fields": {
+      "action_time": "2023-06-17T12:46:04.775Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 180,
+   "fields": {
+      "action_time": "2023-06-17T12:46:09.503Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "╟рърч 6 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 181,
+   "fields": {
+      "action_time": "2023-06-17T12:46:09.505Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 182,
+   "fields": {
+      "action_time": "2023-06-17T12:46:09.508Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 183,
+   "fields": {
+      "action_time": "2023-06-17T12:46:09.510Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 184,
+   "fields": {
+      "action_time": "2023-06-17T12:46:09.512Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 185,
+   "fields": {
+      "action_time": "2023-06-17T12:46:09.515Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 186,
+   "fields": {
+      "action_time": "2023-06-17T12:46:24.239Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "╟рърч 6 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 187,
+   "fields": {
+      "action_time": "2023-06-17T12:46:27.898Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "╟рърч 6 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 188,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.559Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "╟рърч 10 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 189,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.569Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "╟рърч 9 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 190,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.571Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "╟рърч 8 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 191,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.574Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "╟рърч 7 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 192,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.576Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "╟рърч 6 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 193,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.578Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 194,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.579Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 195,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.581Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 196,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.583Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 197,
+   "fields": {
+      "action_time": "2023-06-18T15:01:19.585Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 198,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.392Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "55",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 199,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.402Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "54",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 200,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.404Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "53",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 201,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.406Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "52",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 202,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.408Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "51",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 203,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.410Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "50",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 204,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.412Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "49",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 205,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.414Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "48",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 206,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.416Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "47",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 207,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.418Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "46",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 208,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.419Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "45",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 209,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.421Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "44",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 210,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.423Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "43",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 211,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.425Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "42",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 212,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.426Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "41",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 213,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.427Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "40",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 214,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.430Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "39",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 215,
+   "fields": {
+      "action_time": "2023-06-18T15:01:38.432Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "38",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 216,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.553Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 217,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.556Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 218,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.558Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 219,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.560Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 220,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.561Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 221,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.563Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 222,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.565Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 223,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.567Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 224,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.568Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 225,
+   "fields": {
+      "action_time": "2023-06-18T15:01:45.570Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 226,
+   "fields": {
+      "action_time": "2023-06-18T15:02:00.220Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "╟рърч 10 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 227,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.241Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "╟рърч 9 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 228,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.252Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "╟рърч 8 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 229,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.255Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "╟рърч 7 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 230,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.259Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "╟рърч 6 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 231,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.262Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "╟рърч 5 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 232,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.265Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "╟рърч 4 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 233,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.269Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "╟рърч 3 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 234,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.271Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "╟рърч 2 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 235,
+   "fields": {
+      "action_time": "2023-06-18T15:02:05.273Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╟рърч 1 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 236,
+   "fields": {
+      "action_time": "2023-06-18T15:05:05.715Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "12",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 237,
+   "fields": {
+      "action_time": "2023-06-18T15:05:05.726Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 238,
+   "fields": {
+      "action_time": "2023-06-18T15:05:13.444Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "57",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 239,
+   "fields": {
+      "action_time": "2023-06-18T15:05:13.447Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "56",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 240,
+   "fields": {
+      "action_time": "2023-06-18T15:05:19.456Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "╟рърч 11 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 241,
+   "fields": {
+      "action_time": "2023-06-21T19:19:28.715Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "╟рърч 15 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 242,
+   "fields": {
+      "action_time": "2023-06-21T19:19:28.719Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "╟рърч 14 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 243,
+   "fields": {
+      "action_time": "2023-06-21T19:19:28.722Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "╟рърч 13 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 244,
+   "fields": {
+      "action_time": "2023-06-21T19:19:28.724Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "╟рърч 12 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 245,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.913Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "121",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 246,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.915Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "120",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 247,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.917Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "119",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 248,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.919Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "118",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 249,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.921Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "117",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 250,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.923Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "116",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 251,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.925Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "115",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 252,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.927Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "114",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 253,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.929Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "113",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 254,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.930Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "112",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 255,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.932Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "111",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 256,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.934Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "110",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 257,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.936Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "109",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 258,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.938Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "108",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 259,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.940Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "107",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 260,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.942Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "106",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 261,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.945Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "105",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 262,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.947Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "104",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 263,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.949Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "103",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 264,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.951Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "102",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 265,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.953Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "101",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 266,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.955Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "100",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 267,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.957Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "99",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 268,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.959Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "98",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 269,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.961Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "97",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 270,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.964Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "96",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 271,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.966Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "95",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 272,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.968Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "94",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 273,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.970Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "93",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 274,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.972Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "92",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 275,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.974Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "91",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 276,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.976Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "90",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 277,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.979Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "89",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 278,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.981Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "88",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 279,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.983Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "87",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 280,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.984Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "86",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 281,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.986Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "85",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 282,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.988Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "84",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 283,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.991Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "83",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 284,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.995Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "82",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 285,
+   "fields": {
+      "action_time": "2023-06-21T19:19:41.998Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "81",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 286,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.001Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "80",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 287,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.004Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "79",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 288,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.006Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "78",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 289,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.008Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "77",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 290,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.011Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "76",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 291,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.014Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "75",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 292,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.016Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "74",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 293,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.018Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "73",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 294,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.020Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "72",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 295,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.021Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "71",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 296,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.023Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "70",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 297,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.025Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "69",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 298,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.028Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "68",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 299,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.030Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "67",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 300,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.032Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "66",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 301,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.034Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "65",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 302,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.037Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "64",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 303,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.039Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "63",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 304,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.041Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "62",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 305,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.043Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "61",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 306,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.046Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "60",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 307,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.048Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "59",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 308,
+   "fields": {
+      "action_time": "2023-06-21T19:19:42.050Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "58",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 309,
+   "fields": {
+      "action_time": "2023-06-21T19:19:48.289Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "17",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 310,
+   "fields": {
+      "action_time": "2023-06-21T19:19:48.293Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "16",
+      "object_repr": "13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 311,
+   "fields": {
+      "action_time": "2023-06-21T19:19:48.295Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "15",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 312,
+   "fields": {
+      "action_time": "2023-06-21T19:19:48.298Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "14",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 313,
+   "fields": {
+      "action_time": "2023-06-21T19:19:48.300Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "13",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 314,
+   "fields": {
+      "action_time": "2023-06-21T19:19:55.793Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "╟рърч 15 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 315,
+   "fields": {
+      "action_time": "2023-06-21T19:19:55.796Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "╟рърч 14 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 316,
+   "fields": {
+      "action_time": "2023-06-21T19:19:55.799Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "╟рърч 13 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 317,
+   "fields": {
+      "action_time": "2023-06-21T19:19:55.802Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "╟рърч 12 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 318,
+   "fields": {
+      "action_time": "2023-06-21T20:47:43.927Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "122",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 319,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.039Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "133",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 320,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.050Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "132",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 321,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.052Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "131",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 322,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.054Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "130",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 323,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.056Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "129",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 324,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.058Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "128",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 325,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.061Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "127",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 326,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.063Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "126",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 327,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.065Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "125",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 328,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.067Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "124",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 329,
+   "fields": {
+      "action_time": "2023-06-22T09:24:49.069Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "123",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 330,
+   "fields": {
+      "action_time": "2023-06-22T09:24:58.855Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "18",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 331,
+   "fields": {
+      "action_time": "2023-06-22T09:25:04.386Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "╟рърч 16 ═ют√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 332,
+   "fields": {
+      "action_time": "2023-06-22T10:47:14.327Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "134",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 333,
+   "fields": {
+      "action_time": "2023-06-24T11:34:27.697Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "176",
+      "object_repr": "╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nmb\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 334,
+   "fields": {
+      "action_time": "2023-06-25T16:16:04.924Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "╤ЄрЄєё <p style=\"text-align: center; \"><font face=\"Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif\" color=\"#000000\"><span style=\"display: inline-block; pad",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 335,
+   "fields": {
+      "action_time": "2023-06-25T16:29:38.019Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "╤ЄрЄєё <p style=\"text-align: center; \"><font face=\"Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif\" color=\"#000000\"><span style=\"display: inline-block; pad",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 336,
+   "fields": {
+      "action_time": "2023-06-25T18:34:05.532Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "╤ЄрЄєё <p style=\"text-align: center; \"><span style=\"color: rgb(51, 37, 29); font-family: montserrat-medium; font-size: 24px;\">╧юышЄшър т юЄэю°хэшш юсЁрсюЄъш яхЁёюэры№э√ї фрээ√ї</span><br></p><p style=",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 337,
+   "fields": {
+      "action_time": "2023-06-26T14:21:32.302Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "132789.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 1 ╥┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"13\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"14\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 338,
+   "fields": {
+      "action_time": "2023-06-26T14:55:12.690Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "100790.00, 13.6\" ═юєЄсєъ Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ├┴, LPDDR5, SSD 256 ├┴, ёхЁ√щ ъюёьюё, рэуышщёър  Ёрёъырфър",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"15\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"16\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"17\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 339,
+   "fields": {
+      "action_time": "2023-06-26T19:53:38.061Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "46",
+      "object_repr": "╟рърч 46 ═ют√щ",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 340,
+   "fields": {
+      "action_time": "2023-06-26T19:54:26.869Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "46",
+      "object_repr": "╟рърч 46 ┬ ЁрсюЄх",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 341,
+   "fields": {
+      "action_time": "2023-06-26T19:54:47.818Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "46",
+      "object_repr": "╟рърч 46 ┬√яюыэхэ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 342,
+   "fields": {
+      "action_time": "2023-06-26T19:55:03.749Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "45",
+      "object_repr": "╟рърч 45 ┬ ЁрсюЄх",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 343,
+   "fields": {
+      "action_time": "2023-06-26T19:55:16.729Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "44",
+      "object_repr": "╟рърч 44 ╬Єьхэхэ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 344,
+   "fields": {
+      "action_time": "2023-06-27T09:50:51.171Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"18\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"19\"}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"2\", \"fields\": [\"Image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 345,
+   "fields": {
+      "action_time": "2023-06-27T09:51:17.649Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"18\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"19\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 346,
+   "fields": {
+      "action_time": "2023-06-27T09:52:47.339Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "110990.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 256 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 347,
+   "fields": {
+      "action_time": "2023-06-27T09:53:40.634Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "95000.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 128 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 348,
+   "fields": {
+      "action_time": "2023-06-27T09:54:23.044Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"20\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"21\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 349,
+   "fields": {
+      "action_time": "2023-06-27T09:59:12.288Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890.00, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"22\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"23\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 350,
+   "fields": {
+      "action_time": "2023-06-27T10:00:17.545Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590.00, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"24\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"25\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 351,
+   "fields": {
+      "action_time": "2023-06-27T10:00:39.582Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "109190.00, ╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"26\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"27\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 352,
+   "fields": {
+      "action_time": "2023-06-27T10:01:53.258Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "63890.00, ╤ьрЁЄЇюэ Apple iPhone 13 128 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"22\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"23\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 353,
+   "fields": {
+      "action_time": "2023-06-27T10:02:03.474Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "77590.00, ╤ьрЁЄЇюэ Apple iPhone 13 256 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"24\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"25\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 354,
+   "fields": {
+      "action_time": "2023-06-27T10:02:11.035Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "109190.00, ╤ьрЁЄЇюэ Apple iPhone 13 512 ├┴, nano SIM+eSIM, Є╕ьэр  эюў№, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"26\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"27\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 355,
+   "fields": {
+      "action_time": "2023-06-27T10:03:52.308Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "52499.00, ╤ьрЁЄЇюэ Apple iPhone 11 128 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"28\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"29\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 356,
+   "fields": {
+      "action_time": "2023-06-27T10:04:18.453Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041.00, ╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"30\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"31\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 357,
+   "fields": {
+      "action_time": "2023-06-27T10:06:14.676Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "56490.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 128 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"32\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"33\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 358,
+   "fields": {
+      "action_time": "2023-06-27T10:06:45.937Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "56349.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"34\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"35\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 359,
+   "fields": {
+      "action_time": "2023-06-27T10:15:32.182Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "210790, ═юєЄсєъ Apple MacBook Air 13.6 (A2681) M2 8 core 16Gb SSD512Gb/8 core GPU Mac OS midnight (Z1600000L)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"36\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"37\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"38\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 360,
+   "fields": {
+      "action_time": "2023-06-27T10:15:54.471Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "126980.00, ╤ьрЁЄЇюэ Apple iPhone 14 Pro 512 ├┴, Dual хSIM, ъюёьшўхёъшщ ўхЁэ√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"20\", \"fields\": [\"Is active\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"21\", \"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 361,
+   "fields": {
+      "action_time": "2023-06-27T10:18:28.162Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "56349.00, ╤ьрЁЄЇюэ Apple iPhone 12 mini 256 ├┴, nano SIM+eSIM, ЇшюыхЄют√щ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"11\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 362,
+   "fields": {
+      "action_time": "2023-06-27T10:18:49.750Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "58041.00, ╤ьрЁЄЇюэ Apple iPhone 11 256 ├┴, Dual: nano SIM + eSIM, ўхЁэ√щ, Slimbox",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"9\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 363,
+   "fields": {
+      "action_time": "2023-06-27T10:31:41.592Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "14",
+      "object_repr": "92990, 13.3\" ═юєЄсєъ Apple MacBook Air 13 Late 2020 2560x1600, Apple M1 3.2 ├├Ў, RAM 8 ├┴, DDR4, SSD 256 ├┴, Apple graphics 7-core, macOS, MGN93SA/A, ёхЁхсЁшёЄ√щ, рэуышщёър  Ёрёъырфър",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"39\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"40\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"41\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 364,
+   "fields": {
+      "action_time": "2023-06-27T10:35:43.299Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "15",
+      "object_repr": 

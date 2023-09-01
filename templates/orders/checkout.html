@@ -49,8 +49,9 @@
 
                                             <td>
 <!--                                                <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}-->
-<!--                                                    <form method="delete" action="{% url 'delete_cart' %}" >{% csrf_token %}-->
+<!--                                                    <form method="post" action="{% url 'delete_cart' %}" >{% csrf_token %}-->
                                                         {{ product_in_basket.product.name }}
+<!--                                                        data-product_id={{ product_in_basket.product.id }}-->
 <!--                                                        <input type="button" value="delete" onclick="deleteRow(this)"/>-->
 <!--                                                        <button type="submit">Удалить</button>-->
 <!--                                                        <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>-->
