@@ -1,8 +1,23 @@
 Servers:
-db1=> delete from auth_group_permissions; delete from auth_permissions; delete from django_admin_log; delete from django_content_type;
-Ubuntu:
-rm -rf lampp - удалить папку;
-mv settings_prod1.py settings_prod.py - переименовать файл;
+Работа с БД(postegresql):
+createdb и dropdb – создание и удаление базы данных (соответственно)
+createuser и dropuser – создание и пользователя (соответственно)(предварительно вернуться в главное меню)
+db1=> delete from auth_group_permissions;
+delete from auth_permissions;
+delete from django_admin_log;
+delete from django_content_type; - чистка не нужных таблиц
+ЗАПУСК СЕРВЕРА:
+python manage.py runserver 85.193.91.73:8001
+
+Ubuntu(Необходимые команды):
+https://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ - ссылка на основные инструкции
+python3.9 -m venv django_shop_venv - создать виртуальную среду разработки;
+source django_shop_venv/bin/activate - активировать виртуальную среду разработки;
 pip install psycopg2-binary - плагин для postgresql;
+git remote add origin https://github.com/RomanKostikov/My_graduate_work.git - копирование репозитория;
+git pull origin main - из какой ветки копировать;
+rm -rf shop - удалить папку;
+mv settings_prod1.py settings_prod.py - переименовать файл;
 python manage.py migrate - проводим миграции;
-python manage.py loaddata initial_data.json - подгружаем fixture для БД
+python manage.py loaddata initial_data.json - подгружаем fixture для БД;
+python manage.py dbshell - переход в БД
