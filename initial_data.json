@@ -4717,16 +4717,5 @@
       "action_flag": 1,
       "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"39\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"40\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"41\"}}]"
     }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 364,
-    "fields": {
-      "action_time": "2023-06-27T10:35:43.299Z",
-      "user": 1,
-      "content_type": 12,
-      "object_id": "15",
-      "object_repr": ""
-    }
   }
 ]
