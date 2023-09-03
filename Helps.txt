@@ -1,11 +1,16 @@
 Servers:
+Перенос данных(в json файл):
+python manage.py dumpdata --natural-primary --exclude=contenttypes --exclude=auth.Permission --exclude=admin.logentry --exclude=sessions.session --indent 4 > initial_data.json
 Работа с БД(postegresql):
 createdb и dropdb – создание и удаление базы данных (соответственно)
 createuser и dropuser – создание и пользователя (соответственно)(предварительно вернуться в главное меню)
-db1=> delete from auth_group_permissions;
-delete from auth_permissions;
-delete from django_admin_log;
-delete from django_content_type; - чистка не нужных таблиц
+Работа с таблицами:
+db1=> DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO public; - чистка не нужных(всех) таблиц;
+psql => DROP table django_admin_log; - удаление определенной таблицы;
+CREATE table django_admin_log (pk INT); - создание таблицы в Postgresql;
 ЗАПУСК СЕРВЕРА:
 python manage.py runserver 85.193.91.73:8001
 
