@@ -1,2 +1,8 @@
 Servers:
 db1=> delete from auth_group_permissions; delete from auth_permissions; delete from django_admin_log; delete from django_content_type;
+Ubuntu:
+rm -rf lampp - удалить папку;
+mv settings_prod1.py settings_prod.py - переименовать файл;
+pip install psycopg2-binary - плагин для postgresql;
+python manage.py migrate - проводим миграции;
+python manage.py loaddata initial_data.json - подгружаем fixture для БД
