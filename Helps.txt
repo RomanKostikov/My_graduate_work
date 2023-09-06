@@ -1,4 +1,4 @@
-Servers:
+Servers(/webapps/django_shop2/shop):
 Перенос данных(в json файл):
 python manage.py dumpdata --natural-primary --exclude=contenttypes --exclude=auth.Permission --exclude=admin.logentry --exclude=sessions.session --indent 4 > initial_data.json
 Работа с БД(postegresql):
@@ -12,13 +12,56 @@ GRANT ALL ON SCHEMA public TO public; - чистка не нужных(всех)
 psql => DROP table django_admin_log; - удаление определенной таблицы;
 CREATE table django_admin_log (pk INT); - создание таблицы в Postgresql;
 
+GUNICORN:
+gunicorn_start
+#!/bin/bash
+
+NAME="django_shop2_app"                                  # Name of the application
+DJANGODIR=/webapps/django_shop2/shop             # Django project directory
+SOCKFILE=/webapps/django_shop2/run/gunicorn.sock  # we will communicte using this unix socket
+USER=root                                        # the user to run as
+GROUP=webapps                                     # the group to run as
+NUM_WORKERS=3                                     # how many worker processes should Gunicorn spawn
+DJANGO_SETTINGS_MODULE=mysite.settings             # which settings file should Django use
+DJANGO_WSGI_MODULE=mysite.wsgi                     # WSGI module name
+
+echo "Starting $NAME as `whoami`"
+
+# Activate the virtual environment
+cd $DJANGODIR
+source ../bin/activate
+export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
+export PYTHONPATH=$DJANGODIR:$PYTHONPATH
+
+# Create the run directory if it doesn't exist
+RUNDIR=$(dirname $SOCKFILE)
+test -d $RUNDIR || mkdir -p $RUNDIR
+
+# Start your Django Unicorn
+# Programs meant to be run under supervisor should not daemonize themselves (do not use --daemon)
+exec ../bin/gunicorn ${DJANGO_WSGI_MODULE}:application \
+  --name $NAME \
+  --workers $NUM_WORKERS \
+  --user=$USER --group=$GROUP \
+  --bind=unix:$SOCKFILE \
+  --log-level=debug \
+  --log-file=-
+
+ЗАПУСК GUNICORN:
+
+
 ЗАПУСК СЕРВЕРА:
 python manage.py runserver 85.193.91.73:8001
-
+ALLOWED_HOSTS = [
+    '85.193.91.73',
+    '127.0.0.1',
+    'localhost',
+    '0.0.0.0',
+]
 Ubuntu(Необходимые команды):
 https://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ - ссылка на основные инструкции
-python3.9 -m venv django_shop_venv - создать виртуальную среду разработки;
-source django_shop_venv/bin/activate - активировать виртуальную среду разработки;
+python3.9 -m venv django_shop2_venv - создать виртуальную среду разработки;
+source django_shop2_venv/bin/activate - активировать виртуальную среду разработки;
 pip install psycopg2-binary - плагин для postgresql;
 git remote add origin https://github.com/RomanKostikov/My_graduate_work.git - копирование репозитория;
 git pull origin main - из какой ветки копировать;
@@ -28,3 +71,40 @@ mv settings_prod1.py settings_prod.py - переименовать файл;
 python manage.py migrate - проводим миграции;
 python manage.py loaddata initial_data.json - подгружаем fixture для БД;
 python manage.py dbshell - переход в БД
+
+DOCKER and DOCKER-COMPOSE:
+  Users logged in:          0
+  IPv4 address for docker0: 172.17.0.1
+  IPv4 address for eth0:    85.193.91.73
+  IPv6 address for eth0:    2a03:6f01:1:2::24ca
+
+cp ./Dockerfile ./shop - копирование файла в нужную директорию;
+docker-compose build - билд проекта (из папки 'shop');
+docker-compose up - запустить контейнеры;
+docker-compose down - остановить работающие контейнеры;
+
+docker-compose.yml
+version: '3.8'
+
+services:
+  web:
+    # Берем Dockerfile из каталога app
+    build: ./shop
+    # Запускаем тестовый сервер
+    command: python manage.py runserver 85.193.91.73:8000
+    # куда будут помещены данные из каталога app
+    volumes:
+      - ./shop/:/usr/src/shop/
+    # Открываем порт 8000 внутри и снаружи
+    ports:
+      - 8000:8000
+    # Файл содержащий переменные для контейнера
+#    env_file:
+ #     - ./.venv.dev
+
+Dockerfile
+
+
+ИЗУЧЕНИЕ ОШИБОК:
+deserialization error - если возникла при закрузке fixture из dump файла БД json, значит ошибка связанна с оформлением
+json файла(мб не закрыты скобки внутри файла);
