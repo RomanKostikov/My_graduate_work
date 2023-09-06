@@ -9,8 +9,8 @@ ALLOWED_HOSTS = ["*"]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db1',
-        'USER': 'django_shop',
+        'NAME': 'db2',
+        'USER': 'django_shop2',
         'PASSWORD': 'live5913',
         'HOST': 'localhost',
         'PORT': '',  # остается стандартным
