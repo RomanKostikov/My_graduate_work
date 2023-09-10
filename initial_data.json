@@ -1,2999 +1,891 @@
 [
-  {
+{
     "model": "auth.user",
     "fields": {
-      "password": "pbkdf2_sha256$600000$x2VWQVXdM8VBFXcsFae3Dh$VLKInMXgMicP5h76OXALQCXeuS144wum0FPri3PmD/8=",
-      "last_login": "2023-08-20T16:50:57.821Z",
-      "is_superuser": true,
-      "username": "admin",
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "is_staff": true,
-      "is_active": true,
-      "date_joined": "2023-05-05T12:27:39.600Z",
-      "groups": [],
-      "user_permissions": []
+        "password": "pbkdf2_sha256$390000$AbLsOqllRg3xZtCeTVsfNt$rGRetpiFhP7q2GsbPwl0MKrJBNpXk3lftPX7UWnvryQ=",
+        "last_login": "2023-09-09T10:31:22.829Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-05T12:27:39.600Z",
+        "groups": [],
+        "user_permissions": []
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "1iy68zbcxdg1g00qzz2yidrr0xpt3qb8",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "+7 911 799 24 13",
-      "first_name": "Roman",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-16T16:42:23.408Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": ".eJxVjMsOgjAQRf-la9MMtCmMS_d-A5kXgpo2obAy_ruSsNDtPefclxtoW6dhq7YMs7qza9zpd2OSh-Ud6J3yrXgpeV1m9rviD1r9tag9L4f7dzBRnb41G_aQepY2CobArEgUewXpxibENqZuDCJoDcQEBMgBjUURLCBqcu8P69o4CQ:1qevFK:sin1DzLJ-vRLZb8D2fgGqZJJiDgr9qCbzKLM208WDl4",
+        "expire_date": "2023-09-23T10:31:22.831Z"
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "c6z3ev0zadsgn4urept8mvf9eqds1dq3",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "+79117992413",
-      "first_name": "Roman",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-17T11:49:54.596Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": "e30:1qXksk:B2GwdcIWd-2cfChHSi4-Ki4vE9Ih_A1TsHu9vyQM0K8",
+        "expire_date": "2023-09-03T16:02:26.397Z"
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "fpf152x1ol1lgz6h10klkjj3a9rmmx08",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "+7 (911) 799-24-13",
-      "first_name": "╨юьрэ",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-17T12:49:08.979Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": ".eJxVjDsOwjAQBe_iGlk2tpwNJT1nsNb7wQGUSHFSRdwdIqWA9s3M20zGdal5bTLngc3FeHP63QrSU8Yd8APH-2RpGpd5KHZX7EGbvU0sr-vh_h1UbPVbJ1CIpIWoQOhY2HWsSUk4QiHH0icNgH0Qj-Kw9-ApUjyTBpUIYN4fKFg5ag:1qXldh:Fp1BEM0p7JhbENonq2ZSMNiGRP2apXfyG7kWwqfe5gs",
+        "expire_date": "2023-09-03T16:50:57.823Z"
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "k1f3nhc5ja3udvzf3n4fq3kbzgh42myg",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "43435334",
-      "first_name": "fddfdf",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-18T14:38:02.583Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": ".eJxVjDsOwjAQBe_iGlk2tpwNJT1nsNb7wQGUSHFSRdwdIqWA9s3M20zGdal5bTLngc3FeHP63QrSU8Yd8APH-2RpGpd5KHZX7EGbvU0sr-vh_h1UbPVbJ1CIpIWoQOhY2HWsSUk4QiHH0icNgH0Qj-Kw9-ApUjyTBpUIYN4fKFg5ag:1pv0am:77Ax60pEWFthj46LLXrp1pVon8PDIHi2zQKciibEkVg",
+        "expire_date": "2023-05-19T18:55:44.821Z"
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "dfgdfgdf",
-      "first_name": "Roman",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-20T21:17:20.765Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": ".eJxVjDsOwjAQBe_iGlk2tpwNJT1nsNb7wQGUSHFSRdwdIqWA9s3M20zGdal5bTLngc3FeHP63QrSU8Yd8APH-2RpGpd5KHZX7EGbvU0sr-vh_h1UbPVbJ1CIpIWoQOhY2HWsSUk4QiHH0icNgH0Qj-Kw9-ApUjyTBpUIYN4fKFg5ag:1qDUYn:jmwKkQk5t0IE1K_cxS03LPYT3QvZwhGVJB_HaSXs5rg",
+        "expire_date": "2023-07-09T18:34:05.619Z"
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "ltqjd8s1g8i1hvwjwn4aq70bhay02e6h",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "sdvsdvsfvsd",
-      "first_name": "dcdsvsd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-21T15:47:43.920Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": ".eJxVjDsOwjAQBe_iGlk2tpwNJT1nsNb7wQGUSHFSRdwdIqWA9s3M20zGdal5bTLngc3FeHP63QrSU8Yd8APH-2RpGpd5KHZX7EGbvU0sr-vh_h1UbPVbJ1CIpIWoQOhY2HWsSUk4QiHH0icNgH0Qj-Kw9-ApUjyTBpUIYN4fKFg5ag:1q5Sj2:DKojQzSd6g-8SU3bXiAk5-8QSQpoLsRCNjPPEJd38Ww",
+        "expire_date": "2023-06-17T14:59:28.128Z"
     }
-  },
-  {
-    "model": "auth.user",
+},
+{
+    "model": "sessions.session",
+    "pk": "rvas1enf0g5lo40hthbr9zvicexytt44",
     "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "cvbcvb",
-      "first_name": "cvbcv",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-21T15:50:42.221Z",
-      "groups": [],
-      "user_permissions": []
+        "session_data": ".eJxVjDsOwjAQBe_iGlk2tpwNJT1nsNb7wQGUSHFSRdwdIqWA9s3M20zGdal5bTLngc3FeHP63QrSU8Yd8APH-2RpGpd5KHZX7EGbvU0sr-vh_h1UbPVbJ1CIpIWoQOhY2HWsSUk4QiHH0icNgH0Qj-Kw9-ApUjyTBpUIYN4fKFg5ag:1q0JU3:-Z0OfVYMX3CpDhPx1OJLQ7zqithO3KuSgXBixQcmWIE",
+        "expire_date": "2023-06-03T10:06:43.853Z"
     }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "cdcd",
-      "first_name": "dcdsvsd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-21T20:46:29.004Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "sdcsdvsd",
-      "first_name": "═юєЄсєъш",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T10:29:21.526Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "dvxfvsvd",
-      "first_name": "vxcvxc",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T10:41:20.899Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "+7 991 014-25-31",
-      "first_name": "ccsdcsdcsd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T10:52:51.977Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "88888888888",
-      "first_name": "xxcv",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T10:56:41.806Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "6474574574",
-      "first_name": " rggrffx",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T11:00:20.013Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "6747456",
-      "first_name": "bcnc",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T11:21:53.354Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "bdggfngf",
-      "first_name": "fdbgdb",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T12:32:01.233Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "55555555",
-      "first_name": "Romanfddf",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T12:42:31.343Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "666666",
-      "first_name": "╤ьрЁЄЇюэ√",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T12:48:02.138Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "scs",
-      "first_name": "scs",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T12:53:34.771Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "5353353",
-      "first_name": "ghd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T13:46:56.179Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "svsvsd",
-      "first_name": "dsdvs",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T16:06:58.855Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "4543425243245",
-      "first_name": "fbxcbxbx",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-22T16:44:17.750Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "6575757",
-      "first_name": "╤ьрЁЄЇюэ√",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-23T10:13:59.750Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "5457467",
-      "first_name": "dfgdfhd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-23T16:12:26.638Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "45745",
-      "first_name": "4564",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-23T21:23:23.514Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "553543345",
-      "first_name": "sdfsdfd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-23T21:30:08.037Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "эхъэъэъ",
-      "first_name": "546456",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-24T11:11:10.554Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "√тр√тр√",
-      "first_name": "р√тр√т",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-24T11:25:04.935Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "gfdgfdfg",
-      "first_name": "34324",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-24T11:29:07.939Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "4336354",
-      "first_name": "dhdhg",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-24T11:34:59.781Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "54465445",
-      "first_name": "шрўшў",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-24T12:26:20.856Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "hfghf",
-      "first_name": "hfghfg",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-25T15:11:27.477Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "fghfg",
-      "first_name": "fhg",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-25T15:15:51.294Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "√тр√тр",
-      "first_name": "√тр√т",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-26T11:14:01.358Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "scsc",
-      "first_name": "╤ьрЁЄЇюэ√",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-27T10:57:20.437Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "csd",
-      "first_name": "╤ьрЁЄЇюэ√",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-30T16:41:27.108Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "434534",
-      "first_name": "fdssfsd",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-06-30T17:19:15.143Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "+79502200071",
-      "first_name": "└эЇшёр",
-      "last_name": "",
-      "email": "",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2023-08-20T16:04:18.197Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
+},
+{
     "model": "main.subscriber",
     "pk": 1,
     "fields": {
-      "email": "romankos1993@gmail.com",
-      "name": "Roman"
+        "email": "romankos1993@gmail.com",
+        "name": "Roman"
     }
-  },
-  {
+},
+{
     "model": "main.subscriber",
     "pk": 2,
     "fields": {
-      "email": "happykostikov@yandex.ru",
-      "name": "╨юьрэ"
+        "email": "happykostikov@yandex.ru",
+        "name": "Роман"
     }
-  },
-  {
+},
+{
     "model": "main.subscriber",
     "pk": 4,
     "fields": {
-      "email": "Fisa2312@yandex.ru",
-      "name": "Anfisa"
+        "email": "Fisa2312@yandex.ru",
+        "name": "Anfisa"
     }
-  },
-  {
+},
+{
     "model": "orders.status",
     "pk": 1,
     "fields": {
-      "name": "═ют√щ",
-      "is_active": true,
-      "created": "2023-05-10T16:14:40.832Z",
-      "updated": "2023-05-10T16:14:40.832Z"
+        "name": "Новый",
+        "is_active": true,
+        "created": "2023-05-10T16:14:40.832Z",
+        "updated": "2023-05-10T16:14:40.832Z"
     }
-  },
-  {
+},
+{
     "model": "orders.status",
     "pk": 2,
     "fields": {
-      "name": "┬ ЁрсюЄх",
-      "is_active": true,
-      "created": "2023-05-10T16:14:57.210Z",
-      "updated": "2023-05-10T16:14:57.210Z"
+        "name": "В работе",
+        "is_active": true,
+        "created": "2023-05-10T16:14:57.210Z",
+        "updated": "2023-05-10T16:14:57.210Z"
     }
-  },
-  {
+},
+{
     "model": "orders.status",
     "pk": 3,
     "fields": {
-      "name": "╬Єьхэхэ",
-      "is_active": true,
-      "created": "2023-05-10T16:15:06.106Z",
-      "updated": "2023-05-10T16:15:06.106Z"
+        "name": "Отменен",
+        "is_active": true,
+        "created": "2023-05-10T16:15:06.106Z",
+        "updated": "2023-05-10T16:15:06.106Z"
     }
-  },
-  {
+},
+{
     "model": "orders.status",
     "pk": 4,
     "fields": {
-      "name": "┬√яюыэхэ",
-      "is_active": true,
-      "created": "2023-05-10T16:15:13.370Z",
-      "updated": "2023-05-10T16:17:10.143Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 17,
-    "fields": {
-      "user": 10,
-      "total_price": "112698.00",
-      "customer_name": "═юєЄсєъш",
-      "customer_email": null,
-      "customer_phone": "sdcsdvsd",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T10:29:21.529Z",
-      "updated": "2023-06-22T10:29:21.541Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 18,
-    "fields": {
-      "user": 11,
-      "total_price": "327570.00",
-      "customer_name": "vxcvxc",
-      "customer_email": null,
-      "customer_phone": "dvxfvsvd",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T10:41:20.902Z",
-      "updated": "2023-06-22T10:41:20.915Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 19,
-    "fields": {
-      "user": 12,
-      "total_price": "520750.00",
-      "customer_name": "ccsdcsdcsd",
-      "customer_email": null,
-      "customer_phone": "+7 991 014-25-31",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T10:52:51.979Z",
-      "updated": "2023-06-22T10:52:52.002Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 20,
-    "fields": {
-      "user": 13,
-      "total_price": "2959453.00",
-      "customer_name": "xxcv",
-      "customer_email": null,
-      "customer_phone": "88888888888",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T10:56:41.810Z",
-      "updated": "2023-06-22T10:56:41.854Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 21,
-    "fields": {
-      "user": 14,
-      "total_price": "514449.00",
-      "customer_name": " rggrffx",
-      "customer_email": null,
-      "customer_phone": "6474574574",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T11:00:20.017Z",
-      "updated": "2023-06-22T11:00:20.040Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 22,
-    "fields": {
-      "user": 15,
-      "total_price": "0.00",
-      "customer_name": "bcnc",
-      "customer_email": null,
-      "customer_phone": "6747456",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T11:21:53.357Z",
-      "updated": "2023-06-22T11:21:53.370Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 23,
-    "fields": {
-      "user": 16,
-      "total_price": "218380.00",
-      "customer_name": "fdbgdb",
-      "customer_email": null,
-      "customer_phone": "bdggfngf",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T12:32:01.238Z",
-      "updated": "2023-06-22T12:32:01.247Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 24,
-    "fields": {
-      "user": 17,
-      "total_price": "174123.00",
-      "customer_name": "Romanfddf",
-      "customer_email": null,
-      "customer_phone": "55555555",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T12:42:31.346Z",
-      "updated": "2023-06-22T12:42:31.356Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 25,
-    "fields": {
-      "user": 18,
-      "total_price": "218380.00",
-      "customer_name": "╤ьрЁЄЇюэ√",
-      "customer_email": null,
-      "customer_phone": "666666",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T12:48:02.141Z",
-      "updated": "2023-06-22T12:48:02.153Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 26,
-    "fields": {
-      "user": 19,
-      "total_price": "218380.00",
-      "customer_name": "scs",
-      "customer_email": null,
-      "customer_phone": "scs",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T12:53:34.775Z",
-      "updated": "2023-06-22T12:53:34.785Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 27,
-    "fields": {
-      "user": 20,
-      "total_price": "443652.00",
-      "customer_name": "ghd",
-      "customer_email": null,
-      "customer_phone": "5353353",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T13:46:56.182Z",
-      "updated": "2023-06-22T13:46:56.201Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 28,
-    "fields": {
-      "user": 21,
-      "total_price": "174123.00",
-      "customer_name": "dsdvs",
-      "customer_email": null,
-      "customer_phone": "svsvsd",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T16:06:58.860Z",
-      "updated": "2023-06-22T16:06:58.870Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 29,
-    "fields": {
-      "user": 22,
-      "total_price": "602299.00",
-      "customer_name": "fbxcbxbx",
-      "customer_email": null,
-      "customer_phone": "4543425243245",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T16:44:17.753Z",
-      "updated": "2023-06-22T16:44:17.775Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 30,
-    "fields": {
-      "user": 3,
-      "total_price": "673280.00",
-      "customer_name": "Roman",
-      "customer_email": null,
-      "customer_phone": "+79117992413",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T18:13:35.963Z",
-      "updated": "2023-06-22T18:13:35.992Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 31,
-    "fields": {
-      "user": 3,
-      "total_price": "-545950.00",
-      "customer_name": "Roman",
-      "customer_email": null,
-      "customer_phone": "+79117992413",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-22T18:15:22.917Z",
-      "updated": "2023-06-22T18:15:22.929Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 32,
-    "fields": {
-      "user": 23,
-      "total_price": "610883.00",
-      "customer_name": "╤ьрЁЄЇюэ√",
-      "customer_email": null,
-      "customer_phone": "6575757",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-23T10:13:59.758Z",
-      "updated": "2023-06-23T10:13:59.787Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 33,
-    "fields": {
-      "user": 24,
-      "total_price": "2650380.00",
-      "customer_name": "dfgdfhd",
-      "customer_email": null,
-      "customer_phone": "5457467",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-23T16:12:26.642Z",
-      "updated": "2023-06-23T16:12:26.695Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 34,
-    "fields": {
-      "user": 6,
-      "total_price": "454716.00",
-      "customer_name": "fddfgfd",
-      "customer_email": null,
-      "customer_phone": "dfgdfgdf",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-23T18:55:52.145Z",
-      "updated": "2023-06-23T18:55:52.169Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 35,
-    "fields": {
-      "user": 25,
-      "total_price": "265578.00",
-      "customer_name": "4564",
-      "customer_email": null,
-      "customer_phone": "45745",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-23T21:23:23.517Z",
-      "updated": "2023-06-23T21:23:23.530Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 36,
-    "fields": {
-      "user": 26,
-      "total_price": "593148.00",
-      "customer_name": "sdfsdfd",
-      "customer_email": null,
-      "customer_phone": "553543345",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-23T21:30:08.040Z",
-      "updated": "2023-06-23T21:30:08.067Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 37,
-    "fields": {
-      "user": 27,
-      "total_price": "0.00",
-      "customer_name": "546456",
-      "customer_email": null,
-      "customer_phone": "эхъэъэъ",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-24T11:11:10.559Z",
-      "updated": "2023-06-24T11:11:10.587Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 38,
-    "fields": {
-      "user": 28,
-      "total_price": "-58041.00",
-      "customer_name": "р√тр√т",
-      "customer_email": null,
-      "customer_phone": "√тр√тр√",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-24T11:25:04.938Z",
-      "updated": "2023-06-24T11:25:04.952Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 39,
-    "fields": {
-      "user": 29,
-      "total_price": "-174123.00",
-      "customer_name": "34324",
-      "customer_email": null,
-      "customer_phone": "gfdgfdfg",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-24T11:29:07.941Z",
-      "updated": "2023-06-24T11:29:07.953Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 40,
-    "fields": {
-      "user": 30,
-      "total_price": "-327570.00",
-      "customer_name": "dhdhg",
-      "customer_email": null,
-      "customer_phone": "4336354",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-24T11:34:59.784Z",
-      "updated": "2023-06-24T11:34:59.796Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 41,
-    "fields": {
-      "user": 31,
-      "total_price": "10700620.00",
-      "customer_name": "шрўшў",
-      "customer_email": null,
-      "customer_phone": "54465445",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-24T12:26:20.860Z",
-      "updated": "2023-06-24T12:26:20.872Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 42,
-    "fields": {
-      "user": 32,
-      "total_price": "116082.00",
-      "customer_name": "hfghfg",
-      "customer_email": null,
-      "customer_phone": "hfghf",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-25T15:11:27.480Z",
-      "updated": "2023-06-25T15:11:27.494Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 43,
-    "fields": {
-      "user": 33,
-      "total_price": "496617.00",
-      "customer_name": "fhg",
-      "customer_email": null,
-      "customer_phone": "fghfg",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-25T15:15:51.296Z",
-      "updated": "2023-06-25T15:15:51.320Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 44,
-    "fields": {
-      "user": 34,
-      "total_price": "378276.00",
-      "customer_name": "√тр√т",
-      "customer_email": null,
-      "customer_phone": "√тр√тр",
-      "customer_address": null,
-      "comments": "",
-      "status": 3,
-      "created": "2023-06-26T11:14:01.364Z",
-      "updated": "2023-06-26T19:55:16.720Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 45,
-    "fields": {
-      "user": 6,
-      "total_price": "232164.00",
-      "customer_name": "fdgd",
-      "customer_email": null,
-      "customer_phone": "dfgdfgdf",
-      "customer_address": null,
-      "comments": "",
-      "status": 2,
-      "created": "2023-06-26T11:34:27.914Z",
-      "updated": "2023-06-26T19:55:03.741Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 46,
-    "fields": {
-      "user": 12,
-      "total_price": "1542530.00",
-      "customer_name": "Roman",
-      "customer_email": null,
-      "customer_phone": "+7 991 014-25-31",
-      "customer_address": null,
-      "comments": "",
-      "status": 4,
-      "created": "2023-06-26T19:48:35.252Z",
-      "updated": "2023-06-26T19:54:47.809Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 47,
-    "fields": {
-      "user": 35,
-      "total_price": "2362060.00",
-      "customer_name": "╤ьрЁЄЇюэ√",
-      "customer_email": null,
-      "customer_phone": "scsc",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-27T10:57:20.440Z",
-      "updated": "2023-06-27T10:57:20.466Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 48,
-    "fields": {
-      "user": 36,
-      "total_price": "655140.00",
-      "customer_name": "╤ьрЁЄЇюэ√",
-      "customer_email": null,
-      "customer_phone": "csd",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-30T16:41:27.111Z",
-      "updated": "2023-06-30T16:41:27.126Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 49,
-    "fields": {
-      "user": 37,
-      "total_price": "327570.00",
-      "customer_name": "fdssfsd",
-      "customer_email": null,
-      "customer_phone": "434534",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-06-30T17:19:15.147Z",
-      "updated": "2023-06-30T17:19:15.158Z"
-    }
-  },
-  {
-    "model": "orders.order",
-    "pk": 50,
-    "fields": {
-      "user": 38,
-      "total_price": "327570.00",
-      "customer_name": "└эЇшёр",
-      "customer_email": null,
-      "customer_phone": "+79502200071",
-      "customer_address": null,
-      "comments": null,
-      "status": 1,
-      "created": "2023-08-20T16:04:18.200Z",
-      "updated": "2023-08-20T16:04:18.210Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 19,
-    "fields": {
-      "order": 17,
-      "product": 11,
-      "nmb": 2,
-      "price_per_item": "56349.00",
-      "total_price": "112698.00",
-      "is_active": true,
-      "created": "2023-06-22T10:29:21.537Z",
-      "updated": "2023-06-22T10:29:21.537Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 20,
-    "fields": {
-      "order": 18,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-22T10:41:20.910Z",
-      "updated": "2023-06-22T10:41:20.910Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 21,
-    "fields": {
-      "order": 19,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T10:52:51.988Z",
-      "updated": "2023-06-22T10:52:51.988Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 22,
-    "fields": {
-      "order": 19,
-      "product": 12,
-      "nmb": 3,
-      "price_per_item": "100790.00",
-      "total_price": "302370.00",
-      "is_active": true,
-      "created": "2023-06-22T10:52:51.999Z",
-      "updated": "2023-06-22T10:52:51.999Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 23,
-    "fields": {
-      "order": 20,
-      "product": 11,
-      "nmb": 15,
-      "price_per_item": "56349.00",
-      "total_price": "845235.00",
-      "is_active": true,
-      "created": "2023-06-22T10:56:41.818Z",
-      "updated": "2023-06-22T10:56:41.818Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 24,
-    "fields": {
-      "order": 20,
-      "product": 4,
-      "nmb": 12,
-      "price_per_item": "132789.00",
-      "total_price": "1593468.00",
-      "is_active": true,
-      "created": "2023-06-22T10:56:41.829Z",
-      "updated": "2023-06-22T10:56:41.829Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 25,
-    "fields": {
-      "order": 20,
-      "product": 12,
-      "nmb": 3,
-      "price_per_item": "100790.00",
-      "total_price": "302370.00",
-      "is_active": true,
-      "created": "2023-06-22T10:56:41.840Z",
-      "updated": "2023-06-22T10:56:41.840Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 26,
-    "fields": {
-      "order": 20,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T10:56:41.851Z",
-      "updated": "2023-06-22T10:56:41.851Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 27,
-    "fields": {
-      "order": 21,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-22T11:00:20.025Z",
-      "updated": "2023-06-22T11:00:20.025Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 28,
-    "fields": {
-      "order": 21,
-      "product": 4,
-      "nmb": 3,
-      "price_per_item": "132789.00",
-      "total_price": "398367.00",
-      "is_active": true,
-      "created": "2023-06-22T11:00:20.036Z",
-      "updated": "2023-06-22T11:00:20.036Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 29,
-    "fields": {
-      "order": 22,
-      "product": 7,
-      "nmb": 0,
-      "price_per_item": "109190.00",
-      "total_price": "0.00",
-      "is_active": true,
-      "created": "2023-06-22T11:21:53.365Z",
-      "updated": "2023-06-22T11:21:53.365Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 30,
-    "fields": {
-      "order": 23,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T12:32:01.245Z",
-      "updated": "2023-06-22T12:32:01.245Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 31,
-    "fields": {
-      "order": 24,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T12:42:31.353Z",
-      "updated": "2023-06-22T12:42:31.353Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 32,
-    "fields": {
-      "order": 25,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T12:48:02.149Z",
-      "updated": "2023-06-22T12:48:02.149Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 33,
-    "fields": {
-      "order": 26,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T12:53:34.782Z",
-      "updated": "2023-06-22T12:53:34.782Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 34,
-    "fields": {
-      "order": 27,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-22T13:46:56.188Z",
-      "updated": "2023-06-22T13:46:56.188Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 35,
-    "fields": {
-      "order": 27,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-22T13:46:56.198Z",
-      "updated": "2023-06-22T13:46:56.198Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 36,
-    "fields": {
-      "order": 28,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T16:06:58.868Z",
-      "updated": "2023-06-22T16:06:58.868Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 37,
-    "fields": {
-      "order": 29,
-      "product": 7,
-      "nmb": 5,
-      "price_per_item": "109190.00",
-      "total_price": "545950.00",
-      "is_active": true,
-      "created": "2023-06-22T16:44:17.761Z",
-      "updated": "2023-06-22T16:44:17.761Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 38,
-    "fields": {
-      "order": 29,
-      "product": 11,
-      "nmb": 1,
-      "price_per_item": "56349.00",
-      "total_price": "56349.00",
-      "is_active": true,
-      "created": "2023-06-22T16:44:17.772Z",
-      "updated": "2023-06-22T16:44:17.772Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 39,
-    "fields": {
-      "order": 30,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T18:13:35.970Z",
-      "updated": "2023-06-22T18:13:35.970Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 40,
-    "fields": {
-      "order": 30,
-      "product": 4,
-      "nmb": 3,
-      "price_per_item": "132789.00",
-      "total_price": "398367.00",
-      "is_active": true,
-      "created": "2023-06-22T18:13:35.981Z",
-      "updated": "2023-06-22T18:13:35.981Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 41,
-    "fields": {
-      "order": 30,
-      "product": 12,
-      "nmb": 1,
-      "price_per_item": "100790.00",
-      "total_price": "100790.00",
-      "is_active": true,
-      "created": "2023-06-22T18:13:35.989Z",
-      "updated": "2023-06-22T18:13:35.989Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 42,
-    "fields": {
-      "order": 31,
-      "product": 7,
-      "nmb": -5,
-      "price_per_item": "109190.00",
-      "total_price": "-545950.00",
-      "is_active": true,
-      "created": "2023-06-22T18:15:22.925Z",
-      "updated": "2023-06-22T18:15:22.925Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 43,
-    "fields": {
-      "order": 32,
-      "product": 7,
-      "nmb": 4,
-      "price_per_item": "109190.00",
-      "total_price": "436760.00",
-      "is_active": true,
-      "created": "2023-06-23T10:13:59.766Z",
-      "updated": "2023-06-23T10:13:59.766Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 44,
-    "fields": {
-      "order": 32,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-23T10:13:59.782Z",
-      "updated": "2023-06-23T10:13:59.782Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 45,
-    "fields": {
-      "order": 33,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-23T16:12:26.651Z",
-      "updated": "2023-06-23T16:12:26.651Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 46,
-    "fields": {
-      "order": 33,
-      "product": 4,
-      "nmb": 6,
-      "price_per_item": "132789.00",
-      "total_price": "796734.00",
-      "is_active": true,
-      "created": "2023-06-23T16:12:26.661Z",
-      "updated": "2023-06-23T16:12:26.661Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 47,
-    "fields": {
-      "order": 33,
-      "product": 11,
-      "nmb": 7,
-      "price_per_item": "56349.00",
-      "total_price": "394443.00",
-      "is_active": true,
-      "created": "2023-06-23T16:12:26.670Z",
-      "updated": "2023-06-23T16:12:26.670Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 48,
-    "fields": {
-      "order": 33,
-      "product": 7,
-      "nmb": 9,
-      "price_per_item": "109190.00",
-      "total_price": "982710.00",
-      "is_active": true,
-      "created": "2023-06-23T16:12:26.681Z",
-      "updated": "2023-06-23T16:12:26.681Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 49,
-    "fields": {
-      "order": 33,
-      "product": 12,
-      "nmb": 3,
-      "price_per_item": "100790.00",
-      "total_price": "302370.00",
-      "is_active": true,
-      "created": "2023-06-23T16:12:26.691Z",
-      "updated": "2023-06-23T16:12:26.691Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 50,
-    "fields": {
-      "order": 34,
-      "product": 4,
-      "nmb": 3,
-      "price_per_item": "132789.00",
-      "total_price": "398367.00",
-      "is_active": true,
-      "created": "2023-06-23T18:55:52.151Z",
-      "updated": "2023-06-23T18:55:52.152Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 51,
-    "fields": {
-      "order": 34,
-      "product": 11,
-      "nmb": 1,
-      "price_per_item": "56349.00",
-      "total_price": "56349.00",
-      "is_active": true,
-      "created": "2023-06-23T18:55:52.166Z",
-      "updated": "2023-06-23T18:55:52.166Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 52,
-    "fields": {
-      "order": 35,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-23T21:23:23.525Z",
-      "updated": "2023-06-23T21:23:23.525Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 53,
-    "fields": {
-      "order": 36,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-23T21:30:08.050Z",
-      "updated": "2023-06-23T21:30:08.050Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 54,
-    "fields": {
-      "order": 36,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-23T21:30:08.063Z",
-      "updated": "2023-06-23T21:30:08.063Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 55,
-    "fields": {
-      "order": 37,
-      "product": 12,
-      "nmb": 0,
-      "price_per_item": "100790.00",
-      "total_price": "0.00",
-      "is_active": true,
-      "created": "2023-06-24T11:11:10.570Z",
-      "updated": "2023-06-24T11:11:10.570Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 56,
-    "fields": {
-      "order": 37,
-      "product": 7,
-      "nmb": 0,
-      "price_per_item": "109190.00",
-      "total_price": "0.00",
-      "is_active": true,
-      "created": "2023-06-24T11:11:10.584Z",
-      "updated": "2023-06-24T11:11:10.584Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 57,
-    "fields": {
-      "order": 38,
-      "product": 9,
-      "nmb": -1,
-      "price_per_item": "58041.00",
-      "total_price": "-58041.00",
-      "is_active": true,
-      "created": "2023-06-24T11:25:04.947Z",
-      "updated": "2023-06-24T11:25:04.947Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 58,
-    "fields": {
-      "order": 39,
-      "product": 9,
-      "nmb": -3,
-      "price_per_item": "58041.00",
-      "total_price": "-174123.00",
-      "is_active": true,
-      "created": "2023-06-24T11:29:07.950Z",
-      "updated": "2023-06-24T11:29:07.950Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 59,
-    "fields": {
-      "order": 40,
-      "product": 7,
-      "nmb": -3,
-      "price_per_item": "109190.00",
-      "total_price": "-327570.00",
-      "is_active": true,
-      "created": "2023-06-24T11:34:59.793Z",
-      "updated": "2023-06-24T11:34:59.793Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 60,
-    "fields": {
-      "order": 41,
-      "product": 7,
-      "nmb": 98,
-      "price_per_item": "109190.00",
-      "total_price": "10700620.00",
-      "is_active": true,
-      "created": "2023-06-24T12:26:20.867Z",
-      "updated": "2023-06-24T12:26:20.867Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 61,
-    "fields": {
-      "order": 42,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-25T15:11:27.489Z",
-      "updated": "2023-06-25T15:11:27.489Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 62,
-    "fields": {
-      "order": 43,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-25T15:15:51.304Z",
-      "updated": "2023-06-25T15:15:51.304Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 63,
-    "fields": {
-      "order": 43,
-      "product": 11,
-      "nmb": 3,
-      "price_per_item": "56349.00",
-      "total_price": "169047.00",
-      "is_active": true,
-      "created": "2023-06-25T15:15:51.315Z",
-      "updated": "2023-06-25T15:15:51.315Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 64,
-    "fields": {
-      "order": 44,
-      "product": 11,
-      "nmb": 2,
-      "price_per_item": "56349.00",
-      "total_price": "112698.00",
-      "is_active": true,
-      "created": "2023-06-26T11:14:01.374Z",
-      "updated": "2023-06-26T11:14:01.374Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 65,
-    "fields": {
-      "order": 44,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-26T11:14:01.385Z",
-      "updated": "2023-06-26T11:14:01.385Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 66,
-    "fields": {
-      "order": 45,
-      "product": 9,
-      "nmb": 4,
-      "price_per_item": "58041.00",
-      "total_price": "232164.00",
-      "is_active": true,
-      "created": "2023-06-26T11:34:27.923Z",
-      "updated": "2023-06-26T11:34:27.923Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 67,
-    "fields": {
-      "order": 46,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-26T19:48:35.262Z",
-      "updated": "2023-06-26T19:48:35.262Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 68,
-    "fields": {
-      "order": 46,
-      "product": 9,
-      "nmb": 5,
-      "price_per_item": "58041.00",
-      "total_price": "290205.00",
-      "is_active": true,
-      "created": "2023-06-26T19:48:35.274Z",
-      "updated": "2023-06-26T19:48:35.274Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 69,
-    "fields": {
-      "order": 46,
-      "product": 11,
-      "nmb": 3,
-      "price_per_item": "56349.00",
-      "total_price": "169047.00",
-      "is_active": true,
-      "created": "2023-06-26T19:48:35.286Z",
-      "updated": "2023-06-26T19:48:35.286Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 70,
-    "fields": {
-      "order": 46,
-      "product": 7,
-      "nmb": 4,
-      "price_per_item": "109190.00",
-      "total_price": "436760.00",
-      "is_active": true,
-      "created": "2023-06-26T19:48:35.297Z",
-      "updated": "2023-06-26T19:48:35.298Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 71,
-    "fields": {
-      "order": 46,
-      "product": 3,
-      "nmb": 3,
-      "price_per_item": "126980.00",
-      "total_price": "380940.00",
-      "is_active": true,
-      "created": "2023-06-26T19:48:35.307Z",
-      "updated": "2023-06-26T19:48:35.307Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 72,
-    "fields": {
-      "order": 47,
-      "product": 13,
-      "nmb": 9,
-      "price_per_item": "210790.00",
-      "total_price": "1897110.00",
-      "is_active": true,
-      "created": "2023-06-27T10:57:20.449Z",
-      "updated": "2023-06-27T10:57:20.449Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 73,
-    "fields": {
-      "order": 47,
-      "product": 14,
-      "nmb": 5,
-      "price_per_item": "92990.00",
-      "total_price": "464950.00",
-      "is_active": true,
-      "created": "2023-06-27T10:57:20.460Z",
-      "updated": "2023-06-27T10:57:20.460Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 74,
-    "fields": {
-      "order": 48,
-      "product": 7,
-      "nmb": 6,
-      "price_per_item": "109190.00",
-      "total_price": "655140.00",
-      "is_active": true,
-      "created": "2023-06-30T16:41:27.120Z",
-      "updated": "2023-06-30T16:41:27.120Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 75,
-    "fields": {
-      "order": 49,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-30T17:19:15.154Z",
-      "updated": "2023-06-30T17:19:15.154Z"
-    }
-  },
-  {
-    "model": "orders.productinorder",
-    "pk": 76,
-    "fields": {
-      "order": 50,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-08-20T16:04:18.207Z",
-      "updated": "2023-08-20T16:04:18.207Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 135,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": null,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": false,
-      "created": "2023-06-22T09:25:29.400Z",
-      "updated": "2023-06-22T09:25:29.400Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 136,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": null,
-      "product": 11,
-      "nmb": 10,
-      "price_per_item": "56349.00",
-      "total_price": "563490.00",
-      "is_active": false,
-      "created": "2023-06-22T09:26:09.626Z",
-      "updated": "2023-06-22T09:28:11.267Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 137,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 17,
-      "product": 11,
-      "nmb": 50,
-      "price_per_item": "56349.00",
-      "total_price": "2817450.00",
-      "is_active": true,
-      "created": "2023-06-22T09:28:52.646Z",
-      "updated": "2023-06-22T10:46:48.359Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 138,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 18,
-      "product": 7,
-      "nmb": 53,
-      "price_per_item": "109190.00",
-      "total_price": "5787070.00",
-      "is_active": true,
-      "created": "2023-06-22T10:32:20.539Z",
-      "updated": "2023-06-22T10:47:54.532Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 139,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 19,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T10:52:00.990Z",
-      "updated": "2023-06-22T10:52:51.985Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 140,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 19,
-      "product": 12,
-      "nmb": 3,
-      "price_per_item": "100790.00",
-      "total_price": "302370.00",
-      "is_active": true,
-      "created": "2023-06-22T10:52:12.529Z",
-      "updated": "2023-06-22T10:52:51.996Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 141,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 20,
-      "product": 11,
-      "nmb": 15,
-      "price_per_item": "56349.00",
-      "total_price": "845235.00",
-      "is_active": true,
-      "created": "2023-06-22T10:53:08.298Z",
-      "updated": "2023-06-22T10:56:41.814Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 142,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 20,
-      "product": 4,
-      "nmb": 12,
-      "price_per_item": "132789.00",
-      "total_price": "1593468.00",
-      "is_active": true,
-      "created": "2023-06-22T10:53:33.694Z",
-      "updated": "2023-06-22T10:56:41.826Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 143,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 20,
-      "product": 12,
-      "nmb": 3,
-      "price_per_item": "100790.00",
-      "total_price": "302370.00",
-      "is_active": true,
-      "created": "2023-06-22T10:55:53.762Z",
-      "updated": "2023-06-22T10:56:41.837Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 144,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 20,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T10:56:19.083Z",
-      "updated": "2023-06-22T10:56:41.849Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 145,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 21,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-22T10:58:38.187Z",
-      "updated": "2023-06-22T11:00:20.022Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 146,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 21,
-      "product": 4,
-      "nmb": 3,
-      "price_per_item": "132789.00",
-      "total_price": "398367.00",
-      "is_active": true,
-      "created": "2023-06-22T10:58:45.998Z",
-      "updated": "2023-06-22T11:00:20.031Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 147,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 22,
-      "product": 7,
-      "nmb": 0,
-      "price_per_item": "109190.00",
-      "total_price": "0.00",
-      "is_active": true,
-      "created": "2023-06-22T11:21:21.323Z",
-      "updated": "2023-06-22T11:21:53.362Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 148,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 23,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T12:26:03.930Z",
-      "updated": "2023-06-22T12:32:01.243Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 149,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 24,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T12:32:09.038Z",
-      "updated": "2023-06-22T12:42:31.350Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 150,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 25,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T12:47:52.809Z",
-      "updated": "2023-06-22T12:48:02.146Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 151,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 26,
-      "product": 7,
-      "nmb": 2,
-      "price_per_item": "109190.00",
-      "total_price": "218380.00",
-      "is_active": true,
-      "created": "2023-06-22T12:52:58.409Z",
-      "updated": "2023-06-22T12:53:34.779Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 152,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 27,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-22T13:45:51.983Z",
-      "updated": "2023-06-22T13:46:56.186Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 153,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 27,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-22T13:46:21.118Z",
-      "updated": "2023-06-22T13:46:56.196Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 154,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 28,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T13:47:04.178Z",
-      "updated": "2023-06-22T16:06:58.864Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 155,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 29,
-      "product": 7,
-      "nmb": 5,
-      "price_per_item": "109190.00",
-      "total_price": "545950.00",
-      "is_active": true,
-      "created": "2023-06-22T16:08:39.530Z",
-      "updated": "2023-06-22T16:44:17.758Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 156,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 29,
-      "product": 11,
-      "nmb": 1,
-      "price_per_item": "56349.00",
-      "total_price": "56349.00",
-      "is_active": true,
-      "created": "2023-06-22T16:08:48.121Z",
-      "updated": "2023-06-22T16:44:17.769Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 157,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 30,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T17:28:30.770Z",
-      "updated": "2023-06-22T18:13:35.968Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 158,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 30,
-      "product": 4,
-      "nmb": 3,
-      "price_per_item": "132789.00",
-      "total_price": "398367.00",
-      "is_active": true,
-      "created": "2023-06-22T18:12:47.475Z",
-      "updated": "2023-06-22T18:13:35.978Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 159,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 30,
-      "product": 12,
-      "nmb": 1,
-      "price_per_item": "100790.00",
-      "total_price": "100790.00",
-      "is_active": true,
-      "created": "2023-06-22T18:13:26.467Z",
-      "updated": "2023-06-22T18:13:35.987Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 160,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 31,
-      "product": 7,
-      "nmb": -5,
-      "price_per_item": "109190.00",
-      "total_price": "-545950.00",
-      "is_active": true,
-      "created": "2023-06-22T18:13:52.747Z",
-      "updated": "2023-06-22T18:15:22.921Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 161,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 32,
-      "product": 7,
-      "nmb": 4,
-      "price_per_item": "109190.00",
-      "total_price": "436760.00",
-      "is_active": true,
-      "created": "2023-06-22T18:22:47.620Z",
-      "updated": "2023-06-23T10:13:59.763Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 162,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 32,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-22T20:15:23.116Z",
-      "updated": "2023-06-23T10:13:59.778Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 163,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 33,
-      "product": 9,
-      "nmb": 3,
-      "price_per_item": "58041.00",
-      "total_price": "174123.00",
-      "is_active": true,
-      "created": "2023-06-23T10:17:21.099Z",
-      "updated": "2023-06-23T16:12:26.647Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 164,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 33,
-      "product": 4,
-      "nmb": 6,
-      "price_per_item": "132789.00",
-      "total_price": "796734.00",
-      "is_active": true,
-      "created": "2023-06-23T13:05:02.917Z",
-      "updated": "2023-06-23T16:12:26.659Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 165,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 33,
-      "product": 11,
-      "nmb": 7,
-      "price_per_item": "56349.00",
-      "total_price": "394443.00",
-      "is_active": true,
-      "created": "2023-06-23T15:39:20.609Z",
-      "updated": "2023-06-23T16:12:26.668Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 166,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 33,
-      "product": 7,
-      "nmb": 9,
-      "price_per_item": "109190.00",
-      "total_price": "982710.00",
-      "is_active": true,
-      "created": "2023-06-23T16:09:02.168Z",
-      "updated": "2023-06-23T16:12:26.678Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 167,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 33,
-      "product": 12,
-      "nmb": 3,
-      "price_per_item": "100790.00",
-      "total_price": "302370.00",
-      "is_active": true,
-      "created": "2023-06-23T16:09:16.503Z",
-      "updated": "2023-06-23T16:12:26.688Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 168,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 34,
-      "product": 4,
-      "nmb": 3,
-      "price_per_item": "132789.00",
-      "total_price": "398367.00",
-      "is_active": true,
-      "created": "2023-06-23T18:45:57.237Z",
-      "updated": "2023-06-23T18:55:52.149Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 169,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 34,
-      "product": 11,
-      "nmb": 1,
-      "price_per_item": "56349.00",
-      "total_price": "56349.00",
-      "is_active": true,
-      "created": "2023-06-23T18:55:33.109Z",
-      "updated": "2023-06-23T18:55:52.162Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 170,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 35,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-23T20:51:38.584Z",
-      "updated": "2023-06-23T21:23:23.521Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 171,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 36,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-23T21:23:36.521Z",
-      "updated": "2023-06-23T21:30:08.047Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 172,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 36,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-23T21:23:42.643Z",
-      "updated": "2023-06-23T21:30:08.059Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 173,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 37,
-      "product": 12,
-      "nmb": 0,
-      "price_per_item": "100790.00",
-      "total_price": "0.00",
-      "is_active": true,
-      "created": "2023-06-23T21:30:19.371Z",
-      "updated": "2023-06-24T11:11:10.565Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 174,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 37,
-      "product": 7,
-      "nmb": 0,
-      "price_per_item": "109190.00",
-      "total_price": "0.00",
-      "is_active": true,
-      "created": "2023-06-24T10:17:02.677Z",
-      "updated": "2023-06-24T11:11:10.581Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 175,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 38,
-      "product": 9,
-      "nmb": -1,
-      "price_per_item": "58041.00",
-      "total_price": "-58041.00",
-      "is_active": true,
-      "created": "2023-06-24T11:11:21.130Z",
-      "updated": "2023-06-24T11:25:04.944Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 176,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 39,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-24T11:28:38.048Z",
-      "updated": "2023-06-24T11:34:27.688Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 177,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 40,
-      "product": 7,
-      "nmb": -3,
-      "price_per_item": "109190.00",
-      "total_price": "-327570.00",
-      "is_active": true,
-      "created": "2023-06-24T11:34:41.514Z",
-      "updated": "2023-06-24T11:34:59.790Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 178,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 41,
-      "product": 7,
-      "nmb": 98,
-      "price_per_item": "109190.00",
-      "total_price": "10700620.00",
-      "is_active": true,
-      "created": "2023-06-24T11:43:43.108Z",
-      "updated": "2023-06-24T12:26:20.864Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 179,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 42,
-      "product": 9,
-      "nmb": 2,
-      "price_per_item": "58041.00",
-      "total_price": "116082.00",
-      "is_active": true,
-      "created": "2023-06-25T15:01:33.247Z",
-      "updated": "2023-06-25T15:11:27.486Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 180,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 43,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-25T15:12:14.278Z",
-      "updated": "2023-06-25T15:15:51.300Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 181,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 43,
-      "product": 11,
-      "nmb": 3,
-      "price_per_item": "56349.00",
-      "total_price": "169047.00",
-      "is_active": true,
-      "created": "2023-06-25T15:12:21.932Z",
-      "updated": "2023-06-25T15:15:51.313Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 182,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 44,
-      "product": 11,
-      "nmb": 2,
-      "price_per_item": "56349.00",
-      "total_price": "112698.00",
-      "is_active": true,
-      "created": "2023-06-25T15:16:15.082Z",
-      "updated": "2023-06-26T11:14:01.370Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 183,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 44,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-25T15:21:19.073Z",
-      "updated": "2023-06-26T11:14:01.382Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 184,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 45,
-      "product": 9,
-      "nmb": 4,
-      "price_per_item": "58041.00",
-      "total_price": "232164.00",
-      "is_active": true,
-      "created": "2023-06-26T11:31:55.742Z",
-      "updated": "2023-06-26T11:34:27.920Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 185,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 46,
-      "product": 4,
-      "nmb": 2,
-      "price_per_item": "132789.00",
-      "total_price": "265578.00",
-      "is_active": true,
-      "created": "2023-06-26T11:37:32.971Z",
-      "updated": "2023-06-26T19:48:35.257Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 186,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 46,
-      "product": 9,
-      "nmb": 5,
-      "price_per_item": "58041.00",
-      "total_price": "290205.00",
-      "is_active": true,
-      "created": "2023-06-26T11:37:42.192Z",
-      "updated": "2023-06-26T19:48:35.271Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 187,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 46,
-      "product": 11,
-      "nmb": 3,
-      "price_per_item": "56349.00",
-      "total_price": "169047.00",
-      "is_active": true,
-      "created": "2023-06-26T11:37:49.930Z",
-      "updated": "2023-06-26T19:48:35.283Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 188,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 46,
-      "product": 7,
-      "nmb": 4,
-      "price_per_item": "109190.00",
-      "total_price": "436760.00",
-      "is_active": true,
-      "created": "2023-06-26T12:20:49.968Z",
-      "updated": "2023-06-26T19:48:35.295Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 189,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 46,
-      "product": 3,
-      "nmb": 3,
-      "price_per_item": "126980.00",
-      "total_price": "380940.00",
-      "is_active": true,
-      "created": "2023-06-26T19:47:58.432Z",
-      "updated": "2023-06-26T19:48:35.303Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 190,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 47,
-      "product": 13,
-      "nmb": 9,
-      "price_per_item": "210790.00",
-      "total_price": "1897110.00",
-      "is_active": true,
-      "created": "2023-06-27T10:16:54.250Z",
-      "updated": "2023-06-27T10:57:20.444Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 191,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 47,
-      "product": 14,
-      "nmb": 5,
-      "price_per_item": "92990.00",
-      "total_price": "464950.00",
-      "is_active": true,
-      "created": "2023-06-27T10:47:58.288Z",
-      "updated": "2023-06-27T10:57:20.457Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 192,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 48,
-      "product": 7,
-      "nmb": 6,
-      "price_per_item": "109190.00",
-      "total_price": "655140.00",
-      "is_active": true,
-      "created": "2023-06-30T16:18:02.253Z",
-      "updated": "2023-06-30T16:41:27.117Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 193,
-    "fields": {
-      "session_key": "l1lfu0ecm7gdd3mm66r772gkpv2zivid",
-      "order": 49,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-06-30T16:43:13.081Z",
-      "updated": "2023-06-30T17:19:15.151Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 194,
-    "fields": {
-      "session_key": "c6z3ev0zadsgn4urept8mvf9eqds1dq3",
-      "order": 50,
-      "product": 7,
-      "nmb": 3,
-      "price_per_item": "109190.00",
-      "total_price": "327570.00",
-      "is_active": true,
-      "created": "2023-08-20T16:04:06.783Z",
-      "updated": "2023-08-20T16:04:18.204Z"
-    }
-  },
-  {
-    "model": "orders.productinbasket",
-    "pk": 195,
-    "fields": {
-      "session_key": "fpf152x1ol1lgz6h10klkjj3a9rmmx08",
-      "order": null,
-      "product": 13,
-      "nmb": 3,
-      "price_per_item": "210790.00",
-      "total_price": "632370.00",
-      "is_active": true,
-      "created": "2023-08-21T14:41:38.894Z",
-      "updated": "2023-08-21T14:41:38.894Z"
-    }
-  },
-  {
+        "name": "Выполнен",
+        "is_active": true,
+        "created": "2023-05-10T16:15:13.370Z",
+        "updated": "2023-05-10T16:17:10.143Z"
+    }
+},
+{
     "model": "products.productcategory",
     "pk": 1,
     "fields": {
-      "name": "╤ьрЁЄЇюэ√",
-      "is_active": true
+        "name": "Смартфоны",
+        "is_active": true
     }
-  },
-  {
+},
+{
     "model": "products.productcategory",
     "pk": 2,
     "fields": {
-      "name": "═юєЄсєъш",
-      "is_active": true
+        "name": "Ноутбуки",
+        "is_active": true
     }
-  }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "Смартфон Apple iPhone 14 Pro 256 ГБ, Dual еSIM, космический черный",
+        "price": "110990.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Новый волшебный способ взаимодействия с iPhone.\r\nНоваторские функции безопасности, призванные спасать жизни.\r\nИнновационная 48-мегапиксельная камера для потрясающей детализации.\r\nВсе они оснащены новейшим чипом для смартфонов.\r\nС керамическим экраном, более прочным, чем стекло любого смартфона. Водонепроницаемость. Нержавеющая сталь хирургического класса.\r\n\r\nПредставляем Dynamic Island, по-настоящему инновационную разработку Apple, состоящую из аппаратного и программного обеспечения. Он воспроизводит музыку, спортивные результаты, FaceTime и многое другое — и все это, не отвлекая вас от того, что вы делаете.\r\n\r\nДисплей всегда включен. Всегда наготове. Дисплей, который на солнце становится в 2 раза ярче. Теперь экран блокировки всегда виден, поэтому вам даже не нужно нажимать на него, чтобы оставаться в курсе событий. Когда iPhone повернут лицевой стороной вниз или лежит в кармане, он гаснет, чтобы сэкономить время автономной работы.\r\n\r\niOS 16 позволяет по-новому настраивать экран блокировки. Наложите слой на фотографию, чтобы сделать ее всплывающей. Отслеживайте свои звонки активности. И смотрите текущие обновления из ваших любимых приложений.\r\n\r\niPhone 14 Pro поднимает планку возможностей 48 мегапикселей, обеспечивая в 4 раза большее разрешение в ProRAW для умопомрачительной детализации в каждом кадре.\r\nНовая система Pro Camera System добавляет к диапазону зума телеобъектив оптического качества в 2 раза, что обеспечивает большую гибкость при съемке.\r\nКинематографический режим теперь снимает в формате 4K HDR со скоростью 24 кадра в секунду — стандарт киноиндустрии. Пусть ваши сотрудники позвонят нашим сотрудникам.\r\nТеперь вы можете легко редактировать вместе с другими профессиональными кадрами в формате 4K со скоростью 24 или 30 кадров в секунду. Вы даже можете отредактировать эффект глубины после съемки.\r\nДелайте самые четкие, красочные снимки крупным планом и групповые снимки благодаря новой фронтальной камере TrueDepth с автофокусом и увеличенной диафрагмой.\r\n\r\nНесмотря на очень много новых возможностей, iPhone 14 Pro по‑прежнему обеспечивает потрясающее время автономной работы в течение всего дня.\r\n\r\nПолучайте еще больше удовольствия от своего iPhone.",
+        "is_active": false,
+        "created": "2023-05-10T15:59:24.615Z",
+        "updated": "2023-06-27T09:52:47.337Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "name": "Смартфон Apple iPhone 14 Pro 512 ГБ, Dual еSIM, космический черный",
+        "price": "126980.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Новый волшебный способ взаимодействия с iPhone.\r\nНоваторские функции безопасности, призванные спасать жизни.\r\nИнновационная 48-мегапиксельная камера для потрясающей детализации.\r\nВсе они оснащены новейшим чипом для смартфонов.\r\nС керамическим экраном, более прочным, чем стекло любого смартфона. Водонепроницаемость. Нержавеющая сталь хирургического класса.\r\nПредставляем Dynamic Island, по-настоящему инновационную разработку Apple, состоящую из аппаратного и программного обеспечения. Он воспроизводит музыку, спортивные результаты, FaceTime и многое другое — и все это, не отвлекая вас от того, что вы делаете.\r\nДисплей всегда включен. Всегда наготове. Дисплей, который на солнце становится в 2 раза ярче. Теперь экран блокировки всегда виден, поэтому вам даже не нужно нажимать на него, чтобы оставаться в курсе событий. Когда iPhone повернут лицевой стороной вниз или лежит в кармане, он гаснет, чтобы сэкономить время автономной работы.\r\niOS 16 позволяет по-новому настраивать экран блокировки. Наложите слой на фотографию, чтобы сделать ее всплывающей. Отслеживайте свои звонки активности. И смотрите текущие обновления из ваших любимых приложений.\r\niPhone 14 Pro поднимает планку возможностей 48 мегапикселей, обеспечивая в 4 раза большее разрешение в ProRAW для умопомрачительной детализации в каждом кадре.\r\nНовая система Pro Camera System добавляет к диапазону зума телеобъектив оптического качества в 2 раза, что обеспечивает большую гибкость при съемке.\r\nКинематографический режим теперь снимает в формате 4K HDR со скоростью 24 кадра в секунду — стандарт киноиндустрии. Пусть ваши сотрудники позвонят нашим сотрудникам.\r\nТеперь вы можете легко редактировать вместе с другими профессиональными кадрами в формате 4K со скоростью 24 или 30 кадров в секунду. Вы даже можете отредактировать эффект глубины после съемки.\r\nДелайте самые четкие, красочные снимки крупным планом и групповые снимки благодаря новой фронтальной камере TrueDepth с автофокусом и увеличенной диафрагмой.\r\nНесмотря на очень много новых возможностей, iPhone 14 Pro по‑прежнему обеспечивает потрясающее время автономной работы в течение всего дня.\r\nПолучайте еще больше удовольствия от своего iPhone.",
+        "is_active": false,
+        "created": "2023-05-17T14:31:47.486Z",
+        "updated": "2023-06-27T10:15:54.462Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "name": "Смартфон Apple iPhone 14 Pro 1 ТБ, Dual еSIM, космический черный",
+        "price": "132789.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Новый волшебный способ взаимодействия с iPhone. Новаторские функции безопасности, призванные спасать жизни. Инновационная 48-мегапиксельная камера для потрясающей детализации. Все они оснащены новейшим чипом для смартфонов. С керамическим экраном, более прочным, чем стекло любого смартфона. Водонепроницаемость. Нержавеющая сталь хирургического класса. Представляем Dynamic Island, по-настоящему инновационную разработку Apple, состоящую из аппаратного и программного обеспечения. Он воспроизводит музыку, спортивные результаты, FaceTime и многое другое — и все это, не отвлекая вас от того, что вы делаете. Дисплей всегда включен. Всегда наготове. Дисплей, который на солнце становится в 2 раза ярче. Теперь экран блокировки всегда виден, поэтому вам даже не нужно нажимать на него, чтобы оставаться в курсе событий. Когда iPhone повернут лицевой стороной вниз или лежит в кармане, он гаснет, чтобы сэкономить время автономной работы. iOS 16 позволяет по-новому настраивать экран блокировки. Наложите слой на фотографию, чтобы сделать ее всплывающей. Отслеживайте свои звонки активности. И смотрите текущие обновления из ваших любимых приложений. iPhone 14 Pro поднимает планку возможностей 48 мегапикселей, обеспечивая в 4 раза большее разрешение в ProRAW для умопомрачительной детализации в каждом кадре. Новая система Pro Camera System добавляет к диапазону зума телеобъектив оптического качества в 2 раза, что обеспечивает большую гибкость при съемке. Кинематографический режим теперь снимает в формате 4K HDR со скоростью 24 кадра в секунду — стандарт киноиндустрии. Пусть ваши сотрудники позвонят нашим сотрудникам. Теперь вы можете легко редактировать вместе с другими профессиональными кадрами в формате 4K со скоростью 24 или 30 кадров в секунду. Вы даже можете отредактировать эффект глубины после съемки. Делайте самые четкие, красочные снимки крупным планом и групповые снимки благодаря новой фронтальной камере TrueDepth с автофокусом и увеличенной диафрагмой. Несмотря на очень много новых возможностей, iPhone 14 Pro по‑прежнему обеспечивает потрясающее время автономной работы в течение всего дня. Получайте еще больше удовольствия от своего iPhone.",
+        "is_active": true,
+        "created": "2023-05-17T14:33:26.641Z",
+        "updated": "2023-06-26T14:21:32.292Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "name": "Смартфон Apple iPhone 13 128 ГБ, nano SIM+eSIM, тёмная ночь, Slimbox",
+        "price": "63890.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Наша самая совершенная система двух камер.\r\nОсобый взгляд на прочность дисплея.\r\nЧип, с которым всё супербыстро.\r\nАккумулятор держится заметно дольше.\r\niPhone 13 - сильный мира всего.\r\nМы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому внутри корпуса поместилась наша лучшая система двух камер с увеличенной матрицей широкоугольной камеры.\r\nКроме того, мы освободили место для системы оптической стабилизации изображения сдвигом матрицы. И повысили скорость работы матрицы на сверхширокоугольной камере.\r\nНовая сверхширокоугольная камера видит больше деталей в тёмных областях снимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении.\r\nРежим «Киноэффект» автоматически добавляет великолепные эффекты перемещения фокуса и изменения резкости. Просто начните запись видео. Режим «Киноэффект» будет удерживать фокус на объекте съёмки, создавая красивый эффект размытия вокруг него. Режим «Киноэффект» распознаёт, когда нужно перевести фокус на другого человека или объект, который появился в кадре. Теперь ваши видео будут смотреться как настоящее кино.\r\nХотите переместить фокус или добавить эффект художественного размытия по окончании съёмки? Не проблема. С iPhone для этого достаточно нескольких касаний. На такое способны даже не все профессиональные кинокамеры.\r\nДисплей OLED стал на 28% ярче — до 800 кд/﻿м². На нём всё хорошо видно даже в самый солнечный день. А яркость при просмотре контента в HDR достигает 1200 кд/﻿м². Вы сможете различить мельчайшие оттенки чёрного и белого — как и всех остальных цветов. При этом дисплей расходует заряд аккумулятора ещё более экономно, чем прежде.\r\nДисплей Super Retina XDR отличается невероятно высокой плотностью пикселей — фотографии, видео и текст выглядят поразительно чётко. А благодаря уменьшенной площади камеры TrueDepth на дисплее теперь больше места для изображения.\r\niPhone 13 работает от аккумулятора до 2,5 часов дольше.\r\nПроцессор A15 Bionic и камера TrueDepth также обеспечивают работу Face ID, невероятно надёжной технологии аутентификации. Сверхбыстрый чип A15 Bionic обеспечивает работу режима «Киноэффект», фотографических стилей и других функций. Secure Enclave защищает персональные данные, в том числе Face ID и контакты. А ещё новый чип увеличивает время работы от аккумулятора.\r\nСкорость работы процессора до 50% выше, чем у многих других смартфонов\r\nОбработка графики до 30% быстрее, чем у многих других смартфонов.",
+        "is_active": false,
+        "created": "2023-05-17T14:39:30.432Z",
+        "updated": "2023-06-27T10:01:53.247Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "name": "Смартфон Apple iPhone 13 256 ГБ, nano SIM+eSIM, тёмная ночь, Slimbox",
+        "price": "77590.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Наша самая совершенная система двух камер. Особый взгляд на прочность дисплея. Чип, с которым всё супербыстро. Аккумулятор держится заметно дольше. iPhone 13 - сильный мира всего. Мы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому внутри корпуса поместилась наша лучшая система двух камер с увеличенной матрицей широкоугольной камеры. Кроме того, мы освободили место для системы оптической стабилизации изображения сдвигом матрицы. И повысили скорость работы матрицы на сверхширокоугольной камере. Новая сверхширокоугольная камера видит больше деталей в тёмных областях снимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении. Режим «Киноэффект» автоматически добавляет великолепные эффекты перемещения фокуса и изменения резкости. Просто начните запись видео. Режим «Киноэффект» будет удерживать фокус на объекте съёмки, создавая красивый эффект размытия вокруг него. Режим «Киноэффект» распознаёт, когда нужно перевести фокус на другого человека или объект, который появился в кадре. Теперь ваши видео будут смотреться как настоящее кино. Хотите переместить фокус или добавить эффект художественного размытия по окончании съёмки? Не проблема. С iPhone для этого достаточно нескольких касаний. На такое способны даже не все профессиональные кинокамеры. Дисплей OLED стал на 28% ярче — до 800 кд/﻿м². На нём всё хорошо видно даже в самый солнечный день. А яркость при просмотре контента в HDR достигает 1200 кд/﻿м². Вы сможете различить мельчайшие оттенки чёрного и белого — как и всех остальных цветов. При этом дисплей расходует заряд аккумулятора ещё более экономно, чем прежде. Дисплей Super Retina XDR отличается невероятно высокой плотностью пикселей — фотографии, видео и текст выглядят поразительно чётко. А благодаря уменьшенной площади камеры TrueDepth на дисплее теперь больше места для изображения. iPhone 13 работает от аккумулятора до 2,5 часов дольше. Процессор A15 Bionic и камера TrueDepth также обеспечивают работу Face ID, невероятно надёжной технологии аутентификации. Сверхбыстрый чип A15 Bionic обеспечивает работу режима «Киноэффект», фотографических стилей и других функций. Secure Enclave защищает персональные данные, в том числе Face ID и контакты. А ещё новый чип увеличивает время работы от аккумулятора. Скорость работы процессора до 50% выше, чем у многих других смартфонов Обработка графики до 30% быстрее, чем у многих других смартфонов.",
+        "is_active": false,
+        "created": "2023-05-17T14:47:39.412Z",
+        "updated": "2023-06-27T10:02:03.463Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "name": "Смартфон Apple iPhone 13 512 ГБ, nano SIM+eSIM, тёмная ночь, Slimbox",
+        "price": "109190.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Наша самая совершенная система двух камер. Особый взгляд на прочность дисплея. Чип, с которым всё супербыстро. Аккумулятор держится заметно дольше. iPhone 13 - сильный мира всего. Мы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому внутри корпуса поместилась наша лучшая система двух камер с увеличенной матрицей широкоугольной камеры. Кроме того, мы освободили место для системы оптической стабилизации изображения сдвигом матрицы. И повысили скорость работы матрицы на сверхширокоугольной камере. Новая сверхширокоугольная камера видит больше деталей в тёмных областях снимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении. Режим «Киноэффект» автоматически добавляет великолепные эффекты перемещения фокуса и изменения резкости. Просто начните запись видео. Режим «Киноэффект» будет удерживать фокус на объекте съёмки, создавая красивый эффект размытия вокруг него. Режим «Киноэффект» распознаёт, когда нужно перевести фокус на другого человека или объект, который появился в кадре. Теперь ваши видео будут смотреться как настоящее кино. Хотите переместить фокус или добавить эффект художественного размытия по окончании съёмки? Не проблема. С iPhone для этого достаточно нескольких касаний. На такое способны даже не все профессиональные кинокамеры. Дисплей OLED стал на 28% ярче — до 800 кд/﻿м². На нём всё хорошо видно даже в самый солнечный день. А яркость при просмотре контента в HDR достигает 1200 кд/﻿м². Вы сможете различить мельчайшие оттенки чёрного и белого — как и всех остальных цветов. При этом дисплей расходует заряд аккумулятора ещё более экономно, чем прежде. Дисплей Super Retina XDR отличается невероятно высокой плотностью пикселей — фотографии, видео и текст выглядят поразительно чётко. А благодаря уменьшенной площади камеры TrueDepth на дисплее теперь больше места для изображения. iPhone 13 работает от аккумулятора до 2,5 часов дольше. Процессор A15 Bionic и камера TrueDepth также обеспечивают работу Face ID, невероятно надёжной технологии аутентификации. Сверхбыстрый чип A15 Bionic обеспечивает работу режима «Киноэффект», фотографических стилей и других функций. Secure Enclave защищает персональные данные, в том числе Face ID и контакты. А ещё новый чип увеличивает время работы от аккумулятора. Скорость работы процессора до 50% выше, чем у многих других смартфонов Обработка графики до 30% быстрее, чем у многих других смартфонов.",
+        "is_active": true,
+        "created": "2023-05-17T14:49:24.443Z",
+        "updated": "2023-06-27T10:02:11.026Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "name": "Смартфон Apple iPhone 11 128 ГБ, Dual: nano SIM + eSIM, черный, Slimbox",
+        "price": "52499.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Функциональный и стильный смартфон Apple iPhone 11 в металлическом корпусе способен обеспечить не только повседневное общение и развлечения, но и продуктивную работу. Для этого он оснащен мощным процессором Apple A13 Bionic из 6 ядер, поддерживающим слаженную работу всех комплектующих, а также модулем ОЗУ объемом в 4 ГБ, что предусматривает быстрое переключение между открытыми приложениями и возможность играть в игры. Основная (12;12 Мп) и фронтальная (12 Мп) камеры позволят создавать фотошедевры. Изображение на экране смартфона Apple iPhone 11 диагональю 6.1 дюйма обладает поразительной детализацией и цветопередачей. Олеофобное покрытие исключает сильное загрязнение экрана. Корпус смартфона имеет высокую степень пылевлагозащиты (IP68), благодаря чему обеспечивается эффективная и длительная работа устройства. Несъемный аккумулятор емкостью 3110 мА·ч поддерживает беспроводную зарядку, что сделает данный процесс более легким и быстрым",
+        "is_active": false,
+        "created": "2023-05-17T14:53:14.933Z",
+        "updated": "2023-06-27T10:03:52.304Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "name": "Смартфон Apple iPhone 11 256 ГБ, Dual: nano SIM + eSIM, черный, Slimbox",
+        "price": "58041.00",
+        "discount": 10,
+        "category": 1,
+        "short_description": "",
+        "description": "Функциональный и стильный смартфон Apple iPhone 11 в металлическом корпусе способен обеспечить не только повседневное общение и развлечения, но и продуктивную работу. Для этого он оснащен мощным процессором Apple A13 Bionic из 6 ядер, поддерживающим слаженную работу всех комплектующих, а также модулем ОЗУ объемом в 4 ГБ, что предусматривает быстрое переключение между открытыми приложениями и возможность играть в игры. Основная (12;12 Мп) и фронтальная (12 Мп) камеры позволят создавать фотошедевры. Изображение на экране смартфона Apple iPhone 11 диагональю 6.1 дюйма обладает поразительной детализацией и цветопередачей. Олеофобное покрытие исключает сильное загрязнение экрана. Корпус смартфона имеет высокую степень пылевлагозащиты (IP68), благодаря чему обеспечивается эффективная и длительная работа устройства. Несъемный аккумулятор емкостью 3110 мА·ч поддерживает беспроводную зарядку, что сделает данный процесс более легким и быстрым",
+        "is_active": true,
+        "created": "2023-05-17T14:55:12.671Z",
+        "updated": "2023-06-27T10:18:49.740Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "name": "Смартфон Apple iPhone 12 mini 128 ГБ, nano SIM+eSIM, фиолетовый",
+        "price": "56490.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "",
+        "description": "Apple iPhone 12 mini — супермощный смартфон в ультрамалом формате. Внутри компактного корпуса прописался целый набор передовых функций. Молниеносный процессор A14 Bionic восхищает невероятной производительностью. Изумительный дисплей Super Retina XDR радует сочной картинкой. Система камер удивляет качеством снимков, а зарядка MagSafe избавляет от хлопот с кабелем. Запись видео Dolby Vision — сильный козырь девайса. Сюжеты получаются очень реалистичными. Монтировать ролики можно прямо на гаджете в приложении iMovie. Система распознавания Face ID работает как часы. Apple iPhone 12 mini — миниатюрный смартфон с колоссальным функционалом. Это выбор динамичного пользователя.",
+        "is_active": false,
+        "created": "2023-05-17T14:57:51.052Z",
+        "updated": "2023-06-27T10:06:14.662Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "name": "Смартфон Apple iPhone 12 mini 256 ГБ, nano SIM+eSIM, фиолетовый",
+        "price": "56349.00",
+        "discount": 0,
+        "category": 1,
+        "short_description": "Коротко о товаре\r\nЭкран\t\r\n5.4\" (2340×1080) OLED 60 Гц\r\nПамять\t\r\nвстроенная 128 ГБ, оперативная 4 ГБ\r\nФото\t\r\nдвойная камера, основная 12 МП\r\nАккумулятор\t2227 мА·ч\r\nПроцессор\tApple A14 Bionic\r\nSIM-карты\tnano SIM+eSIM\r\nОперационная система\t\r\niOS 14\r\nБеспроводные интерфейсы\tBluetooth, NFC, Wi-Fi\r\nСтандарт связи\t\r\n3G, 4G LTE, 5G\r\nСтепень защиты\t\r\nIP68\r\nВес\t135 г",
+        "description": "Apple iPhone 12 mini — супермощный смартфон в ультрамалом формате. Внутри компактного корпуса прописался целый набор передовых функций. Молниеносный процессор A14 Bionic восхищает невероятной производительностью. Изумительный дисплей Super Retina XDR радует сочной картинкой. Система камер удивляет качеством снимков, а зарядка MagSafe избавляет от хлопот с кабелем. Запись видео Dolby Vision — сильный козырь девайса. Сюжеты получаются очень реалистичными. Монтировать ролики можно прямо на гаджете в приложении iMovie. Система распознавания Face ID работает как часы. Apple iPhone 12 mini — миниатюрный смартфон с колоссальным функционалом. Это выбор динамичного пользователя.",
+        "is_active": true,
+        "created": "2023-05-17T14:59:42.847Z",
+        "updated": "2023-06-27T10:18:28.153Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "name": "13.6\" Ноутбук Apple MacBook Air 13 2022MBAM2SG-15 2560x1664, Apple M2, RAM 8 ГБ, LPDDR5, SSD 256 ГБ, серый космос, английская раскладка",
+        "price": "100790.00",
+        "discount": 5,
+        "category": 2,
+        "short_description": "MacBook Air 2022 года можно назвать одним из крупнейших обновлений линейки за всю историю. Он полностью изменился внешне, получил более новый и мощный процессор M2, улучшенную веб-камеру, квадрофонические динамики объёмного звучания, разъём MagSafe 3 и более новую клавиатуру, при этом вес ноутбука составляет всего 1240 граммов, а корпус, как и прежде, сделан из приятного алюминия.",
+        "description": "MacBook Air 2022 года можно назвать одним из крупнейших обновлений линейки за всю историю. Он полностью изменился внешне, получил более новый и мощный процессор M2, улучшенную веб-камеру, квадрофонические динамики объёмного звучания, разъём MagSafe 3 и более новую клавиатуру, при этом вес ноутбука составляет всего 1240 граммов, а корпус, как и прежде, сделан из приятного алюминия.\r\nПроизводительность\r\nПроцессор M2 получил более мощную графику, даже в сравнении с M1. Прирост графической производительности увеличился на треть, а в сравнении с интегрированной графикой MacBook на Intel он кажется фантастическим. В сочетании с высокоскоростной объединённой памятью и быстрыми SSD, MacBook Air обеспечивает впечатляющую мощность во всех сценариях. Прирост вычислительной мощности составляет 18%, но во многих задачах более новый М2 опережает M1 в полтора раза, а при кодировании видео в формате ProRes разница составляет внушительные 300%.\r\nВсё для комфортной работы\r\nУдобная клавиатура с подсветкой и большими функциональными клавишами позволяет комфортно работать где угодно, а большой трекпад с поддержкой Force Touch обеспечит максимум комфорта при работе с macOS. MacBook Air получил более современную веб-камеру с разрешением Full HD, а разъём MagSafe позволит не переживать, что кто-нибудь наступит на провод, пока ноутбук заряжается.",
+        "is_active": true,
+        "created": "2023-05-19T14:26:22.283Z",
+        "updated": "2023-06-27T10:35:58.132Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "name": "Ноутбук Apple MacBook Air 13.6 (A2681) M2 8 core 16Gb SSD512Gb/8 core GPU Mac OS midnight (Z1600000L)",
+        "price": "210790.00",
+        "discount": 0,
+        "category": 2,
+        "short_description": "Описание\r\nКоротко о товаре\r\nДиагональ экрана\t\r\n13.6 \"\r\nТип матрицы экрана\t\r\nIPS\r\nВерсия ОС\t\r\nmacOS",
+        "description": "Тип: ноутбук; Операционная система: MacOS; Диагональ экрана: 13.6\"; Разрешение экрана: 2560х1664; Частота обновления экрана: 60 Гц; Тип матрицы экрана: IPS; Сенсорный экран: нет; Процессор: Apple M2 8 core;",
+        "is_active": true,
+        "created": "2023-06-27T10:15:32.175Z",
+        "updated": "2023-06-27T10:15:32.175Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "name": "13.3\" Ноутбук Apple MacBook Air 13 Late 2020 2560x1600, Apple M1 3.2 ГГц, RAM 8 ГБ, DDR4, SSD 256 ГБ, Apple graphics 7-core, macOS, MGN93SA/A, серебристый, английская раскладка",
+        "price": "92990.00",
+        "discount": 0,
+        "category": 2,
+        "short_description": "Коротко о товаре\r\nЭкран\t\r\n13.3\" (2560x1600) IPS, 60 Гц\r\nПроцессор\t\r\nApple M1 (8x3.20 ГГц)\r\nПамять\t\r\nоперативная 8 ГБ (3200 МГц), SSD 256 ГБ, HDD отсутствует\r\nВидеокарта\t\r\nApple graphics 7-core\r\nОбъем видеопамяти\t\r\nSMA\r\nВерсия ОС\t\r\nmacOS\r\nВерсия\t\r\nдля других стран\r\nРаскладка клавиатуры\t\r\nтолько английская\r\nВес\t\r\n1.29 кг",
+        "description": "Ноутбук Apple MacBook Air 13 Late являются одной из самых интригующих новинок «яблочной» компании. Не каждый день вас могут порадовать выпуском не просто компактного, а ультракомпактного и в то же время энергоёмкого ноутбука. Модель Apple MacBook Air 13 Late безупречно справляется с этой ролью.\r\nСовершенная операционная система.\r\nНовая операционная система М1 сочетает в себе все характеристики, необходимые для плавной работы ноутбука: увеличенное число графических ядер, оперативную память с объёмом 8 Гб и дополнительной ёмкостью SSD на 256 Гб и многое другое. Ничего лишнего – только качество.\r\n\r\nБезупречный экран.\r\nПри открывании ноутбука Apple MacBook Air 13 Late вы не будете испытывать раздражение от большого количества пятен, следов и царапин. Благодаря олеофобным свойствам, стекло вашего экрана будет сохранять свой аккуратный вид в течение всего пользования, а с антибликовыми элементами вы сможете работать на ноутбуке даже при самом ярком свете солнца.\r\n\r\nОриентирован на автономность.\r\nНоутбук Apple MacBook Air 13 Late способен удивить своей энергоэффективностью. С аккумулятором ёмкостью 50 Вт/ч и увеличенным временем автономной работы, даже при средней нагрузке вам хватит надолго времени, чтобы закончить свой проект, дописать реферат или завершить миссию в видеоигре без дозарядки.",
+        "is_active": true,
+        "created": "2023-06-27T10:31:41.583Z",
+        "updated": "2023-06-27T10:31:41.583Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "name": "14.2\" Ноутбук Apple MacBook Pro 14 2023 3024×1964, Apple M2 Pro 3.5 ГГц, RAM 16 ГБ, LPDDR5, SSD 512 ГБ, Apple graphics 16-core, macOS, MPHE3LL/A, space gray, английская раскладка",
+        "price": "198913.00",
+        "discount": 0,
+        "category": 2,
+        "short_description": "Долгожданное обновление, которое поразит всех\r\nНовый 14-дюймовый MacBook Pro 2023 года – долгожданное обновление от компании Apple. Разработчики внесли множество улучшений, чтобы пользователь в полной мере мог реализовать творческие идеи и выполнять сложнейшие рабочие задачи. Модель доступна в нескольких конфигурациях, поэтому любой пользователь способен подобрать оптимальные",
+        "description": "Долгожданное обновление, которое поразит всех\r\nНовый 14-дюймовый MacBook Pro 2023 года – долгожданное обновление от компании Apple. Разработчики внесли множество улучшений, чтобы пользователь в полной мере мог реализовать творческие идеи и выполнять сложнейшие рабочие задачи. Модель доступна в нескольких конфигурациях, поэтому любой пользователь способен подобрать оптимальные характеристики под свои желания. Главное нововведение – уникально мощные чипы Apple M2 Pro и Apple M2 Max, которые делают ноутбук мощным и быстрым. Автономность тоже вышла на новый уровень.\r\nЭргономичный дизайн, любимый большинством владельцев MacBook Pro, сохранился. Классические расцветки корпуса (серебристый и серый) с металлическим отливом, тонкость, плавность граней – все это создает не только визуальный восторг, но и влияет на удобство работы и практичность. Клавиатура оснащена подсветкой и трекпадом Force Touch, который позволяет более точно управлять курсором и чувствительностью к нажатию. В качестве расширений на ноутбуке встроены разъемы:\r\nСлот для SDXC-карты;\r\nПорт HDMI;\r\nРазъем для наушников размером 3,5 мм;\r\nПорт MagSafe 3;\r\nТри порта Thunderbolt 4 (USB-C) с поддержкой заряда, DisplayPort, Thunderbolt 4 (до 40 ГБ/с) и USB 4 (до 40 ГБ/с).\r\nТакое количество интерфейсов дает возможность подключать дисплеи с расширением до 8К, внешние накопители, диски, аксессуары и оборудование, тем самым наращивая функциональность, которая и без этого оптимальна, как никогда прежде.\r\nНовые чипы Apple M2 Pro и Apple M2 Max в нескольких конфигурациях\r\nЧип Apple M2 Pro разработчики сделали в двух конфигурациях, что, конечно же, влияет на мощность устройства.\r\nПервый вариант имеет:\r\n10-ядерный процессор с 6 производительными ядрами и 4 энергоэффективными ядрами;\r\n16-ядерный графический процессор;\r\n16-ядерный нейронный процессор;\r\nПропускную способность памяти 200 ГБ/с.\r\nВторой вариант чипа Apple M2 Pro оснащен:\r\n12-ядерный процессором с 8 производительными ядрами и 4 энергоэффективными ядрами;\r\n19-ядерным графическим процессором;\r\n16-ядерным нейронным процессором;\r\nПропускной способностью памяти 200 ГБ/с.\r\nМедиа-движок у двух конфигураций одинаков и имеет аппаратное ускорение H.264, HEVC, ProRes и ProRes RAW, механизм декодирования видео, механизм кодирования видео, механизм кодирования и декодирования ProRes.\r\nТакже обе конфигурации чипа Apple M2 Pro способны поддерживать до двух внешних дисплеев с разрешением до 6K при 60 Гц через Thunderbolt или один внешний дисплей с разрешением до 6K при 60 Гц через Thunderbolt и один внешний дисплей с разрешением до 4K при 144 Гц через HDMI. Поддерживается один внешний дисплей с разрешением 8K при 60 Гц или один внешний дисплей с разрешением 4K при 240 Гц по HDMI.\r\nБольшими возможностями оснащен чип Apple M2 Max:\r\n12-ядерный процессор с 8 ядрами производительности и 4 ядрами эффективности;\r\n30-ядерный графический процессор;\r\n16-ядерный нейронный процессор;\r\nПропускная способность памяти 400 ГБ/с.\r\nМедиа-движок имеет все то же аппаратное ускорение H.264, HEVC, ProRes и ProRes RAW и механизм декодирования видео, но по два механизма кодирования видео и кодирования и декодирования ProRes.\r\nЕсли требуется дополнительный дисплей, то MacBook Pro с чипом Apple M2 Max выдерживает до четырех внешних дисплеев: до трех внешних дисплеев с разрешением 6K при частоте 60 Гц через Thunderbolt и один внешний дисплей с разрешением до 4K при частоте 144 Гц через HDMI. А еще до трех внешних дисплеев: до двух внешних дисплеев с разрешением 6K при 60 Гц через Thunderbolt и один внешний дисплей с разрешением до 8K при 60 Гц или один внешний дисплей с разрешением 4K при 240 Гц через HDMI.\r\nНевероятные данные создают предельную мощность работы. Ноутбук не зависнет и не перегреется при долгой работе в тяжелых приложениях. Модель идеальна для игр, редактирования в графических программах, а также для обработки фотографий и видеоматериалов. Выбор конфигурации зависит только от степени вашей занятости.\r\nПамять, которая сохранит все\r\nОперативная память и накопитель SSD также имеют несколько уровней. Для оперативной можно выбрать расширения на 16 и 32 Гб, а в качестве SSD доступны объемы от 512 Гб до 1, 2, 4 и 8 Тб. Даже минимальная конфигурация подойдет для хранения целых массивов информации, приложений и игр.\r\nГлубочайшее качество 14-дюймового дисплея\r\n14-дюймовый (по диагонали) дисплей Liquid Retina XDR имеет разрешение 3024x1964 при 254 пикселях на дюйм. Все это создает пиковую яркость в 1600 нит. Поддержка цветового пространства DCI-P3, насыщенная цветопередача, качественная матрица гармонично функционируют, чтобы изображение было четким и предельно точным. Технология True Tone подстраивает дисплей под окружающую среду, поэтому качество и читабельность не исчезают даже при попадании солнечных лучей на поверхность. В модель MacBook Pro 2023 года также встроена технология ProMotion для адаптивной частоты обновления до 120 Гц. Экран поддерживает целый миллиард цветов!\r\nНевероятная автономность\r\nНа продолжительную активность в автономном режиме влияет не только ускоренный процессор, но и литий-полимерный аккумулятор с емкостью на 70 Вт∙ч. Система охлаждения активируется автоматически и не создает шума. Таких характеристик хватает на целых 22 часа работы без подзарядки. Возможностей пополнения энергии стало больше: используйте классический кабель или аксессуары MagSafe. Можно воспользоваться вариантом быстрой зарядки с помощью адаптера питания USB C мощностью 96 Вт.\r\nВысочайшая звуковая система, камера и ОС\r\nВеб-камера на 1080р с обработкой видеопотока через чип, а также система из трех направленных микрофонов с высоким коэффициентом сигнал/шум обеспечивают комфортные разговоры по аудио- и видеосвязи. Дополнительно встроена усовершенствованный процессор",
+        "is_active": true,
+        "created": "2023-06-27T10:35:43.294Z",
+        "updated": "2023-06-27T10:35:43.294Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "image": "products_images/Apple_iPhone_14_Pro_256_GB_paPwT3B_8CMdVGC.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-10T16:02:04.318Z",
+        "updated": "2023-09-09T11:04:31.888Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 3,
+    "fields": {
+        "product": 3,
+        "image": "products_images/Apple_iPhone_14_Pro_512_GB_RF4lToO_7RcI1Zl.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:31:47.496Z",
+        "updated": "2023-09-09T11:05:47.502Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 4,
+    "fields": {
+        "product": 4,
+        "image": "products_images/Apple_iPhone_14_Pro_1_TB_AztONKy_9hFVf48.jpg",
+        "is_main": true,
+        "is_active": true,
+        "created": "2023-05-17T14:33:26.644Z",
+        "updated": "2023-09-09T11:07:33.571Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 5,
+    "fields": {
+        "product": 5,
+        "image": "products_images/Apple_iPhone_13_128_GB_mLtnsej.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:39:30.436Z",
+        "updated": "2023-09-09T11:08:26.431Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 6,
+    "fields": {
+        "product": 6,
+        "image": "products_images/Apple_iPhone_13_256_GB_aUfXP27.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:47:39.414Z",
+        "updated": "2023-09-09T11:09:15.340Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 7,
+    "fields": {
+        "product": 7,
+        "image": "products_images/Apple_iPhone_13_512_GB_p1k20en_d0TGGrD.jpg",
+        "is_main": true,
+        "is_active": true,
+        "created": "2023-05-17T14:49:24.445Z",
+        "updated": "2023-09-09T11:09:53.913Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 8,
+    "fields": {
+        "product": 8,
+        "image": "products_images/Apple_iPhone_11_128_GB_fUYawLH_wTiBtsB.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:53:14.935Z",
+        "updated": "2023-09-09T11:11:17.690Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 9,
+    "fields": {
+        "product": 9,
+        "image": "products_images/Apple_iPhone_11_256_GB_HiU9wGK_BdrBc4L.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:55:12.674Z",
+        "updated": "2023-09-09T11:11:58.673Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 10,
+    "fields": {
+        "product": 10,
+        "image": "products_images/Apple_iPhone_12_Mini_128_GB_q9PQ5QT_oJwDaP1.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:57:51.056Z",
+        "updated": "2023-09-09T11:12:54.735Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 11,
+    "fields": {
+        "product": 11,
+        "image": "products_images/Apple_iPhone_12_Mini_256_GB_nB7aftA_D3lUlhh.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-17T14:59:42.852Z",
+        "updated": "2023-09-09T11:13:34.812Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 12,
+    "fields": {
+        "product": 12,
+        "image": "products_images/Apple_macbook_air_13_2022_7pJJIXn.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-05-19T14:26:22.290Z",
+        "updated": "2023-06-27T10:35:58.140Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 13,
+    "fields": {
+        "product": 4,
+        "image": "products_images/Apple_iPhone_14_Pro_FRONT_vfehhqp.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-05-31T13:11:41.435Z",
+        "updated": "2023-06-26T14:21:32.300Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 14,
+    "fields": {
+        "product": 4,
+        "image": "products_images/Apple_iPhone_14_Pro_BACK_TdnH2Cl.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-05-31T13:11:41.437Z",
+        "updated": "2023-06-26T14:21:32.301Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 15,
+    "fields": {
+        "product": 12,
+        "image": "products_images/Apple_macbook_air_13_2022_BACK_Kfik7DS.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-13T11:17:29.361Z",
+        "updated": "2023-06-26T14:55:12.688Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 16,
+    "fields": {
+        "product": 12,
+        "image": "products_images/Apple_macbook_air_13_2022_RIGHT_vswhIrf.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-13T11:17:29.363Z",
+        "updated": "2023-06-26T14:55:12.689Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 17,
+    "fields": {
+        "product": 12,
+        "image": "products_images/Apple_macbook_air_13_2022_RIGHT2_p92xslE.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-13T11:17:29.364Z",
+        "updated": "2023-06-26T14:55:12.689Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 18,
+    "fields": {
+        "product": 1,
+        "image": "products_images/Apple_iPhone_14_Pro_FRONT_gbMoEiK.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T09:50:51.169Z",
+        "updated": "2023-06-27T09:51:17.647Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 19,
+    "fields": {
+        "product": 1,
+        "image": "products_images/Apple_iPhone_14_Pro_BACK_lcT7FOO.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T09:50:51.170Z",
+        "updated": "2023-06-27T09:51:17.648Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 20,
+    "fields": {
+        "product": 3,
+        "image": "products_images/Apple_iPhone_14_Pro_FRONT_gTfzlXK.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T09:54:23.042Z",
+        "updated": "2023-06-27T10:15:54.470Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 21,
+    "fields": {
+        "product": 3,
+        "image": "products_images/Apple_iPhone_14_Pro_BACK_h8KNQsi.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T09:54:23.044Z",
+        "updated": "2023-06-27T10:15:54.471Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 22,
+    "fields": {
+        "product": 5,
+        "image": "products_images/Apple_iPhone_13_FRONT_15EptKr.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T09:59:12.286Z",
+        "updated": "2023-06-27T10:01:53.256Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 23,
+    "fields": {
+        "product": 5,
+        "image": "products_images/Apple_iPhone_13BACK_8N0Wgrv.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T09:59:12.288Z",
+        "updated": "2023-06-27T10:01:53.257Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 24,
+    "fields": {
+        "product": 6,
+        "image": "products_images/Apple_iPhone_13_FRONT_tnG0i5u.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:00:17.542Z",
+        "updated": "2023-06-27T10:02:03.473Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 25,
+    "fields": {
+        "product": 6,
+        "image": "products_images/Apple_iPhone_13BACK_aiqmEum.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:00:17.544Z",
+        "updated": "2023-06-27T10:02:03.473Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 26,
+    "fields": {
+        "product": 7,
+        "image": "products_images/Apple_iPhone_13_FRONT_aKEpyWl.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:00:39.580Z",
+        "updated": "2023-06-27T10:02:11.034Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 27,
+    "fields": {
+        "product": 7,
+        "image": "products_images/Apple_iPhone_13BACK_ga5Bb8J.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:00:39.581Z",
+        "updated": "2023-06-27T10:02:11.035Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 28,
+    "fields": {
+        "product": 8,
+        "image": "products_images/Apple_iPhone_11_FRONT_7hg5gzd.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:03:52.306Z",
+        "updated": "2023-06-27T10:03:52.306Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 29,
+    "fields": {
+        "product": 8,
+        "image": "products_images/Apple_iPhone_11_BACK_QiWThrw.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:03:52.308Z",
+        "updated": "2023-06-27T10:03:52.308Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 30,
+    "fields": {
+        "product": 9,
+        "image": "products_images/Apple_iPhone_11_FRONT_XBPpMHM.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:04:18.452Z",
+        "updated": "2023-06-27T10:04:18.452Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 31,
+    "fields": {
+        "product": 9,
+        "image": "products_images/Apple_iPhone_11_BACK_lH30kiZ.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:04:18.453Z",
+        "updated": "2023-06-27T10:04:18.453Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 32,
+    "fields": {
+        "product": 10,
+        "image": "products_images/Apple_iPhone_12_Mini_FRONT_99o1YKc.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:06:14.673Z",
+        "updated": "2023-06-27T10:06:14.673Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 33,
+    "fields": {
+        "product": 10,
+        "image": "products_images/Apple_iPhone_12_Mini_BACK_MglqZqg.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:06:14.676Z",
+        "updated": "2023-06-27T10:06:14.676Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 34,
+    "fields": {
+        "product": 11,
+        "image": "products_images/Apple_iPhone_12_Mini_FRONT_0ic0oLj.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:06:45.935Z",
+        "updated": "2023-06-27T10:06:45.935Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 35,
+    "fields": {
+        "product": 11,
+        "image": "products_images/Apple_iPhone_12_Mini_BACK_QFlITis.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:06:45.937Z",
+        "updated": "2023-06-27T10:06:45.937Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 36,
+    "fields": {
+        "product": 13,
+        "image": "products_images/Apple_MacBook_Air_13.6_A2681_M2_8_core_16Gb_SSD512Gb_FNynNMV.jpg",
+        "is_main": true,
+        "is_active": true,
+        "created": "2023-06-27T10:15:32.177Z",
+        "updated": "2023-09-09T11:19:09.752Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 37,
+    "fields": {
+        "product": 13,
+        "image": "products_images/Apple_MacBook_Air_13.6_A2681_M2_8_core_16Gb_SSD512Gb_BACK_UBWGwIT.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:15:32.179Z",
+        "updated": "2023-09-09T11:20:30.358Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 38,
+    "fields": {
+        "product": 13,
+        "image": "products_images/Apple_MacBook_Air_13.6_A2681_M2_8_core_16Gb_SSD512Gb_RIGHT_jkl31EV.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:15:32.181Z",
+        "updated": "2023-09-09T11:21:46.667Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 39,
+    "fields": {
+        "product": 14,
+        "image": "products_images/13.3_Apple_MacBook_Air_13_Late_2020_2560x1600_Apple_M1_3.2_c2ts8Li_khTdrHC.jpg",
+        "is_main": false,
+        "is_active": true,
+        "created": "2023-06-27T10:31:41.586Z",
+        "updated": "2023-09-09T13:47:31.235Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 40,
+    "fields": {
+        "product": 14,
+        "image": "products_images/13.3_Apple_MacBook_Air_13_Late_2020_2560x1600_Apple_M1_3.2_BACK_HdU3W6x_NejeixM.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:31:41.589Z",
+        "updated": "2023-09-09T13:47:04.997Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 41,
+    "fields": {
+        "product": 14,
+        "image": "products_images/13.3_Apple_MacBook_Air_13_Late_2020_2560x1600_Apple_M1_3.2_RIGHT_NwtJHri_UKXlro4.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:31:41.591Z",
+        "updated": "2023-09-09T13:48:10.518Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 42,
+    "fields": {
+        "product": 15,
+        "image": "products_images/14.2_Apple_MacBook_Pro_14_2023_gl6CeDi.jpg",
+        "is_main": true,
+        "is_active": true,
+        "created": "2023-06-27T10:35:43.296Z",
+        "updated": "2023-09-09T11:26:26.809Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 43,
+    "fields": {
+        "product": 15,
+        "image": "products_images/14.2_Apple_MacBook_Pro_14_2023_BACK_mOzyrGb.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:35:43.298Z",
+        "updated": "2023-09-09T11:27:15.673Z"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 44,
+    "fields": {
+        "product": 15,
+        "image": "products_images/14.2_Apple_MacBook_Pro_14_2023_RIGHT_uxLVdJ1.jpg",
+        "is_main": false,
+        "is_active": false,
+        "created": "2023-06-27T10:35:43.299Z",
+        "updated": "2023-09-09T11:28:36.842Z"
+    }
+},
+{
+    "model": "management_area.privacypolicy",
+    "pk": 1,
+    "fields": {
+        "text": "<p style=\"text-align: center; \"><span style=\"color: rgb(51, 37, 29); font-family: montserrat-medium; font-size: 24px;\">Политика в отношении обработки персональных данных</span><br></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px;\"></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">1. Общие положения и основные термины</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\">Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» (далее –&nbsp;<span style=\"font-weight: bolder;\">Закон о персональных данных</span>) и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\">Настоящая политика Оператора в отношении обработки персональных данных (далее –&nbsp;<span style=\"font-weight: bolder;\">Политика</span>) применяется ко всей информации, которую Оператор может получить о посетителях данного веб-сайта.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">2. Основные понятия, используемые в Политике</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.1. Автоматизированная обработка персональных данных</span>&nbsp;– обработка персональных данных с помощью средств вычислительной техники.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.2.</span>&nbsp;Блокирование персональных данных – временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных).</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.3. Веб-сайт</span>&nbsp;– совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети Интернет.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.4. Информационная система персональных данных</span>&nbsp;— совокупность содержащихся в базах данных персональных данных, и обеспечивающих их обработку информационных технологий и технических средств.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.5.</span>&nbsp;<span style=\"font-weight: bolder;\">Обезличивание персональных данных</span>&nbsp;— действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.6.&nbsp;Обработка персональных данных</span>&nbsp;– любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.7. Оператор</span>&nbsp;– государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с другими лицами организующие и (или) осуществляющие обработку персональных данных, а также определяющие цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.8. Персональные данные</span>&nbsp;– любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю данного сайта.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.9.</span>&nbsp;<span style=\"font-weight: bolder;\">Персональные данные, разрешенные субъектом для распространения&nbsp;</span>&nbsp;– персональные данные, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных путем дачи согласия на обработку персональных данных, разрешенных субъектом персональных данных для распространения в порядке, предусмотренном Законом о персональных данных (далее - персональные данные, разрешенные для распространения).</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.10.</span>&nbsp;<span style=\"font-weight: bolder;\">Пользователь&nbsp;</span>– любой посетитель этого сайта.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.11.</span>&nbsp;<span style=\"font-weight: bolder;\">Предоставление персональных данных&nbsp;</span>– действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.12.</span>&nbsp;<span style=\"font-weight: bolder;\">Распространение персональных данных</span>&nbsp;– любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.13. Трансграничная передача персональных данных</span>&nbsp;– передача персональных данных на территорию иностранного государства органу власти иностранного государства, иностранному физическому или иностранному юридическому лицу.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">2.14.</span>&nbsp;<span style=\"font-weight: bolder;\">Уничтожение персональных данных</span>&nbsp;– любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и (или) уничтожаются материальные носители персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">3. Основные права и обязанности Оператора</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.1. Оператор имеет право:</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.1.1.</span>&nbsp;Получать от субъекта персональных данных достоверные информацию и/или документы, содержащие персональные данные;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.1.2.</span>&nbsp;В&nbsp;случае отзыва субъектом персональных данных согласия на обработку персональных данных Оператор вправе продолжить обработку персональных данных без согласия субъекта персональных данных при наличии оснований, указанных в Законе о персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.1.3.</span>&nbsp;Самостоятельно определять состав и перечень мер, необходимых и достаточных для обеспечения выполнения обязанностей, предусмотренных Законом о персональных данных и принятыми в соответствии с ним нормативными правовыми актами, если иное не предусмотрено Законом о персональных данных или другими федеральными законами.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2. Оператор обязан:</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.1.</span>&nbsp;Предоставлять субъекту персональных данных по его просьбе информацию, касающуюся обработки его персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.2.</span>&nbsp;Организовывать обработку персональных данных в порядке, установленном действующим законодательством РФ;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.3.</span>&nbsp;Отвечать на обращения и запросы субъектов персональных данных и их законных представителей в соответствии с требованиями Закона о персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.4.</span>&nbsp;Сообщать в уполномоченный орган по защите прав субъектов персональных данных по запросу этого органа необходимую информацию в течение 30 дней с даты получения такого запроса;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.5.</span>&nbsp;Публиковать или иным образом обеспечивать неограниченный доступ к настоящей Политике в отношении обработки персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.6.</span>&nbsp;Принимать правовые, организационные и технические меры для защиты персональных данных от неправомерного или случайного доступа к ним, уничтожения, изменения, блокирования, копирования, предоставления, распространения персональных данных, а также от иных неправомерных действий в отношении персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.7.</span>&nbsp;Прекратить передачу (распространение, предоставление, доступ) персональных данных, прекратить обработку и уничтожить персональные данные в порядке и случаях, предусмотренных Законом о персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">3.2.8.</span>&nbsp;Исполнять иные обязанности, предусмотренные Законом о персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">4. Основные права и обязанности субъектов персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1. Субъекты персональных данных имеют право:</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1.1.&nbsp;</span>Получать информацию, касающуюся обработки его персональных данных, за исключением случаев, предусмотренных федеральными законами. Сведения предоставляются субъекту персональных данных Оператором в доступной форме, и в них не должны содержаться персональные данные, относящиеся к другим субъектам персональных данных, за исключением случаев, когда имеются законные основания для раскрытия таких персональных данных. Перечень информации и порядок ее получения установлен Законом о персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1.2.</span>&nbsp;Требовать от оператора уточнения его персональных данных, их блокирования или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными, незаконно полученными или не являются необходимыми для заявленной цели обработки, а также принимать предусмотренные законом меры по защите своих прав;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1.3.</span>&nbsp;Выдвигать условие предварительного согласия при обработке персональных данных в целях продвижения на рынке товаров, работ и услуг;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1.4.</span>&nbsp;На отзыв согласия на обработку персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1.5</span>. Обжаловать в уполномоченный орган по защите прав субъектов персональных данных или в судебном порядке неправомерные действия или бездействие Оператора при обработке его персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.1.6.</span>&nbsp;На осуществление иных прав, предусмотренных законодательством РФ.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.2. Субъекты персональных данных обязаны:</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.2.1.</span>&nbsp;Предоставлять Оператору достоверные данные о себе;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.2.2.</span>&nbsp;Сообщать Оператору об уточнении (обновлении, изменении) своих персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">4.3.&nbsp;</span>Лица, передавшие Оператору недостоверные сведения о себе, либо сведения о другом субъекте персональных данных без согласия последнего, несут ответственность в соответствии с законодательством РФ.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5. Оператор может обрабатывать следующие персональные данные Пользователя</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.1.</span>&nbsp;Фамилия, имя, отчество</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.2.</span>&nbsp;Электронный адрес</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.3.</span>&nbsp;Номера телефонов</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.4.</span>&nbsp;Также на сайте происходит сбор и обработка обезличенных данных о посетителях с помощью сервисов интернет-статистики (Яндекс Метрика, Гугл Аналитика и других).</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.5.&nbsp;</span>Вышеперечисленные данные далее по тексту Политики объединены общим понятием&nbsp;<span style=\"font-weight: bolder;\">Персональные данные</span>.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.6.</span>&nbsp;Обработка специальных категорий персональных данных, касающихся расовой, национальной принадлежности, политических взглядов, религиозных или философских убеждений, интимной жизни, Оператором не осуществляется.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.7.&nbsp;</span>Обработка персональных данных, разрешенных для распространения, из числа специальных категорий персональных данных, указанных в ч. 1 ст. 10 Закона о персональных данных, допускается, если соблюдаются запреты и условия, предусмотренные ст. 10.1 Закона о персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.8.&nbsp;</span>Согласие Пользователя на обработку персональных данных, разрешенных для распространения, оформляется отдельно от других согласий на обработку его персональных данных. При этом соблюдаются условия, предусмотренные, в частности, ст. 10.1 Закона о персональных данных. Требования к содержанию такого согласия устанавливаются уполномоченным органом по защите прав субъектов персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.8.1.&nbsp;</span>Согласие на обработку персональных данных, разрешенных для распространения, Пользователь предоставляет Оператору непосредственно.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.8.2.</span>&nbsp;Оператор обязан в срок не позднее трех рабочих дней с момента получения указанного согласия Пользователя опубликовать информацию об условиях обработки, о наличии запретов и условий на обработку неограниченным кругом лиц персональных данных, разрешенных для распространения.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.8.3.</span>&nbsp;Передача (распространение, предоставление, доступ) персональных данных, разрешенных субъектом персональных данных для распространения, должна быть прекращена в любое время по требованию субъекта персональных данных. Данное требование должно включать в себя фамилию, имя, отчество (при наличии), контактную информацию (номер телефона, адрес электронной почты или почтовый адрес) субъекта персональных данных, а также перечень персональных данных, обработка которых подлежит прекращению. Указанные в данном требовании персональные данные могут обрабатываться только Оператором, которому оно направлено.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">5.8.4.</span>&nbsp;Согласие на обработку персональных данных, разрешенных для распространения, прекращает свое действие с момента поступления Оператору требования, указанного в п. 5.8.3 настоящей Политики в отношении обработки персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">6. Принципы обработки персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.1.</span>&nbsp;Обработка персональных данных осуществляется на законной и справедливой основе.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.2.&nbsp;</span>Обработка персональных данных ограничивается достижением конкретных, заранее определенных и законных целей. Не допускается обработка персональных данных, несовместимая с целями сбора персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.3.</span>&nbsp;Не допускается объединение баз данных, содержащих персональные данные, обработка которых осуществляется в целях, несовместимых между собой.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.4.</span>&nbsp;Обработке подлежат только персональные данные, которые отвечают целям их обработки.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.5.&nbsp;</span>Содержание и объем обрабатываемых персональных данных соответствуют заявленным целям обработки. Не допускается избыточность обрабатываемых персональных данных по отношению к заявленным целям их обработки.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.6.</span>&nbsp;При обработке персональных данных обеспечивается точность персональных данных, их достаточность, а в необходимых случаях и актуальность по отношению к целям обработки персональных данных. Оператор принимает необходимые меры и/или обеспечивает их принятие по удалению или уточнению неполных или неточных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">6.7.&nbsp;</span>Хранение персональных данных осуществляется в форме, позволяющей определить субъекта персональных данных, не дольше, чем этого требуют цели обработки персональных данных, если срок хранения персональных данных не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому является субъект персональных данных. Обрабатываемые персональные данные уничтожаются либо обезличиваются по достижении целей обработки или в случае утраты необходимости в достижении этих целей, если иное не предусмотрено федеральным законом.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">7. Цели обработки персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">7.1. Цель обработки персональных данных Пользователя:</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">7.1.1.</span>&nbsp;Информирование Пользователя посредством отправки электронных писем;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">7.1.2</span>.Заключение, исполнение и прекращение гражданско-правовых договоров;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">7.1.3.</span>&nbsp;Предоставление доступа Пользователю к сервисам, информации и/или материалам, содержащимся на веб-сайте.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">7.2.&nbsp;</span>Также Оператор имеет право направлять Пользователю уведомления о новых продуктах и услугах, специальных предложениях и различных событиях. Пользователь всегда может отказаться от получения информационных сообщений, направив Оператору письмо на Адрес электронной почты.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">7.3.&nbsp;</span>Обезличенные данные Пользователей, собираемые с помощью сервисов интернет-статистики, служат для сбора информации о действиях Пользователей на сайте, улучшения качества сайта и его содержания.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">8. Правовые основания обработки персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.1.&nbsp;</span>Правовыми основаниями обработки персональных данных Оператором являются:</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.1.1.</span>&nbsp;Перечислите нормативно-правовые акты, регулирующие отношения, связанные с вашей деятельностью, например, если ваша деятельность связана с информационными технологиями, в частности с созданием сайтов, то здесь можно указать Федеральный закон \"Об информации, информационных технологиях и о защите информации\" от 27.07.2006 N 149-ФЗ;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.1.2.</span>&nbsp;Уставные документы Оператора;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.1.3.</span>&nbsp;Договоры, заключаемые между оператором и субъектом персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.1.4.&nbsp;</span>Федеральные законы, иные нормативно-правовые акты в сфере защиты персональных данных;</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.1.5.&nbsp;</span>Согласия Пользователей на обработку их персональных данных, на обработку персональных данных, разрешенных для распространения.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.2.&nbsp;</span>Оператор обрабатывает персональные данные Пользователя только в случае их заполнения и/или отправки Пользователем самостоятельно через специальные формы, расположенные на сайте или направленные Оператору посредством электронной почты. Заполняя соответствующие формы и/или отправляя свои персональные данные Оператору, Пользователь выражает свое согласие с данной Политикой.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.3.&nbsp;</span>Оператор обрабатывает обезличенные данные о Пользователе в случае, если это разрешено в настройках браузера Пользователя (включено сохранение файлов и использование технологии JavaScript).</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">8.4.&nbsp;</span>Субъект персональных данных самостоятельно принимает решение о предоставлении его персональных данных и дает согласие свободно, своей волей и в своем интересе.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">9. Условия обработки персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.1.&nbsp;</span>Обработка персональных данных осуществляется с согласия субъекта персональных данных на обработку его персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.2.</span>&nbsp;Обработка персональных данных необходима для достижения целей, предусмотренных международным договором Российской Федерации или законом, для осуществления возложенных законодательством Российской Федерации на оператора функций, полномочий и обязанностей.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.3.</span>&nbsp;Обработка персональных данных необходима для осуществления правосудия, исполнения судебного акта, акта другого органа или должностного лица, подлежащих исполнению в соответствии с законодательством Российской Федерации об исполнительном производстве.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.4.</span>&nbsp;Обработка персональных данных необходима для исполнения договора, стороной которого либо выгодоприобретателем или поручителем по которому является субъект персональных данных, а также для заключения договора по инициативе субъекта персональных данных или договора, по которому субъект персональных данных будет являться выгодоприобретателем или поручителем.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.5.</span>&nbsp;Обработка персональных данных необходима для осуществления прав и законных интересов оператора или третьих лиц либо для достижения общественно значимых целей при условии, что при этом не нарушаются права и свободы субъекта персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.6.</span>&nbsp;Осуществляется обработка персональных данных, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных либо по его просьбе (далее –&nbsp;<span style=\"font-weight: bolder;\">общедоступные персональные данные</span>).</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">9.7.</span>&nbsp;Осуществляется обработка персональных данных, подлежащих опубликованию или обязательному раскрытию в соответствии с федеральным законом (выложен на сайте о работе и подборе персонала&nbsp;<a href=\"https://ruscred.site/\" style=\"color: rgb(147, 175, 110); transition: all 0.3s ease 0s;\">ruscred.site</a>).</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">10. Порядок сбора, хранения, передачи и других видов обработки персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.1.</span>&nbsp;Оператор обеспечивает сохранность персональных данных и принимает все возможные меры, исключающие доступ к персональным данным неуполномоченных лиц.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.2.&nbsp;</span>Персональные данные Пользователя никогда, ни при каких условиях не будут переданы третьим лицам, за исключением случаев, связанных с исполнением действующего законодательства либо в случае, если субъектом персональных данных дано согласие Оператору на передачу данных третьему лицу для исполнения обязательств по гражданско-правовому договору.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.3.&nbsp;</span>В случае выявления неточностей в персональных данных, Пользователь может актуализировать их самостоятельно, путем направления Оператору уведомление на адрес электронной почты Оператора с пометкой «Актуализация персональных данных».</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.4.&nbsp;</span>Срок обработки персональных данных определяется достижением целей, для которых были собраны персональные данные, если иной срок не предусмотрен договором или действующим законодательством. Пользователь может в любой момент отозвать свое согласие на обработку персональных данных, направив Оператору уведомление посредством электронной почты на электронный адрес почты Оператора с пометкой «Отзыв согласия на обработку персональных данных».</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.5.</span>&nbsp;Вся информация, которая собирается сторонними сервисами, в том числе платежными системами, средствами связи и другими поставщиками услуг, хранится и обрабатывается указанными лицами (Операторами) в соответствии с их Пользовательским соглашением и Политикой конфиденциальности. Субъект персональных данных и/или Пользователь обязан самостоятельно своевременно ознакомиться с указанными документами. Оператор не несет ответственность за действия третьих лиц, в том числе указанных в настоящем пункте поставщиков услуг.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.6.</span>&nbsp;Установленные субъектом персональных данных запреты на передачу (кроме предоставления доступа), а также на обработку или условия обработки (кроме получения доступа) персональных данных, разрешенных для распространения, не действуют в случаях обработки персональных данных в государственных, общественных и иных публичных интересах, определенных законодательством РФ.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.7.</span>&nbsp;Оператор при обработке персональных данных обеспечивает конфиденциальность персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.8.&nbsp;</span>Оператор осуществляет хранение персональных данных в форме, позволяющей определить субъекта персональных данных, не дольше, чем этого требуют цели обработки персональных данных, если срок хранения персональных данных не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому является субъект персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">10.9.</span>&nbsp;Условием прекращения обработки персональных данных может являться достижение целей обработки персональных данных, истечение срока действия согласия субъекта персональных данных или отзыв согласия субъектом персональных данных, а также выявление неправомерной обработки персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">11. Перечень действий, производимых Оператором с полученными персональными данными</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">11.1.</span>&nbsp;Оператор осуществляет сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление и уничтожение персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">11.2.</span>&nbsp;Оператор осуществляет автоматизированную обработку персональных данных с получением и/или передачей полученной информации по информационно-телекоммуникационным сетям или без таковой.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">12. Трансграничная передача персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">12.1.</span>&nbsp;Оператор до начала осуществления трансграничной передачи персональных данных обязан убедиться в том, что иностранным государством, на территорию которого предполагается осуществлять передачу персональных данных, обеспечивается надежная защита прав субъектов персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">12.2.</span>&nbsp;Трансграничная передача персональных данных на территории иностранных государств, не отвечающих вышеуказанным требованиям, может осуществляться только в случае наличия согласия в письменной форме субъекта персональных данных на трансграничную передачу его персональных данных и/или исполнения договора, стороной которого является субъект персональных данных.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">13. Конфиденциальность персональных данных</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">13.1.</span>&nbsp;Оператор и иные лица, получившие доступ к персональным данным, обязаны не раскрывать третьим лицам и не распространять персональные данные без согласия субъекта персональных данных, если иное не предусмотрено федеральным законом.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: center;\"><span style=\"font-weight: bolder;\">14. Заключительные положения</span></p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">14.1.</span>&nbsp;Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки его персональных данных, обратившись к Оператору с помощью электронной почты.</p><p style=\"margin-bottom: 1rem; color: rgb(51, 37, 29); font-family: montserrat-regular, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">14.2</span>. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией.</p><p style=\"text-align: center; \"><span style=\"font-size: 14px;\">﻿</span><br></p>",
+        "is_active": true,
+        "created": "2023-06-25T16:16:04.922Z",
+        "updated": "2023-06-25T18:34:05.531Z"
+    }
+}
 ]
