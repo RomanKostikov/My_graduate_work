@@ -67,7 +67,7 @@ content: none;
 }
 
 .section{
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .section h1{
@@ -143,4 +143,15 @@ content: none;
 .checkout-text-center{
     margin-top: 70px;
     text-align: center;
+    padding: 50px;
+}
+
+.text-center1{
+    text-align: center;
+    padding: 80px;
+}
+
+.text-center2{
+    text-align: center;
+    padding: 0px;
 }

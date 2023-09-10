@@ -7,8 +7,8 @@
 
             {% if products_in_basket %}
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h3 class="text-center">Товары в корзине</h3>
-                    <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} RUB </h5>
+                    <h3 class="text-center1">Товары в корзине</h3>
+                    <h5 class="text-center2">Общая стоимость: {{ request.session.basket.total_amount }} RUB </h5>
                             {{ request.session.basket.products }}
 
                     <form class="form-horizontal" method="post" action="{% url 'checkout' %}">{% csrf_token %}
