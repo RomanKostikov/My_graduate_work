@@ -1,10 +1,8 @@
-beget.com
+HOST beget.com
 DJANGO 4.2.1(понизил версию до 4.1.11 т.к на хосте используют MySQL 5.7, а не 8+)
 Предварительно настраивали локальный python, согласно инструкциям на хосте(+видео на Youtube)
  + устанавливаем необходимую версию Django:
-https://beget.com/ru/kb/how-to/web-apps/python#ustanovka-i-nastroyka-django
-https://www.youtube.com/watch?v=reURUKqkyYw&t=2s
-!!!!Не забыть открыть полный доступ к папке .locale, через файловый менеджер хоста!!!
+Не забыть открыть полный доступ к папке .locale, через файловый менеджер хоста
 python3.9 -m venv django_shop2_venv - создать виртуальную среду разработки в папке romank53.beget.tech;
 source django_shop2_venv/bin/activate - активировать виртуальную среду разработки;
 deactivate - команда деактивации среды разработки;
@@ -71,3 +69,9 @@ DOMEN + SSL:
 https://beget.com/ru/kb/how-to/domains
 3. После регистрации домена на хосте и привязке его к сайту, можно произвести бесплатную сертификацию SSL(На хосте)
 https://beget.com/ru/kb/how-to/sites/podklyuchenie-ssl-k-sajtu
+
+Используемые ресурсы:
+1. https://beget.com/ru/kb/how-to/web-apps/python#ustanovka-i-nastroyka-django - ссылка на основные инструкции по настройке
+работы django-проекта на хосте;
+2. https://www.youtube.com/watch?v=reURUKqkyYw&t=2s - видеоинструкция по настройке работы django-проекта на хосте;
+https/stackoverflow.com
