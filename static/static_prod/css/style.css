@@ -5,22 +5,153 @@ html, body{
     background-color: lightgrey;
 }
 
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar-mini{
+    min-height: 30px;
+    height: 20px;
+    background-color: grey;
+
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+display: block;
+margin: 0;
+}
+
+a.menu:after, .dropdown-toggle:after {
+content: none;
+}
+
+.basket-container{
+    position: relative;
+    width: 400px;
+    padding: 15px 10px;
+}
+
+.basket-items2{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: #d7d4d4;
+    z-index: 10;
+    padding: 10px;
+}
+
+.wrapper{
+    min-height: 100%;
+    padding-top: 0px;
+}
+
+.wrapper-content{
+    overflow: auto;
+    padding-bottom: 180px; /* must be same height as the footer */
+}
+
+.footer{
+    position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+    clear: both;
+    background-color: white;
+}
+
 .section-top{
-    margin: 20px
+    margin-bottom: 20px
+}
+
+.product-description-tabs{
+    padding: 10px;
+}
+
+.section{
+    padding: 80px 0;
+}
+
+.section h1{
+    margin-bottom: 40px;
 }
 
 .product-item{
-    height: 300px;
+    height: 520px;
     background-color: white;
     border: 1px solid grey;
     position: relative;
-    padding: 5px;
+    padding: 10px 0 10px 0;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.add-to-cart-btn{
+.product-text-center{
+    margin-top: 64px;
+    text-align: center;
+}
+
+.deliveryandpayment-text{
+    margin-top: 29px;
+}
+
+.contacts-text{
+    margin-top: 68px;
+}
+
+.description-top{
+    margin: 10px;
+}
+
+.add-to-card-btn{
     position: absolute;
     bottom: 15px;
-    left: 59px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.product-image-top{
+    max-width: 210px;
+    max-height: 280px;
+}
+
+.discount-container{
+    position: absolute;
+    top: 10%;
+    background: #55e073;
+    width: 30%;
+    color: white;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.section-delivery{
+    height: 300px;
+    background-color: darkseagreen;
+    text-align: center;
+    color: white;
+}
+
+.product-image-item{
+    padding: 70px;
+    margin-bottom: 5px;
+}
+
+.form-error{
+ color: red;
+}
+
+.checkout-text-center{
+    margin-top: 70px;
+    text-align: center;
+    padding: 50px;
+}
+
+.text-center1{
+    text-align: center;
+    padding: 80px;
+}
+
+.text-center2{
+    text-align: center;
+    padding: 0px;
 }

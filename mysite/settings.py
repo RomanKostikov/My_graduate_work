@@ -85,6 +85,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
 
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': 'db1',
+        # 'USER': 'django_shop',
+        # 'PASSWORD': 'live5913',
+        # 'HOST': 'localhost',
+        # 'PORT': '',  # остается стандартным
+
         # 'ENGINE': 'django.db.backends.mysql',
         # 'NAME': 'romank53_777',
         # 'USER': 'romank53_777',
