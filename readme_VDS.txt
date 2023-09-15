@@ -92,6 +92,9 @@ python manage.py migrate
 Команда перехода в БД(Если необходимо):
 python manage.py dbshell
 
+Посмотреть список всех таблиц с описанием:
+\dt+
+
 ПЕРЕНОС ДАННЫХ(в json файл):
         Для новой БД пометить(где подключали БД к django):
         'OPTIONS': {
@@ -378,38 +381,6 @@ systemctl list-timers
 Чтобы убедиться, что ваш сайт настроен правильно, зайдите https://yourwebsite.com/в браузер и найдите значок замка в
 строке URL.
 
-Установка phppgadmin(для удобной работы с БД postgres)
-Утилита PhpPgAdmin доступна в репозитории по дефолту в Ubuntu 22.04. Устанавливаем утилиту PhpPgAdmin под пользователем
-Ubuntu:
-sudo apt-get install phppgadmin
-
-Когда утилита установится, переходим в файл конфигурации phppgadmin.conf в директории /etc/apache2/conf-available и
-закомментируем строку Require local. Пропишем строку Allow From all. Такие изменения в файле конфигурации позволят
-подключаться к серверу как с локальной машины, так и с других устройств.
-cd /etc/apache2/conf-available
-sudo nano phppgadmin.conf
-
-Переходим в папку /etc/apache2
-cd ..
-
-Меняем в файле ports.conf порт 80(т.к он занят nginx):
-sudo nano ports.conf
-
-Запуск сервера Apache
-sudo systemctl start apache2
-
-Остановка сервера Apache
-sudo systemctl stop apache2
-
-Перезагрузим Apache:
-sudo systemctl restart apache2
-
-Проверяем работу Apache:
-systemctl status apache2.service
-
-На локальном компьютере откройте предпочитаемый вами веб-браузер и перейдите по IP-адресу вашего сервера:
-http://your_domain
-
 Используемые ресурсы:
 1. https://timeweb.cloud/tutorials/django/kak-ustanovit-django-nginx-i-gunicorn-na-virtualnyj-server - ссылка на
 основные инструкции по настройке работы: postgresql, gunicorn, nginx;
@@ -421,67 +392,4 @@ http://your_domain
 5. https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-pgadmin-4-in-server-mode-on-ubuntu-22-04
 - полная настройка phppgadmin;
 6. https/stackoverflow.com - вспомогательный сайт для решения возникающих трудностей.
-
 _______________________________________________________________________________________________________________________
-
-Разварачивание проекта на сервере при помощи DOCKER and DOCKER-COMPOSE( на перспективу):
-
-  Users logged in:          0
-  IPv4 address for docker0: 172.17.0.1
-  IPv4 address for eth0:    85.193.91.73
-  IPv6 address for eth0:    2a03:6f01:1:2::24ca
-
-cp ./Dockerfile ./shop - копирование файла в нужную директорию;
-docker-compose build - билд проекта (из папки 'shop');
-docker-compose up - запустить контейнеры;
-docker-compose down - остановить работающие контейнеры;
-
-docker-compose.yml
-version: '3.8'
-
-services:
-  web:
-    # Берем Dockerfile из каталога app
-    build: ./shop
-    # Запускаем тестовый сервер
-    command: python manage.py runserver 85.193.91.73:8000
-    # куда будут помещены данные из каталога app
-    volumes:
-      - ./shop/:/usr/src/shop/
-    # Открываем порт 8000 внутри и снаружи
-    ports:
-      - 8000:8000
-    # Файл содержащий переменные для контейнера
-#    env_file:
- #     - ./.venv.dev
-
-Dockerfile
-# pull official base image
-FROM python:3.9.6-alpine
-
-# set work directory
-WORKDIR /usr/src/app
-
-# set environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
-
-# install dependencies
-RUN pip install --upgrade pip
-COPY ./requirements.txt .
-RUN pip install -r requirements.txt
-
-# copy project
-COPY . .
-
-Используемая литература:
-1. https://django.fun/ru/articles/tutorials/dokerizaciya-django-s-pomoshyu-postgres-gunicorn-i-nginx/
-2. https://fixmypc.ru/post/sozdanie-i-zapusk-konteinera-docker-s-django-postgressql-gunicorn-i-nginx/
-3. https://devops.org.ru/dockercompose-summary
-4. https://timeweb.com/ru/community/articles/osnovnye-komandy-docker
-5. https://habr.com/ru/companies/nixys/articles/662698/
-6. https/stackoverflow.com
-
-ИЗУЧЕНИЕ ОШИБОК:
-deserialization error - если возникла при закрузке fixture из dump файла БД json, значит ошибка связанна с оформлением
-json файла(мб не закрыты скобки внутри файла);
