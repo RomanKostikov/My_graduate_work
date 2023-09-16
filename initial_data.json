@@ -1,6 +1,7 @@
 [
 {
     "model": "auth.user",
+    "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$390000$AbLsOqllRg3xZtCeTVsfNt$rGRetpiFhP7q2GsbPwl0MKrJBNpXk3lftPX7UWnvryQ=",
         "last_login": "2023-09-09T10:31:22.829Z",

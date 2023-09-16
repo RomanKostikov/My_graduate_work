@@ -1,6 +1,7 @@
 Попытки настройки pgadmin4/phppgadmin и разворачивание проекта через docker
 
-Установка pgadmin4/phppgadmin(для удобной работы с БД postgres в браузере)
+Для начала обновите индекс пакетов вашего сервера, если вы не делали этого в последнее время:
+sudo apt update
 
 Затем установите следующие зависимости. К ним относятся libgmp3-dev библиотека арифметических вычислений с высокой
 точностью; libpq-dev, который включает файлы заголовков и статическую библиотеку, которая помогает взаимодействовать с
@@ -118,7 +119,7 @@ server {
 
 gunicorn --bind unix:/tmp/pgadmin4.sock --workers=1 --threads=25 --chdir ~/environments/my_env/lib/python3.10/site-packages/pgadmin4 pgAdmin4:app
 
-Как установить и управлять Supervisor:
+Как установить и управлять Supervisor(если необходим):
 Начните с обновления исходных кодов пакетов и установки Supervisor:
 sudo apt update && sudo apt install supervisor
 
@@ -234,7 +235,8 @@ phpinfo();
 ?>
 На локальном компьютере откройте предпочитаемый вами веб-браузер и перейдите по IP-адресу вашего сервера:
 http://your_domain (не работает)
-Разварачивание проекта на сервере при помощи DOCKER and DOCKER-COMPOSE( на перспективу):
+
+Разворачивание проекта на сервере при помощи DOCKER and DOCKER-COMPOSE(на перспективу)(не работает):
 
   Users logged in:          0
   IPv4 address for docker0: 172.17.0.1
@@ -287,14 +289,17 @@ COPY . .
 ИЗУЧЕНИЕ ОШИБОК:
 deserialization error - если возникла при закрузке fixture из dump файла БД json, значит ошибка связанна с оформлением
 json файла(мб не закрыты скобки внутри файла);
-_____________________________________________
+_______________________________________________________________________________________________________________________
 Используемые ресурсы:
 1. https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-pgadmin-4-in-server-mode-on-ubuntu-22-04#step-4-accessing-pgadmin -
 полная инструкция по настройке pgadmin 4;
 2. https://gist.github.com/rubinhozzz/9217e8b0dc834874a301cd0435e70691 - настройка сокета для pgadmin4;
-3. https://django.fun/ru/articles/tutorials/dokerizaciya-django-s-pomoshyu-postgres-gunicorn-i-nginx/
-4. https://fixmypc.ru/post/sozdanie-i-zapusk-konteinera-docker-s-django-postgressql-gunicorn-i-nginx/
-5. https://devops.org.ru/dockercompose-summary
-6. https://timeweb.com/ru/community/articles/osnovnye-komandy-docker
-7. https://habr.com/ru/companies/nixys/articles/662698/
-8. https/stackoverflow.com
+3. https://vpsup.ru/stati/ustanovka-postgresql-na-ubuntu.html - настройка phppgadmin;
+4. https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-pgadmin-4-in-server-mode-on-ubuntu-22-04
+- полная настройка phppgadmin;
+5. https://django.fun/ru/articles/tutorials/dokerizaciya-django-s-pomoshyu-postgres-gunicorn-i-nginx/
+6. https://fixmypc.ru/post/sozdanie-i-zapusk-konteinera-docker-s-django-postgressql-gunicorn-i-nginx/
+7. https://devops.org.ru/dockercompose-summary
+8. https://timeweb.com/ru/community/articles/osnovnye-komandy-docker
+9. https://habr.com/ru/companies/nixys/articles/662698/
+10. https/stackoverflow.com
