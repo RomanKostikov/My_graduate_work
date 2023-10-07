@@ -8,6 +8,7 @@ from django.views.decorators.http import require_http_methods
 
 # Create your views here.
 def basket_adding(request):
+    """Функция добавления товара в корзину, задействует JS."""
     return_dict = dict()
     session_key = request.session.session_key
     print(request.POST)
@@ -16,9 +17,9 @@ def basket_adding(request):
     nmb = data.get("nmb")
     is_delete = data.get("is_delete")
 
-    if is_delete == 'true':
+    if is_delete == 'true':  # удаление товара реализовано посредством is_active=False
         ProductInBasket.objects.filter(id=product_id).update(is_active=False)
-    else:
+    else:  # если удаление не выполняется, то информация передается в штатном режиме(is_active=True)
         new_product, created = ProductInBasket.objects.get_or_create(session_key=session_key, product_id=product_id,
                                                                      is_active=True, order=None, defaults={"nmb": nmb})
         if not created:
@@ -26,35 +27,39 @@ def basket_adding(request):
             new_product.nmb += int(nmb)
             new_product.save(force_update=True)
 
-    # common code for 2 cases
+    # Работаем с представлением и с БД
     products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True, order__isnull=True)
     products_total_nmb = products_in_basket.count()
     return_dict["products_total_nmb"] = products_total_nmb
 
-    return_dict["products"] = list()
-
-    for item in products_in_basket:
-        product_dict = dict()
-        product_dict["id"] = item.id
-        product_dict["name"] = item.product.name
-        product_dict["price_per_item"] = item.price_per_item
-        product_dict["nmb"] = item.nmb
-        return_dict["products"].append(product_dict)
+    # return_dict["products"] = list()
+    # # Часть кода отвечающая за передачу полной информации заказа во всплывающее окно корзины, исключено до
+    # # востребования.
+    # for item in products_in_basket:
+    #     product_dict = dict()
+    #     product_dict["id"] = item.id
+    #     product_dict["name"] = item.product.name
+    #     product_dict["price_per_item"] = item.price_per_item
+    #     product_dict["nmb"] = item.nmb
+    #     return_dict["products"].append(product_dict)
 
     return JsonResponse(return_dict)
 
 
-@require_http_methods(['POST', 'DELETE'])
-def delete_cart(request, product_id):
-    session_key = request.session.session_key
-    print(request.POST)
-    data = request.POST
-    product_id = data.get("product_id")
-    products_in_basket = ProductInBasket.objects.filter(session_key=session_key, product_id=id, is_active=True, order__isnull=True).delete()
-    return render(request, 'orders/checkout.html', locals())
+# @require_http_methods(['POST', 'DELETE'])
+# def delete_cart(request, product_id):
+#     """Функция отвечающая за удаления товара в корзине на странице оформления заказа(В разработке) """
+#     session_key = request.session.session_key
+#     print(request.POST)
+#     data = request.POST
+#     product_id = data.get("product_id")
+#     products_in_basket = ProductInBasket.objects.filter(session_key=session_key, product_id=id, is_active=True,
+#                                                         order__isnull=True).delete()
+#     return render(request, 'orders/checkout.html', locals())
 
 
 def checkout(request):
+    """Функция отвечающая за отображения страницы оформления заказа(Проверку заказа)."""
     session_key = request.session.session_key
     products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True, order__isnull=True)
     print(products_in_basket)
@@ -94,6 +99,7 @@ def checkout(request):
             print("no")
 
     return render(request, 'orders/checkout.html', locals())
+
     #  !!!!! Подумать над тем, как реализовать функционал кнопки "Удалить" под действующую структуру!!!!!!
     # первый вариант не работает (csrf-token не прокидывается в эту часть кода)
     # return_dict = dict()
