@@ -1,4 +1,5 @@
-Servers VDS: Ubuntu 22.04, postgresql, gunicorn, nginx
+Инструкции разворачивания django-проекта на VDS timeweb.cloud
+Ubuntu 22.04, postgresql, gunicorn, nginx
 (переход в рабочую папку cd /myappleshoptest.sytes.net):
 
 Ubuntu(Необходимые команды):
@@ -315,7 +316,8 @@ sudo systemctl stop nginx
 sudo systemctl start nginx
 
 Подключение своего domena к IP сервера:
-Зарегистрировал бесплатный domen на https://my.noip.com/
+Зарегистрировал бесплатный domen на:
+https://my.noip.com/
 myappleshoptest.sytes.net
 
 Добавляю его в файл конфигурации nginx:
@@ -327,10 +329,10 @@ myappleshoptest.sytes.net
 Проводим TLS сертификацию нашего домена и получаем защищенный протокол связи https:
 https://letsencrypt.org/ru/
 
-SSH на сервер
+SSH на сервер:
 Подключитесь по SSH к серверу, на котором работает ваш HTTP-сайт от имени пользователя с привилегиями sudo.
 
-Установить Snapd
+Установить Snapd:
 Вам необходимо установить snapd и обязательно следовать всем инструкциям, чтобы включить поддержку классической Snap.
 Следуйте этим инструкциям на сайте Snapcraft, чтобы установить Snapd .
 sudo apt update
@@ -349,7 +351,6 @@ sudo snap install --classic certbot
 
 Подготовьте команду Certbot:
 Выполните следующую инструкцию в командной строке на компьютере, чтобы убедиться, что команду certbot можно выполнить.
-
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 Выберите, как вы хотите запустить Certbot
@@ -358,7 +359,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 обслуживания, включив доступ HTTPS за один шаг:
 sudo certbot --nginx # выбрал этот вариант
 
-Или просто получите сертификат
+Или просто получите сертификат:
 Если вы чувствуете себя более консервативно и хотите внести изменения в конфигурацию nginx вручную, запустите эту
 команду:
 sudo certbot certonly --nginx
@@ -368,11 +369,9 @@ sudo certbot certonly --nginx
 сертификаты до истечения срока их действия. Вам не нужно будет снова запускать Certbot, если вы не измените свою
 конфигурацию.
 Вы можете протестировать автоматическое продление ваших сертификатов, выполнив следующую команду:
-
 sudo certbot renew --dry-run
 
 Команда для обновления certbot установлена в одном из следующих мест:
-
 /etc/crontab/
 /etc/cron.*/*
 systemctl list-timers
@@ -380,7 +379,6 @@ systemctl list-timers
 Подтвердите, что Certbot сработал:
 Чтобы убедиться, что ваш сайт настроен правильно, зайдите https://yourwebsite.com/в браузер и найдите значок замка в
 строке URL.
-
 
 Установка pgadmin4 для удобной работы с БД postgres
 
@@ -412,9 +410,9 @@ ________________________________________________________________________________
 2. https://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ - ссылка на дополнительные
 инструкции по настройке работы: postgresql, gunicorn, nginx;
 3. https://www.youtube.com/watch?v=zWziE0A8eLg&list=PLsoiJYadj99l6t9ZZjdJy7eOs2Pdd6rwK&index=20 - ссылка на
-видеоинструкции по настройке работы: postgresql, gunicorn, nginx;;
+видеоинструкции по настройке работы: postgresql, gunicorn, nginx;
 4. https://fedingo.com/how-to-connect-to-postgresql-server-via-ssh-tunnel/ - ссылка на инструкцию подключение по ssh к
 postgresql;
 5. https://www.youtube.com/watch?v=SaM1_nNDi3s&t=10s - ссылка на видеоинструкции подключение по ssh к
 postgresql(pgadmin4);
-6. https/stackoverflow.com - вспомогательный сайт для решения возникающих трудностей.
+6. https/stackoverflow.com - вспомогательный сайт для решения возникающих трудностей (форум программистов).

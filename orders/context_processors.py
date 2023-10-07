@@ -2,6 +2,8 @@ from .models import ProductInBasket
 
 
 def getting_basket_info(request):
+    """Функция в контекстном процессоре, выполняет передачу контекстной информации в navbar пользователю,
+    для отображения на всех страницах(количество заказов)"""
     session_key = request.session.session_key
     if not session_key:
         request.session.cycle_key()

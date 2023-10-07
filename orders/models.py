@@ -26,6 +26,7 @@ class Order(models.Model):
     user = models.ForeignKey(User, blank=True, null=True, default=None, on_delete=models.CASCADE)
     total_price = models.DecimalField(max_digits=10, decimal_places=2,
                                       default=0)  # total price for all products in order
+    product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     customer_name = models.CharField(max_length=64, blank=True, null=True, default=None)
     customer_email = models.EmailField(blank=True, null=True, default=None)
     customer_phone = models.CharField(max_length=48, blank=True, null=True, default=None)
@@ -93,6 +94,7 @@ class ProductInBasket(models.Model):
     """Класс-функция определения товара в заказе."""
     session_key = models.CharField(max_length=128, blank=True, null=True, default=None)
     order = models.ForeignKey(Order, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, blank=True, null=True, default=None, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     nmb = models.IntegerField(default=1, validators=[MaxValueValidator(100), MinValueValidator(0)])
     price_per_item = models.DecimalField(max_digits=10, decimal_places=2, default=0)
@@ -109,7 +111,7 @@ class ProductInBasket(models.Model):
         verbose_name_plural = 'Товары в корзине'
 
     def save(self, *args, **kwargs):
-        """Функция подсчета общей стоимости товаров."""
+        """Функция подсчета общей стоимости товаров. Сохранение информации о цене и количестве, передача в БД."""
         price_per_item = self.product.price
         self.price_per_item = price_per_item
         self.total_price = int(self.nmb) * price_per_item

@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 class ProductCategory(models.Model):
+    """Класс категории товаров."""
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
 
@@ -15,6 +16,7 @@ class ProductCategory(models.Model):
 
 
 class Product(models.Model):
+    """Класс товары."""
     name = models.CharField(max_length=256, blank=True, null=True, default=None)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     discount = models.IntegerField(default=0)
@@ -34,6 +36,7 @@ class Product(models.Model):
 
 
 class ProductImage(models.Model):
+    """Класс фотографии товаров."""
     product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='products_images/')
     is_main = models.BooleanField(default=False)

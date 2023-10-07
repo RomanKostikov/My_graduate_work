@@ -2,7 +2,8 @@
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                  aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -14,7 +15,8 @@
           <ul class="nav navbar-nav">
             <li><a href="/">Домой</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Разделы<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                 aria-expanded="false">Разделы<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/phone">Смартфоны</a></li>
                 <li><a href="/laptop">Ноутбуки</a></li>
@@ -26,7 +28,8 @@
           <ul class="nav navbar-nav navbar-right">
                 <div class="basket-container">
                 <a href="/checkout">Корзина <span id="basket_total_amount"></span><span id="basket_total_nmb">
-                  {% if products_total_nmb %}
+                    {#Условие для отображения количества товаров на фронтенде#}
+                    {% if products_total_nmb %}
                     ({{ products_total_nmb }})
                   {% else %}
                     (0)

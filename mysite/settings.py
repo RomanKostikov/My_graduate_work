@@ -35,10 +35,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main',
-    'orders',
-    'products',
-    'management_area',
+    'main',  # модуль отвечающий за следующие страницы(main): главная(home(до открытия магазина(index)),
+    # страница товаров на главной (product_item), доставка и оплата(deliveryandpayment), контакты(contacts);
+    'orders',   # модуль отвечающий за страницу оформления заказа(checkout);
+    'products', # модуль отвечающий за страницы товаров(products): ноутбуки(laptop), телефоны(phone),
+    # отдельный товар(product);
+    'management_area', # зона коммерции, модальное окно политики конфиденциальности.
 
     # external packages
     'django_summernote',
