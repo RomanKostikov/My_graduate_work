@@ -29,10 +29,10 @@ POSTGRESQL:
 sudo -u postgres psql
 
 Создали БД:
-CREATE DATABASE myproject;
+CREATE DATABASE db1;
 
 Создали нового пользователя:
-CREATE USER myprojectuser WITH PASSWORD 'password';
+CREATE USER django_shop WITH PASSWORD 'live5913';
 
 Чтобы упростить дальнейшую работу, сразу зададим ряд настроек. Например, изменим кодировку на UTF-8, зададим схему
 изоляции транзакций «read committed», установим часовой пояс:
@@ -111,7 +111,7 @@ exclude=admin.logentry --indent 4 -o initial_data.json
 
 Подгружаем fixture для БД(выполняется на сервере по SSH):
 python manage.py loaddata initial_data.json
-
+python manage.py collectstatic - собираем все статические файлы в созданном проекте;
 Работа с БД(postegresql)(Если потребуется):
 Создание и удаление базы данных (соответственно):
 createdb и dropdb
@@ -385,6 +385,10 @@ systemctl list-timers
 Скачиваем и устанавливаем с надежного источника pgadmin4:
 https://www.pgadmin.org/
 
+Посмотреть открытые порты ubuntu:
+sudo apt install net-tools
+sudo netstat -ntlp
+
 Подключение к серверу PostgreSQL через SSH-туннель:
 Вот шаги для подключения к серверу PostgreSQL через SSH-туннель. Для этого вам необходимо иметь SSH-соединение от
 клиента к серверу. По умолчанию в большинстве систем Linux уже установлен SSH-клиент. Мы будем использовать это для
@@ -403,6 +407,10 @@ ssh -N -L 1111:127.0.0.1:5432 [ПОЛЬЗОВАТЕЛЬ]@[SERVER_IP]
 
 По умолчанию SSH работает на порту 22. Если ваш SSH-сервер работает на другом порту, используйте -p [НОМЕР ПОРТА],
 чтобы указать фактический номер порта SSH.
+
+Резервные копии сервера
+Не забудьте сделать снапшот настроенного сервера для быстрого его восстановления!
+Раздел Бэкапы => сделать снапшот
 _______________________________________________________________________________________________________________________
 Используемые ресурсы:
 1. https://timeweb.cloud/tutorials/django/kak-ustanovit-django-nginx-i-gunicorn-na-virtualnyj-server - ссылка на
