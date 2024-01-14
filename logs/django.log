@@ -37,3 +37,49 @@
 [INFO    :             django.server] - 2024-01-14 14:55:42,006 : log_message @0187: "GET /checkout/ HTTP/1.1" 200 64588
 [INFO    :             django.server] - 2024-01-14 14:55:52,057 : log_message @0187: "GET / HTTP/1.1" 200 69001
 [INFO    :             django.server] - 2024-01-14 14:56:04,189 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :   django.utils.autoreload] - 2024-01-14 15:13:36,598 : run_with_reloader @0677: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-14 15:13:42,713 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :   django.utils.autoreload] - 2024-01-14 15:44:12,712 : run_with_reloader @0677: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-14 15:54:05,601 : run_with_reloader @0677: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-14 15:54:26,250 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :             django.server] - 2024-01-14 15:54:34,199 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :   django.utils.autoreload] - 2024-01-14 16:41:18,512 : run_with_reloader @0677: Watching for file changes with StatReloader
+[DEBUG   :                main.views] - 2024-01-14 16:41:24,052 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-14 16:41:24,053 : home @0029: Home
+[INFO    :             django.server] - 2024-01-14 16:41:24,086 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[DEBUG   :                main.views] - 2024-01-14 16:45:04,931 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-14 16:45:04,931 : home @0029: Home
+[INFO    :             django.server] - 2024-01-14 16:45:04,941 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[DEBUG   :                main.views] - 2024-01-14 16:45:08,271 : deliveryandpayment @0034: Deliveryandpayment page requested.
+[INFO    :                main.views] - 2024-01-14 16:45:08,271 : deliveryandpayment @0035: Deliveryandpaymen
+[INFO    :             django.server] - 2024-01-14 16:45:08,276 : log_message @0187: "GET /deliveryandpayment HTTP/1.1" 200 66801
+[DEBUG   :                main.views] - 2024-01-14 16:46:47,952 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-14 16:46:47,952 : home @0029: Home
+[INFO    :             django.server] - 2024-01-14 16:46:47,966 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[DEBUG   :                main.views] - 2024-01-14 16:46:50,696 : deliveryandpayment @0034: Deliveryandpayment page requested.
+[INFO    :                main.views] - 2024-01-14 16:46:50,696 : deliveryandpayment @0035: Deliveryandpaymen
+[INFO    :             django.server] - 2024-01-14 16:46:50,701 : log_message @0187: "GET /deliveryandpayment HTTP/1.1" 200 66801
+[DEBUG   :                main.views] - 2024-01-14 16:46:51,666 : contacts @0040: Contacts page requested.
+[INFO    :                main.views] - 2024-01-14 16:46:51,666 : contacts @0041: Contacts
+[INFO    :             django.server] - 2024-01-14 16:46:51,671 : log_message @0187: "GET /contacts HTTP/1.1" 200 65037
+[DEBUG   :                main.views] - 2024-01-14 16:46:52,588 : deliveryandpayment @0034: Deliveryandpayment page requested.
+[INFO    :                main.views] - 2024-01-14 16:46:52,589 : deliveryandpayment @0035: Deliveryandpaymen
+[INFO    :             django.server] - 2024-01-14 16:46:52,592 : log_message @0187: "GET /deliveryandpayment HTTP/1.1" 200 66801
+[DEBUG   :                main.views] - 2024-01-14 16:49:15,571 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-14 16:49:15,572 : home @0029: Home
+[INFO    :             django.server] - 2024-01-14 16:49:15,581 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[DEBUG   :                main.views] - 2024-01-14 16:49:16,578 : deliveryandpayment @0034: Deliveryandpayment page requested.
+[INFO    :                main.views] - 2024-01-14 16:49:16,578 : deliveryandpayment @0035: Deliveryandpaymen
+[INFO    :             django.server] - 2024-01-14 16:49:16,582 : log_message @0187: "GET /deliveryandpayment HTTP/1.1" 200 66801
+[DEBUG   :                main.views] - 2024-01-14 16:49:19,626 : contacts @0040: Contacts page requested.
+[INFO    :                main.views] - 2024-01-14 16:49:19,626 : contacts @0041: Contacts
+[INFO    :             django.server] - 2024-01-14 16:49:19,629 : log_message @0187: "GET /contacts HTTP/1.1" 200 65037
+[DEBUG   :                main.views] - 2024-01-14 16:49:20,602 : deliveryandpayment @0034: Deliveryandpayment page requested.
+[INFO    :                main.views] - 2024-01-14 16:49:20,602 : deliveryandpayment @0035: Deliveryandpaymen
+[INFO    :             django.server] - 2024-01-14 16:49:20,605 : log_message @0187: "GET /deliveryandpayment HTTP/1.1" 200 66801
+[DEBUG   :                main.views] - 2024-01-14 16:49:21,703 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-14 16:49:21,704 : home @0029: Home
+[INFO    :             django.server] - 2024-01-14 16:49:21,712 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[DEBUG   :                main.views] - 2024-01-14 16:49:23,092 : contacts @0040: Contacts page requested.
+[INFO    :                main.views] - 2024-01-14 16:49:23,092 : contacts @0041: Contacts
+[INFO    :             django.server] - 2024-01-14 16:49:23,097 : log_message @0187: "GET /contacts HTTP/1.1" 200 65037
