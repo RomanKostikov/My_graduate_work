@@ -187,7 +187,7 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'app_1': {
+        'main': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
