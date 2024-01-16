@@ -83,3 +83,7 @@
 [DEBUG   :                main.views] - 2024-01-14 16:49:23,092 : contacts @0040: Contacts page requested.
 [INFO    :                main.views] - 2024-01-14 16:49:23,092 : contacts @0041: Contacts
 [INFO    :             django.server] - 2024-01-14 16:49:23,097 : log_message @0187: "GET /contacts HTTP/1.1" 200 65037
+[INFO    :   django.utils.autoreload] - 2024-01-14 17:28:42,473 : run_with_reloader @0677: Watching for file changes with StatReloader
+[DEBUG   :                main.views] - 2024-01-14 17:28:50,320 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-14 17:28:50,320 : home @0029: Home
+[INFO    :             django.server] - 2024-01-14 17:28:50,350 : log_message @0187: "GET / HTTP/1.1" 200 69001
