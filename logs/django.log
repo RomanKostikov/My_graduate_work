@@ -87,3 +87,45 @@
 [DEBUG   :                main.views] - 2024-01-14 17:28:50,320 : home @0028: Home page requested.
 [INFO    :                main.views] - 2024-01-14 17:28:50,320 : home @0029: Home
 [INFO    :             django.server] - 2024-01-14 17:28:50,350 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :   django.utils.autoreload] - 2024-01-30 16:51:32,381 : run_with_reloader @0677: Watching for file changes with StatReloader
+[DEBUG   :                main.views] - 2024-01-30 16:55:16,120 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-30 16:55:16,120 : home @0029: Home
+[INFO    :             django.server] - 2024-01-30 16:55:16,227 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :             django.server] - 2024-01-30 16:55:17,624 : log_message @0187: "GET /media/products_images/Apple_iPhone_14_Pro_1_TB_AztONKy_9hFVf48.jpg HTTP/1.1" 200 109410
+[INFO    :             django.server] - 2024-01-30 16:55:17,633 : log_message @0187: "GET /static/css/style.css HTTP/1.1" 200 2419
+[INFO    :             django.server] - 2024-01-30 16:55:17,649 : log_message @0187: "GET /static/js/scripts.js HTTP/1.1" 200 4629
+[INFO    :             django.server] - 2024-01-30 16:55:17,664 : log_message @0187: "GET /media/products_images/14.2_Apple_MacBook_Pro_14_2023_gl6CeDi.jpg HTTP/1.1" 200 34258
+[INFO    :             django.server] - 2024-01-30 16:55:17,665 : log_message @0187: "GET /static/img/final.jpg HTTP/1.1" 200 2254388
+[INFO    :             django.server] - 2024-01-30 16:55:17,669 : log_message @0187: "GET /media/products_images/Apple_iPhone_13_512_GB_p1k20en_d0TGGrD.jpg HTTP/1.1" 200 157340
+[INFO    :             django.server] - 2024-01-30 16:55:17,669 : log_message @0187: "GET /media/products_images/Apple_MacBook_Air_13.6_A2681_M2_8_core_16Gb_SSD512Gb_FNynNMV.jpg HTTP/1.1" 200 48172
+[DEBUG   :                main.views] - 2024-01-30 17:03:18,088 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-30 17:03:18,088 : home @0029: Home
+[INFO    :             django.server] - 2024-01-30 17:03:18,097 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :             django.server] - 2024-01-30 17:03:19,541 : log_message @0187: "GET /phone HTTP/1.1" 200 74170
+[INFO    :             django.server] - 2024-01-30 17:03:19,582 : log_message @0187: "GET /media/products_images/Apple_iPhone_14_Pro_256_GB_paPwT3B_8CMdVGC.jpg HTTP/1.1" 200 109410
+[INFO    :             django.server] - 2024-01-30 17:03:19,584 : log_message @0187: "GET /media/products_images/Apple_iPhone_14_Pro_512_GB_RF4lToO_7RcI1Zl.jpg HTTP/1.1" 200 109410
+[INFO    :             django.server] - 2024-01-30 17:03:19,596 : log_message @0187: "GET /media/products_images/Apple_iPhone_13_256_GB_aUfXP27.jpg HTTP/1.1" 200 157340
+[INFO    :             django.server] - 2024-01-30 17:03:19,596 : log_message @0187: "GET /media/products_images/Apple_iPhone_13_128_GB_mLtnsej.jpg HTTP/1.1" 200 157340
+[INFO    :             django.server] - 2024-01-30 17:03:19,598 : log_message @0187: "GET /media/products_images/Apple_iPhone_11_128_GB_fUYawLH_wTiBtsB.jpg HTTP/1.1" 200 230786
+[INFO    :             django.server] - 2024-01-30 17:03:19,600 : log_message @0187: "GET /media/products_images/Apple_iPhone_11_256_GB_HiU9wGK_BdrBc4L.jpg HTTP/1.1" 200 230786
+[INFO    :             django.server] - 2024-01-30 17:03:19,605 : log_message @0187: "GET /media/products_images/Apple_iPhone_12_Mini_128_GB_q9PQ5QT_oJwDaP1.jpg HTTP/1.1" 200 168630
+[INFO    :             django.server] - 2024-01-30 17:03:19,607 : log_message @0187: "GET /media/products_images/Apple_iPhone_12_Mini_256_GB_nB7aftA_D3lUlhh.jpg HTTP/1.1" 200 168630
+[DEBUG   :                main.views] - 2024-01-30 17:03:20,826 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-30 17:03:20,826 : home @0029: Home
+[INFO    :             django.server] - 2024-01-30 17:03:20,835 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :             django.server] - 2024-01-30 17:52:51,981 : log_message @0187: "GET /product/7/ HTTP/1.1" 200 73098
+[INFO    :             django.server] - 2024-01-30 17:52:52,055 : log_message @0187: "GET /media/products_images/Apple_iPhone_13_FRONT_aKEpyWl.jpg HTTP/1.1" 200 44564
+[INFO    :             django.server] - 2024-01-30 17:52:52,056 : log_message @0187: "GET /media/products_images/Apple_iPhone_13BACK_ga5Bb8J.jpg HTTP/1.1" 200 58454
+[DEBUG   :                main.views] - 2024-01-30 17:52:56,579 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-30 17:52:56,579 : home @0029: Home
+[INFO    :             django.server] - 2024-01-30 17:52:56,596 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[INFO    :   django.utils.autoreload] - 2024-01-30 18:58:10,833 : run_with_reloader @0677: Watching for file changes with StatReloader
+[DEBUG   :                main.views] - 2024-01-30 18:58:15,634 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-30 18:58:15,635 : home @0029: Home
+[INFO    :             django.server] - 2024-01-30 18:58:15,800 : log_message @0187: "GET / HTTP/1.1" 200 69001
+[WARNING :            django.request] - 2024-01-30 18:58:20,149 : log_response @0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-30 18:58:20,150 : log_message @0187: "GET /favicon.ico HTTP/1.1" 404 4058
+[INFO    :             django.server] - 2024-01-30 18:58:26,157 : log_message @0187: "GET /phone HTTP/1.1" 200 74170
+[DEBUG   :                main.views] - 2024-01-30 18:58:30,862 : home @0028: Home page requested.
+[INFO    :                main.views] - 2024-01-30 18:58:30,862 : home @0029: Home
+[INFO    :             django.server] - 2024-01-30 18:58:30,888 : log_message @0187: "GET / HTTP/1.1" 200 69001
