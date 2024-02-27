@@ -57,6 +57,7 @@
 <!--                                                        <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>-->
 <!--                                                    </form>-->
     <!--                                            </form>-->
+                                                 <button type="button" onclick="removeFromBasket({{ product_in_basket.id }})">Удалить из корзины</button>
                                             </td>
                                             <td>
                                                  <input value="{{ product_in_basket.nmb }}" type="number" min="0" step="1" max="100"

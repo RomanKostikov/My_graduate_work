@@ -21,12 +21,17 @@ class Status(models.Model):
         verbose_name_plural = 'Статусы заказа'
 
 
+def create_product_in_order(order, product, quantity):
+    product_in_order = ProductInOrder(order=order, product=product, nmb=quantity)
+    product_in_order.save()
+
+
 class Order(models.Model):
     """Класс-функция заказа."""
     user = models.ForeignKey(User, blank=True, null=True, default=None, on_delete=models.CASCADE)
     total_price = models.DecimalField(max_digits=10, decimal_places=2,
                                       default=0)  # total price for all products in order
-    product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    product = models.ManyToManyField(Product, through='ProductInOrder')
     customer_name = models.CharField(max_length=64, blank=True, null=True, default=None)
     customer_email = models.EmailField(blank=True, null=True, default=None)
     customer_phone = models.CharField(max_length=48, blank=True, null=True, default=None)
@@ -46,11 +51,10 @@ class Order(models.Model):
     def save(self, *args, **kwargs):
         super(Order, self).save(*args, **kwargs)
 
-
 class ProductInOrder(models.Model):
     """Класс-функция определения товара в заказе."""
-    order = models.ForeignKey(Order, blank=True, null=True, default=None, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
     nmb = models.IntegerField(default=1, validators=[MaxValueValidator(100), MinValueValidator(0)])
     price_per_item = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     total_price = models.DecimalField(max_digits=10, decimal_places=2, default=0)  # price*nmb
